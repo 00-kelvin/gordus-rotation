@@ -1,0 +1,2175 @@
+#anchorwave proali -i ./Udiv/Udiv.scaffold_1.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_1.fa -a ./Udiv-Dplan/Udiv.scaffold_1.cds.to.Dplan.chrom_1.liftover.sam -as ./Udiv/Udiv.scaffold_1.cds.fa -ar ./Udiv/Udiv.scaffold_1.cds.ref.sam -s ./Dplan/Dplan_chrom_1.fa -n ./Udiv-Dplan/Udiv.scaffold_1.cds.to.Dplan.chrom_1.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_1	8451583	8496098	Dplan_chrom-1	435822	504069	+	mRNA183	1	0.436039
+scaffold_1	9227017	9343671	Dplan_chrom-1	2060087	2163351	+	mRNA191	1	0.573048
+scaffold_1	9369093	9378971	Dplan_chrom-1	2176923	2194280	+	mRNA193	1	0.969499
+scaffold_1	14257749	14288215	Dplan_chrom-1	141932402	141960894	+	mRNA305	1	0.678426
+scaffold_1	56162923	56166362	Dplan_chrom-1	176470050	176471941	+	mRNA1075	1	0.308094
+scaffold_1	65740132	65755411	Dplan_chrom-1	194527093	194536009	+	mRNA1329	1	0.865772
+scaffold_1	65859772	65873432	Dplan_chrom-1	194696991	194708488	+	mRNA1335	1	0.283733
+scaffold_1	66129921	66138307	Dplan_chrom-1	195046652	195049924	+	mRNA1341	1	0.253917
+scaffold_1	66446818	66472316	Dplan_chrom-1	195515640	195550671	+	mRNA1350	1	0.379289
+scaffold_1	87750246	87831646	Dplan_chrom-1	204354338	204419551	+	mRNA1832	1	0.990741
+scaffold_1	88621800	88639356	Dplan_chrom-1	208351536	208372211	+	mRNA1844	1	0.509247
+scaffold_1	89668046	89706523	Dplan_chrom-1	223945377	223962110	+	mRNA1861	1	0.863725
+#block end
+#block begin
+scaffold_1	106238713	106396292	Dplan_chrom-1	230520823	230638157	+	mRNA2136	2	0.966964
+scaffold_1	229064990	229116137	Dplan_chrom-1	239166574	239248810	+	mRNA4788	2	0.885236
+scaffold_1	246858059	246859707	Dplan_chrom-1	239540668	239542316	+	mRNA5192	2	0.99215
+scaffold_1	246864302	246865180	Dplan_chrom-1	239551465	239552343	+	mRNA5193	2	0.784799
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_2.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_2.fa -a ./Udiv-Dplan/Udiv.scaffold_2.cds.to.Dplan.chrom_1.liftover.sam -as ./Udiv/Udiv.scaffold_2.cds.fa -ar ./Udiv/Udiv.scaffold_2.cds.ref.sam -s ./Dplan/Dplan_chrom_1.fa -n ./Udiv-Dplan/Udiv.scaffold_2.cds.to.Dplan.chrom_1.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_2	55915921	55921646	Dplan_chrom-1	35153169	35158956	+	mRNA11971	1	0.300254
+scaffold_2	96228096	96228662	Dplan_chrom-1	40069398	40069969	+	mRNA12750	1	0.994709
+scaffold_2	96228790	96230054	Dplan_chrom-1	40070091	40071328	+	mRNA12751	1	0.771717
+scaffold_2	114498176	114498687	Dplan_chrom-1	116804721	116805234	+	mRNA13165	1	0.634074
+scaffold_2	201116849	201144380	Dplan_chrom-1	127556467	127577613	+	mRNA15037	1	0.146414
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_3.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_3.fa -a ./Udiv-Dplan/Udiv.scaffold_3.cds.to.Dplan.chrom_1.liftover.sam -as ./Udiv/Udiv.scaffold_3.cds.fa -ar ./Udiv/Udiv.scaffold_3.cds.ref.sam -s ./Dplan/Dplan_chrom_1.fa -n ./Udiv-Dplan/Udiv.scaffold_3.cds.to.Dplan.chrom_1.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_3	173165288	173165602	Dplan_chrom-1	226953014	226953327	-	mRNA19714	1	0.987421
+scaffold_3	173165675	173166676	Dplan_chrom-1	226951926	226952941	-	mRNA19715	1	0.955684
+scaffold_3	173171270	173235088	Dplan_chrom-1	38525727	38559616	-	mRNA19716	1	0.659055
+scaffold_3	173239061	173254213	Dplan_chrom-1	38517351	38523603	-	mRNA19717	1	0.631515
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_4.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_4.fa -a ./Udiv-Dplan/Udiv.scaffold_4.cds.to.Dplan.chrom_1.liftover.sam -as ./Udiv/Udiv.scaffold_4.cds.fa -ar ./Udiv/Udiv.scaffold_4.cds.ref.sam -s ./Dplan/Dplan_chrom_1.fa -n ./Udiv-Dplan/Udiv.scaffold_4.cds.to.Dplan.chrom_1.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_4	71687843	71716135	Dplan_chrom-1	76844730	76852046	+	mRNA22440	1	0.838248
+scaffold_4	72019765	72052366	Dplan_chrom-1	77312188	77347074	+	mRNA22447	1	0.550459
+scaffold_4	72060428	72062667	Dplan_chrom-1	77347264	77351002	+	mRNA22448	1	0.766885
+scaffold_4	72072479	72092458	Dplan_chrom-1	77355467	77388794	+	mRNA22450	1	0.939756
+scaffold_4	72102261	72114119	Dplan_chrom-1	77402481	77410226	+	mRNA22452	1	0.484127
+scaffold_4	72449728	72485069	Dplan_chrom-1	77756630	77805515	+	mRNA22460	1	0.963801
+scaffold_4	72712362	72713956	Dplan_chrom-1	78098243	78098756	+	mRNA22463	1	0.848639
+scaffold_4	73191185	73243021	Dplan_chrom-1	78717197	78749376	+	mRNA22480	1	0.3756
+scaffold_4	73249316	73326839	Dplan_chrom-1	78762940	78779356	+	mRNA22481	1	0.600794
+scaffold_4	73399909	73581416	Dplan_chrom-1	78824425	79065066	+	mRNA22487	1	0.798213
+#block end
+#block begin
+scaffold_4	80143997	80145370	Dplan_chrom-1	149418625	149419974	+	mRNA22649	2	0.895412
+scaffold_4	80458584	80493712	Dplan_chrom-1	150106514	150130205	+	mRNA22660	2	0.658887
+scaffold_4	81186007	81235044	Dplan_chrom-1	152064299	152148169	+	mRNA22678	2	0.853952
+scaffold_4	81472980	81508505	Dplan_chrom-1	152578244	152660248	+	mRNA22685	2	0.243381
+scaffold_4	84291076	84300978	Dplan_chrom-1	153035640	153065430	+	mRNA22745	2	0.960403
+scaffold_4	84409957	84435713	Dplan_chrom-1	153400915	153406046	+	mRNA22747	2	0.759342
+scaffold_4	84847435	84881521	Dplan_chrom-1	154461522	154476972	+	mRNA22761	2	0.649023
+scaffold_4	85275934	85311114	Dplan_chrom-1	155786533	155923845	+	mRNA22769	2	0.473597
+scaffold_4	86484292	86553762	Dplan_chrom-1	159932398	159977127	+	mRNA22796	2	0.677849
+scaffold_4	86604999	86615249	Dplan_chrom-1	160018454	160030302	+	mRNA22799	2	1
+#block end
+#block begin
+scaffold_4	38457213	38472365	Dplan_chrom-1	174901617	174920845	-	mRNA21712	3	0.908555
+scaffold_4	38493806	38494227	Dplan_chrom-1	174871584	174872005	-	mRNA21713	3	0.327843
+scaffold_4	38758769	38777752	Dplan_chrom-1	174363166	174370677	-	mRNA21720	3	0.719349
+scaffold_4	38796676	38818052	Dplan_chrom-1	173220418	173240412	-	mRNA21721	3	0.944236
+scaffold_4	39388739	39432674	Dplan_chrom-1	171563423	171619112	-	mRNA21727	3	0.677151
+scaffold_4	39467009	39536564	Dplan_chrom-1	171423799	171465617	-	mRNA21729	3	0.403926
+scaffold_4	39542097	39577706	Dplan_chrom-1	171354294	171421354	-	mRNA21730	3	0.573985
+scaffold_4	39645216	39718974	Dplan_chrom-1	171194634	171269380	-	mRNA21734	3	0.461078
+scaffold_4	39805203	39893332	Dplan_chrom-1	170953016	171005154	-	mRNA21738	3	0.972193
+#block end
+#block begin
+scaffold_4	10119752	10130218	Dplan_chrom-1	91069230	91072399	+	mRNA21084	4	0.601164
+scaffold_4	10240916	10260252	Dplan_chrom-1	91194425	91219274	+	mRNA21087	4	0.465059
+scaffold_4	10369784	10395812	Dplan_chrom-1	91386481	91406086	+	mRNA21088	4	0.964269
+scaffold_4	10435859	10578548	Dplan_chrom-1	91689709	91804857	+	mRNA21089	4	0.95107
+scaffold_4	10657481	10723896	Dplan_chrom-1	91930135	91990891	+	mRNA21093	4	0.722614
+scaffold_4	10942299	10949044	Dplan_chrom-1	92303054	92303292	+	mRNA21104	4	0.692754
+scaffold_4	10970933	11010477	Dplan_chrom-1	92312766	92337593	+	mRNA21106	4	0.988475
+#block end
+#block begin
+scaffold_4	97761211	97891942	Dplan_chrom-1	16700320	16866248	+	mRNA22999	5	0.891697
+scaffold_4	97985145	97994166	Dplan_chrom-1	16994815	16998234	+	mRNA23004	5	0.449967
+scaffold_4	98037148	98048121	Dplan_chrom-1	17062234	17070485	+	mRNA23005	5	0.479848
+scaffold_4	99379351	99408731	Dplan_chrom-1	41681598	41731491	+	mRNA23039	5	0.627258
+scaffold_4	103482121	103506587	Dplan_chrom-1	41865743	41892989	+	mRNA23118	5	0.488169
+scaffold_4	104037385	104125804	Dplan_chrom-1	42871877	43083996	+	mRNA23128	5	0.988201
+scaffold_4	104680087	104713079	Dplan_chrom-1	59574890	59640102	+	mRNA23146	5	0.52043
+scaffold_4	104972713	104988714	Dplan_chrom-1	59960860	59978711	+	mRNA23157	5	0.781609
+#block end
+#block begin
+scaffold_4	15287137	15312381	Dplan_chrom-1	176655860	176657374	+	mRNA21218	6	0.75
+scaffold_4	15935313	15963379	Dplan_chrom-1	179464371	179584419	+	mRNA21241	6	0.5
+scaffold_4	16083267	16138774	Dplan_chrom-1	179844791	179885162	+	mRNA21247	6	0.715278
+scaffold_4	16170820	16187034	Dplan_chrom-1	179927630	179945548	+	mRNA21248	6	0.813592
+#block end
+#block begin
+scaffold_4	48906964	48920529	Dplan_chrom-1	82323509	82331672	+	mRNA21918	7	0.907767
+scaffold_4	49157522	49224385	Dplan_chrom-1	82678446	82748083	+	mRNA21920	7	0.701592
+scaffold_4	49262612	49308822	Dplan_chrom-1	82835568	82839587	+	mRNA21921	7	0.537602
+scaffold_4	50124464	50163880	Dplan_chrom-1	85975931	86080031	+	mRNA21947	7	0.533399
+#block end
+#block begin
+scaffold_4	78933936	78953054	Dplan_chrom-1	166229808	166250874	-	mRNA22612	8	0.862115
+scaffold_4	79085442	79117631	Dplan_chrom-1	166020556	166046173	-	mRNA22617	8	0.902071
+scaffold_4	79123220	79133857	Dplan_chrom-1	165986616	166001557	-	mRNA22618	8	0.817264
+#block end
+#block begin
+scaffold_4	126625473	126631938	Dplan_chrom-1	189583795	189587361	-	mRNA23685	9	0.583554
+scaffold_4	136242262	136289213	Dplan_chrom-1	186455684	186497081	-	mRNA23903	9	0.28429
+scaffold_4	136298614	136324795	Dplan_chrom-1	186418170	186434404	-	mRNA23904	9	0.527205
+scaffold_4	136331452	136378492	Dplan_chrom-1	186370438	186400083	-	mRNA23905	9	0.487624
+scaffold_4	192534922	192550905	Dplan_chrom-1	180526240	180546920	-	mRNA25094	9	0.856106
+#block end
+#block begin
+scaffold_4	79524212	79559316	Dplan_chrom-1	165606785	165624109	+	mRNA22631	10	0.308495
+scaffold_4	79582630	79603477	Dplan_chrom-1	165718258	165722929	+	mRNA22632	10	0.317261
+scaffold_4	79695095	79721420	Dplan_chrom-1	165797020	165818977	+	mRNA22634	10	0.741877
+scaffold_4	79725137	79746791	Dplan_chrom-1	165834247	165854021	+	mRNA22636	10	0.728825
+#block end
+#block begin
+scaffold_4	105104338	105104461	Dplan_chrom-1	60645836	60645959	-	mRNA23159	11	0.30597
+scaffold_4	105161777	105181529	Dplan_chrom-1	60596528	60607438	-	mRNA23162	11	0.943137
+scaffold_4	105363135	105421455	Dplan_chrom-1	60180153	60218686	-	mRNA23165	11	0.753623
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_5.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_5.fa -a ./Udiv-Dplan/Udiv.scaffold_5.cds.to.Dplan.chrom_1.liftover.sam -as ./Udiv/Udiv.scaffold_5.cds.fa -ar ./Udiv/Udiv.scaffold_5.cds.ref.sam -s ./Dplan/Dplan_chrom_1.fa -n ./Udiv-Dplan/Udiv.scaffold_5.cds.to.Dplan.chrom_1.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_6.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_6.fa -a ./Udiv-Dplan/Udiv.scaffold_6.cds.to.Dplan.chrom_1.liftover.sam -as ./Udiv/Udiv.scaffold_6.cds.fa -ar ./Udiv/Udiv.scaffold_6.cds.ref.sam -s ./Dplan/Dplan_chrom_1.fa -n ./Udiv-Dplan/Udiv.scaffold_6.cds.to.Dplan.chrom_1.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_6	122528590	122529305	Dplan_chrom-1	23973528	23974241	+	mRNA32374	1	0.953146
+scaffold_6	125359344	125359917	Dplan_chrom-1	122035499	122036075	+	mRNA32424	1	0.871674
+scaffold_6	137832145	137832754	Dplan_chrom-1	153755956	153756568	+	mRNA32682	1	0.414938
+scaffold_6	143490826	143512842	Dplan_chrom-1	261035264	261056441	+	mRNA32778	1	0.745318
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_7.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_7.fa -a ./Udiv-Dplan/Udiv.scaffold_7.cds.to.Dplan.chrom_1.liftover.sam -as ./Udiv/Udiv.scaffold_7.cds.fa -ar ./Udiv/Udiv.scaffold_7.cds.ref.sam -s ./Dplan/Dplan_chrom_1.fa -n ./Udiv-Dplan/Udiv.scaffold_7.cds.to.Dplan.chrom_1.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_8.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_8.fa -a ./Udiv-Dplan/Udiv.scaffold_8.cds.to.Dplan.chrom_1.liftover.sam -as ./Udiv/Udiv.scaffold_8.cds.fa -ar ./Udiv/Udiv.scaffold_8.cds.ref.sam -s ./Dplan/Dplan_chrom_1.fa -n ./Udiv-Dplan/Udiv.scaffold_8.cds.to.Dplan.chrom_1.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_9.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_9.fa -a ./Udiv-Dplan/Udiv.scaffold_9.cds.to.Dplan.chrom_1.liftover.sam -as ./Udiv/Udiv.scaffold_9.cds.fa -ar ./Udiv/Udiv.scaffold_9.cds.ref.sam -s ./Dplan/Dplan_chrom_1.fa -n ./Udiv-Dplan/Udiv.scaffold_9.cds.to.Dplan.chrom_1.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_9	32060893	32081153	Dplan_chrom-1	29823050	29837450	+	mRNA42768	1	0.941243
+scaffold_9	32340373	32374199	Dplan_chrom-1	30029463	30047968	+	mRNA42793	1	0.814815
+scaffold_9	32374381	32400609	Dplan_chrom-1	30048147	30053260	+	mRNA42794	1	0.955285
+scaffold_9	32435308	32471164	Dplan_chrom-1	30104535	30121693	+	mRNA42795	1	0.984802
+scaffold_9	48496051	48524886	Dplan_chrom-1	61264371	61288669	+	mRNA43840	1	0.994007
+scaffold_9	48525030	48544287	Dplan_chrom-1	61288846	61293062	+	mRNA43841	1	0.96732
+scaffold_9	48601783	48656076	Dplan_chrom-1	61436608	61491070	+	mRNA43844	1	0.994632
+scaffold_9	48770401	48799532	Dplan_chrom-1	61654132	61681997	+	mRNA43847	1	0.286573
+scaffold_9	54310493	54311326	Dplan_chrom-1	94666529	94667362	+	mRNA44145	1	0.652381
+scaffold_9	56595378	56595949	Dplan_chrom-1	106610995	106611569	+	mRNA44249	1	0.793447
+scaffold_9	56874450	56926854	Dplan_chrom-1	107899429	107943137	+	mRNA44256	1	0.88826
+scaffold_9	57237166	57237798	Dplan_chrom-1	108268854	108269483	+	mRNA44274	1	0.934579
+#block end
+#block begin
+scaffold_9	25692460	25705701	Dplan_chrom-1	108341528	108351395	+	mRNA42075	2	0.44586
+scaffold_9	25892152	25892696	Dplan_chrom-1	108460965	108461515	+	mRNA42087	2	0.905
+scaffold_9	26114411	26122431	Dplan_chrom-1	108824191	108830833	+	mRNA42097	2	0.937402
+scaffold_9	26138115	26154122	Dplan_chrom-1	108830922	108835843	+	mRNA42102	2	0.985417
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_10.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_10.fa -a ./Udiv-Dplan/Udiv.scaffold_10.cds.to.Dplan.chrom_1.liftover.sam -as ./Udiv/Udiv.scaffold_10.cds.fa -ar ./Udiv/Udiv.scaffold_10.cds.ref.sam -s ./Dplan/Dplan_chrom_1.fa -n ./Udiv-Dplan/Udiv.scaffold_10.cds.to.Dplan.chrom_1.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_10	12611553	12611901	Dplan_chrom-1	37495539	37495887	+	mRNA6010	1	0.278583
+scaffold_10	40373386	40390407	Dplan_chrom-1	46357302	46358410	+	mRNA6421	1	0.720214
+scaffold_10	52008243	52008545	Dplan_chrom-1	69001801	69003332	+	mRNA6593	1	0.971154
+scaffold_10	98137733	98138066	Dplan_chrom-1	237019259	237019602	+	mRNA7315	1	0.905149
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_1.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_1.fa -a ./Udiv-Dplan/Udiv.scaffold_1.cds.to.Dplan.chrom_2.liftover.sam -as ./Udiv/Udiv.scaffold_1.cds.fa -ar ./Udiv/Udiv.scaffold_1.cds.ref.sam -s ./Dplan/Dplan_chrom_2.fa -n ./Udiv-Dplan/Udiv.scaffold_1.cds.to.Dplan.chrom_2.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_2.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_2.fa -a ./Udiv-Dplan/Udiv.scaffold_2.cds.to.Dplan.chrom_2.liftover.sam -as ./Udiv/Udiv.scaffold_2.cds.fa -ar ./Udiv/Udiv.scaffold_2.cds.ref.sam -s ./Dplan/Dplan_chrom_2.fa -n ./Udiv-Dplan/Udiv.scaffold_2.cds.to.Dplan.chrom_2.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_2	55593776	55600687	Dplan_chrom-2	204218370	204229162	-	mRNA11966	1	0.993363
+scaffold_2	152107570	152112040	Dplan_chrom-2	203044244	203045439	-	mRNA13929	1	0.998153
+scaffold_2	171173635	171174552	Dplan_chrom-2	200964386	200965693	-	mRNA14345	1	0.140647
+scaffold_2	188220824	188250679	Dplan_chrom-2	63630877	63725788	-	mRNA14778	1	0.096527
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_3.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_3.fa -a ./Udiv-Dplan/Udiv.scaffold_3.cds.to.Dplan.chrom_2.liftover.sam -as ./Udiv/Udiv.scaffold_3.cds.fa -ar ./Udiv/Udiv.scaffold_3.cds.ref.sam -s ./Dplan/Dplan_chrom_2.fa -n ./Udiv-Dplan/Udiv.scaffold_3.cds.to.Dplan.chrom_2.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_3	56118136	56141896	Dplan_chrom-2	109530296	109548355	-	mRNA17116	1	0.586081
+scaffold_3	56189853	56208929	Dplan_chrom-2	109487327	109493100	-	mRNA17118	1	0.835726
+scaffold_3	143271742	143425778	Dplan_chrom-2	89052844	89300733	-	mRNA19159	1	0.0473384
+scaffold_3	173165288	173165601	Dplan_chrom-2	3258334	3258647	-	mRNA19714	1	0.987421
+scaffold_3	173165675	173166676	Dplan_chrom-2	3256865	3258260	-	mRNA19715	1	0.860308
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_4.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_4.fa -a ./Udiv-Dplan/Udiv.scaffold_4.cds.to.Dplan.chrom_2.liftover.sam -as ./Udiv/Udiv.scaffold_4.cds.fa -ar ./Udiv/Udiv.scaffold_4.cds.ref.sam -s ./Dplan/Dplan_chrom_2.fa -n ./Udiv-Dplan/Udiv.scaffold_4.cds.to.Dplan.chrom_2.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_4	45913327	45914905	Dplan_chrom-2	3256865	3258853	+	mRNA21856	1	0.682473
+scaffold_4	85872179	85878325	Dplan_chrom-2	12820474	12822453	+	mRNA22778	1	1
+scaffold_4	112344568	112345241	Dplan_chrom-2	183721118	183721778	+	mRNA23337	1	0.913644
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_5.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_5.fa -a ./Udiv-Dplan/Udiv.scaffold_5.cds.to.Dplan.chrom_2.liftover.sam -as ./Udiv/Udiv.scaffold_5.cds.fa -ar ./Udiv/Udiv.scaffold_5.cds.ref.sam -s ./Dplan/Dplan_chrom_2.fa -n ./Udiv-Dplan/Udiv.scaffold_5.cds.to.Dplan.chrom_2.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_5	94749917	94759025	Dplan_chrom-2	213662804	213673199	-	mRNA27350	1	0.835165
+scaffold_5	98927936	98928555	Dplan_chrom-2	212399152	212399768	-	mRNA27437	1	0.76456
+scaffold_5	99357950	99365610	Dplan_chrom-2	211548722	211552643	-	mRNA27443	1	0.41453
+scaffold_5	99394783	99431467	Dplan_chrom-2	211457666	211472166	-	mRNA27444	1	0.782609
+scaffold_5	106920030	106945803	Dplan_chrom-2	205608342	205629658	-	mRNA27586	1	0.876887
+scaffold_5	107444786	107463113	Dplan_chrom-2	204066421	204069603	-	mRNA27610	1	0.520563
+scaffold_5	107465834	107469954	Dplan_chrom-2	204059352	204063612	-	mRNA27611	1	0.405844
+scaffold_5	107578651	107654616	Dplan_chrom-2	203901628	203970880	-	mRNA27619	1	0.629892
+scaffold_5	108025015	108025791	Dplan_chrom-2	203383993	203384763	-	mRNA27631	1	0.975919
+scaffold_5	108195429	108209245	Dplan_chrom-2	203248563	203261423	-	mRNA27640	1	0.766404
+scaffold_5	113796212	113828601	Dplan_chrom-2	202001634	202013963	-	mRNA27768	1	0.878637
+scaffold_5	114161041	114164790	Dplan_chrom-2	201650828	201652197	-	mRNA27780	1	0.679918
+scaffold_5	114555905	114557160	Dplan_chrom-2	201091745	201093000	-	mRNA27786	1	0.986572
+scaffold_5	114984339	115000164	Dplan_chrom-2	200316220	200428932	-	mRNA27796	1	0.514563
+scaffold_5	116390130	116499084	Dplan_chrom-2	197818001	197939088	-	mRNA27819	1	0.710558
+scaffold_5	117938941	118014498	Dplan_chrom-2	193152412	193188180	-	mRNA27854	1	0.959123
+scaffold_5	118063569	118083113	Dplan_chrom-2	193121177	193139471	-	mRNA27861	1	0.7911
+#block end
+#block begin
+scaffold_5	155417835	155481851	Dplan_chrom-2	192391970	192446542	-	mRNA28641	2	0.849222
+scaffold_5	155482701	155505743	Dplan_chrom-2	192366357	192375293	-	mRNA28642	2	0.741602
+scaffold_5	156130277	156153834	Dplan_chrom-2	191262549	191278511	-	mRNA28656	2	0.890212
+scaffold_5	156202834	156229473	Dplan_chrom-2	191188291	191216739	-	mRNA28658	2	0.548193
+scaffold_5	156282995	156315115	Dplan_chrom-2	191099938	191125974	-	mRNA28659	2	0.861164
+scaffold_5	156474510	156475212	Dplan_chrom-2	190917482	190918209	-	mRNA28664	2	0.364924
+scaffold_5	156547676	156561794	Dplan_chrom-2	190749653	190768325	-	mRNA28666	2	0.293133
+scaffold_5	156563667	156604425	Dplan_chrom-2	190717788	190741421	-	mRNA28667	2	0.797516
+scaffold_5	156842316	156842949	Dplan_chrom-2	190491486	190492117	-	mRNA28676	2	0.945671
+scaffold_5	157042724	157069596	Dplan_chrom-2	190263787	190275456	-	mRNA28683	2	0.896368
+#block end
+#block begin
+scaffold_5	123794336	123822806	Dplan_chrom-2	162396533	162412853	+	mRNA28055	3	0.997163
+scaffold_5	123836535	123837553	Dplan_chrom-2	162420893	162421911	+	mRNA28056	3	0.971182
+scaffold_5	125669531	125706893	Dplan_chrom-2	164993634	165037589	+	mRNA28082	3	0.997535
+scaffold_5	127189171	127199704	Dplan_chrom-2	173074674	173077299	+	mRNA28109	3	0.5
+scaffold_5	127258915	127297893	Dplan_chrom-2	173130917	173199630	+	mRNA28112	3	0.437879
+scaffold_5	127841309	127865250	Dplan_chrom-2	173845832	173847234	+	mRNA28128	3	0.949896
+scaffold_5	128007664	128007850	Dplan_chrom-2	174193367	174193555	+	mRNA28135	3	0.78903
+scaffold_5	129022082	129022199	Dplan_chrom-2	175685499	175685616	+	mRNA28159	3	0.300254
+scaffold_5	129208163	129232903	Dplan_chrom-2	175908839	175930727	+	mRNA28166	3	0.938614
+#block end
+#block begin
+scaffold_5	131429659	131430386	Dplan_chrom-2	147005046	147005777	-	mRNA28202	4	0.709199
+scaffold_5	132806955	132826146	Dplan_chrom-2	142022305	142051878	-	mRNA28237	4	0.830894
+scaffold_5	133052149	133078078	Dplan_chrom-2	141350344	141415494	-	mRNA28245	4	0.750576
+scaffold_5	133916941	133945191	Dplan_chrom-2	140019164	140064483	-	mRNA28254	4	0.321997
+scaffold_5	133973060	133977290	Dplan_chrom-2	139982263	139986595	-	mRNA28255	4	0.858675
+scaffold_5	133995933	134105197	Dplan_chrom-2	139888181	139966847	-	mRNA28256	4	0.877167
+scaffold_5	137482827	137483507	Dplan_chrom-2	135186560	135187234	-	mRNA28304	4	0.85696
+scaffold_5	137893366	137906347	Dplan_chrom-2	126889775	126895872	-	mRNA28324	4	0.806263
+#block end
+#block begin
+scaffold_5	145175976	145186191	Dplan_chrom-2	221741449	221744992	+	mRNA28446	5	0.536542
+scaffold_5	145670478	145683152	Dplan_chrom-2	222054590	222062264	+	mRNA28455	5	0.822034
+scaffold_5	145745960	145769004	Dplan_chrom-2	222149196	222159366	+	mRNA28458	5	0.715163
+scaffold_5	145823963	145847245	Dplan_chrom-2	222204348	222227457	+	mRNA28460	5	0.946687
+scaffold_5	147262216	147297879	Dplan_chrom-2	225533671	225567348	+	mRNA28494	5	0.93194
+scaffold_5	150680276	150712218	Dplan_chrom-2	229755843	229773451	+	mRNA28552	5	0.718447
+scaffold_5	150935406	150946296	Dplan_chrom-2	230105570	230119048	+	mRNA28556	5	0.79922
+#block end
+#block begin
+scaffold_5	176948770	176969481	Dplan_chrom-2	109487327	109493100	+	mRNA29147	6	0.835726
+scaffold_5	177010689	177047301	Dplan_chrom-2	109519158	109548355	+	mRNA29149	6	0.421835
+scaffold_5	177806044	177822645	Dplan_chrom-2	117337605	117347178	+	mRNA29167	6	0.985507
+scaffold_5	177852085	177860302	Dplan_chrom-2	117365092	117372458	+	mRNA29169	6	0.417874
+scaffold_5	179636435	179637093	Dplan_chrom-2	123478582	123479240	+	mRNA29219	6	0.983409
+scaffold_5	179674733	179675652	Dplan_chrom-2	123502928	123503847	+	mRNA29220	6	0.937628
+#block end
+#block begin
+scaffold_5	162885201	162886157	Dplan_chrom-2	235729114	235730070	-	mRNA28814	7	0.934314
+scaffold_5	162887508	162887866	Dplan_chrom-2	235727417	235727775	-	mRNA28816	7	0.817352
+scaffold_5	162975446	163076231	Dplan_chrom-2	235490742	235577650	-	mRNA28821	7	0.995949
+scaffold_5	166565088	166579837	Dplan_chrom-2	233256965	233273372	-	mRNA28904	7	0.917532
+scaffold_5	166691939	166698652	Dplan_chrom-2	233169289	233169743	-	mRNA28908	7	0.326725
+scaffold_5	168855143	168856003	Dplan_chrom-2	231630990	231631286	-	mRNA28971	7	0.294237
+#block end
+#block begin
+scaffold_5	119022449	119055585	Dplan_chrom-2	161625579	161634720	-	mRNA27893	8	0.769231
+scaffold_5	120218533	120359245	Dplan_chrom-2	159261528	159464406	-	mRNA27907	8	0.606865
+scaffold_5	122588789	122651943	Dplan_chrom-2	154222805	154334932	-	mRNA27945	8	0.86828
+scaffold_5	123122364	123206104	Dplan_chrom-2	153091875	153166225	-	mRNA27947	8	0.764433
+scaffold_5	123282990	123285208	Dplan_chrom-2	153049564	153051893	-	mRNA27952	8	0.551971
+#block end
+#block begin
+scaffold_5	23660737	23695549	Dplan_chrom-2	3195609	3204730	+	mRNA25923	9	0.666667
+scaffold_5	28799900	28802231	Dplan_chrom-2	91090143	91090943	+	mRNA26000	9	0.930314
+scaffold_5	31704522	31706115	Dplan_chrom-2	107708163	107709738	+	mRNA26063	9	0.962963
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_6.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_6.fa -a ./Udiv-Dplan/Udiv.scaffold_6.cds.to.Dplan.chrom_2.liftover.sam -as ./Udiv/Udiv.scaffold_6.cds.fa -ar ./Udiv/Udiv.scaffold_6.cds.ref.sam -s ./Dplan/Dplan_chrom_2.fa -n ./Udiv-Dplan/Udiv.scaffold_6.cds.to.Dplan.chrom_2.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_7.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_7.fa -a ./Udiv-Dplan/Udiv.scaffold_7.cds.to.Dplan.chrom_2.liftover.sam -as ./Udiv/Udiv.scaffold_7.cds.fa -ar ./Udiv/Udiv.scaffold_7.cds.ref.sam -s ./Dplan/Dplan_chrom_2.fa -n ./Udiv-Dplan/Udiv.scaffold_7.cds.to.Dplan.chrom_2.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_7	7522920	7523698	Dplan_chrom-2	122016529	122017307	-	mRNA33846	1	0.92446
+scaffold_7	125126408	125250497	Dplan_chrom-2	47276125	47329929	-	mRNA36180	1	0.970336
+scaffold_7	126109240	126229271	Dplan_chrom-2	11700954	11865255	-	mRNA36194	1	0.860536
+scaffold_7	126467066	126509730	Dplan_chrom-2	11350822	11380744	-	mRNA36199	1	0.707812
+scaffold_7	126558898	126640481	Dplan_chrom-2	11264570	11265625	-	mRNA36201	1	0.30431
+scaffold_7	126732855	126750586	Dplan_chrom-2	11125873	11156220	-	mRNA36204	1	0.964609
+scaffold_7	126754754	126778249	Dplan_chrom-2	11113630	11118843	-	mRNA36205	1	0.748387
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_8.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_8.fa -a ./Udiv-Dplan/Udiv.scaffold_8.cds.to.Dplan.chrom_2.liftover.sam -as ./Udiv/Udiv.scaffold_8.cds.fa -ar ./Udiv/Udiv.scaffold_8.cds.ref.sam -s ./Dplan/Dplan_chrom_2.fa -n ./Udiv-Dplan/Udiv.scaffold_8.cds.to.Dplan.chrom_2.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_8	15349601	15426317	Dplan_chrom-2	4595495	4619223	+	mRNA37958	1	0.385895
+scaffold_8	66200271	66204265	Dplan_chrom-2	82813926	82817980	+	mRNA38959	1	0.66988
+scaffold_8	66453901	66454539	Dplan_chrom-2	83097723	83098370	+	mRNA38967	1	0.457965
+scaffold_8	88792500	88871631	Dplan_chrom-2	85553482	85610925	+	mRNA39425	1	0.535602
+scaffold_8	104765188	104767900	Dplan_chrom-2	88303438	88316929	+	mRNA39763	1	0.329517
+scaffold_8	124406061	124421368	Dplan_chrom-2	203044196	203045439	+	mRNA40089	1	0.998232
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_9.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_9.fa -a ./Udiv-Dplan/Udiv.scaffold_9.cds.to.Dplan.chrom_2.liftover.sam -as ./Udiv/Udiv.scaffold_9.cds.fa -ar ./Udiv/Udiv.scaffold_9.cds.ref.sam -s ./Dplan/Dplan_chrom_2.fa -n ./Udiv-Dplan/Udiv.scaffold_9.cds.to.Dplan.chrom_2.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_9	90714515	90745849	Dplan_chrom-2	80418522	80444427	-	mRNA45554	1	0.929004
+scaffold_9	90797731	90808625	Dplan_chrom-2	80355093	80361988	-	mRNA45555	1	0.580595
+scaffold_9	91066101	91067068	Dplan_chrom-2	79853670	79854646	-	mRNA45557	1	0.751196
+scaffold_9	91247778	91275769	Dplan_chrom-2	78782833	78802445	-	mRNA45558	1	0.833029
+scaffold_9	91753531	91783958	Dplan_chrom-2	78199246	78228409	-	mRNA45578	1	0.841152
+scaffold_9	92038011	92057319	Dplan_chrom-2	77775691	77796118	-	mRNA45584	1	0.909147
+scaffold_9	92060081	92069012	Dplan_chrom-2	77770771	77771929	-	mRNA45585	1	0.895745
+scaffold_9	92461316	92484475	Dplan_chrom-2	77225142	77233908	-	mRNA45592	1	0.926327
+scaffold_9	92575336	92577472	Dplan_chrom-2	77170453	77172391	-	mRNA45594	1	0.43573
+scaffold_9	92586955	92629447	Dplan_chrom-2	77138001	77165087	-	mRNA45595	1	0.299091
+scaffold_9	92691896	92695992	Dplan_chrom-2	77126902	77128372	-	mRNA45597	1	0.276361
+scaffold_9	93085930	93106009	Dplan_chrom-2	76719957	76730690	-	mRNA45606	1	0.810109
+scaffold_9	93122746	93146970	Dplan_chrom-2	76622239	76666115	-	mRNA45609	1	0.650934
+#block end
+#block begin
+scaffold_9	153487502	153615195	Dplan_chrom-2	89321337	89456145	+	mRNA47087	2	0.981005
+scaffold_9	154170330	154191216	Dplan_chrom-2	90233129	90256241	+	mRNA47092	2	0.80916
+scaffold_9	154294421	154305514	Dplan_chrom-2	90400498	90423387	+	mRNA47095	2	0.628053
+scaffold_9	154448512	154457937	Dplan_chrom-2	90530434	90532502	+	mRNA47097	2	0.563063
+scaffold_9	154463921	154509870	Dplan_chrom-2	90542180	90572297	+	mRNA47098	2	0.494101
+scaffold_9	154528751	154560022	Dplan_chrom-2	90578680	90622058	+	mRNA47099	2	0.737883
+scaffold_9	154566124	154582931	Dplan_chrom-2	90624211	90634000	+	mRNA47100	2	0.819388
+scaffold_9	154586076	154587038	Dplan_chrom-2	90638485	90639480	+	mRNA47101	2	0.962617
+scaffold_9	155108245	155129844	Dplan_chrom-2	91173075	91184146	+	mRNA47108	2	0.35387
+scaffold_9	155502913	155516513	Dplan_chrom-2	91688335	91698491	+	mRNA47121	2	0.88289
+scaffold_9	155702662	155718867	Dplan_chrom-2	91911727	91917212	+	mRNA47126	2	0.843223
+#block end
+#block begin
+scaffold_9	130876567	130951766	Dplan_chrom-2	43945973	43984116	-	mRNA46601	3	0.427762
+scaffold_9	130952539	130991573	Dplan_chrom-2	43935745	43945089	-	mRNA46602	3	0.949173
+scaffold_9	142178238	142208930	Dplan_chrom-2	39505644	39534584	-	mRNA46881	3	0.709121
+scaffold_9	148809891	148826452	Dplan_chrom-2	25328288	25593728	-	mRNA47003	3	0.319252
+scaffold_9	148908036	148952456	Dplan_chrom-2	25261482	25285438	-	mRNA47005	3	0.53982
+scaffold_9	149346440	149347461	Dplan_chrom-2	24737729	24738759	-	mRNA47015	3	0.984405
+scaffold_9	149363467	149374482	Dplan_chrom-2	24716400	24720442	-	mRNA47016	3	0.963143
+scaffold_9	149619922	149670084	Dplan_chrom-2	24271686	24323444	-	mRNA47019	3	0.756954
+scaffold_9	149778087	149810859	Dplan_chrom-2	23057995	23074498	-	mRNA47024	3	0.329596
+scaffold_9	151152125	151168864	Dplan_chrom-2	19879790	19881720	-	mRNA47059	3	0.262667
+#block end
+#block begin
+scaffold_9	109321087	109406978	Dplan_chrom-2	53763967	53845558	+	mRNA46239	4	0.866081
+scaffold_9	110364093	110372839	Dplan_chrom-2	55642993	55658948	+	mRNA46246	4	0.800482
+scaffold_9	110681860	110701366	Dplan_chrom-2	55924163	55926163	+	mRNA46251	4	0.855292
+scaffold_9	110781328	110839144	Dplan_chrom-2	57683831	57708358	+	mRNA46252	4	0.743087
+scaffold_9	112288366	112290161	Dplan_chrom-2	60401006	60402801	+	mRNA46267	4	0.479251
+scaffold_9	112355562	112357012	Dplan_chrom-2	60426438	60427885	+	mRNA46268	4	0.995189
+scaffold_9	112374376	112377563	Dplan_chrom-2	60447197	60450571	+	mRNA46269	4	0.527132
+#block end
+#block begin
+scaffold_9	156190574	156191217	Dplan_chrom-2	2821747	2822390	-	mRNA47141	5	0.953453
+scaffold_9	156212232	156237945	Dplan_chrom-2	2792416	2808161	-	mRNA47142	5	0.827431
+scaffold_9	156243543	156258873	Dplan_chrom-2	2615635	2619915	-	mRNA47143	5	0.909214
+scaffold_9	156342252	156358054	Dplan_chrom-2	2425107	2430038	-	mRNA47150	5	1
+scaffold_9	156465530	156484903	Dplan_chrom-2	2315924	2325487	-	mRNA47152	5	0.358452
+scaffold_9	157305376	157354897	Dplan_chrom-2	1657231	1678056	-	mRNA47183	5	0.999584
+#block end
+#block begin
+scaffold_9	4956176	4980395	Dplan_chrom-2	94980616	94994598	-	mRNA41375	6	0.790323
+scaffold_9	6145483	6168234	Dplan_chrom-2	94799249	94816975	-	mRNA41395	6	0.852194
+scaffold_9	6205886	6216612	Dplan_chrom-2	94755154	94767518	-	mRNA41396	6	0.446237
+scaffold_9	6286524	6350805	Dplan_chrom-2	94681235	94743011	-	mRNA41399	6	0.946607
+scaffold_9	11429651	11430792	Dplan_chrom-2	92810167	92811311	-	mRNA41540	6	0.908512
+scaffold_9	11443360	11445584	Dplan_chrom-2	92793783	92796010	-	mRNA41542	6	0.747576
+#block end
+#block begin
+scaffold_9	73431566	73486734	Dplan_chrom-2	62082481	62114968	+	mRNA45146	7	0.82334
+scaffold_9	73608637	73624413	Dplan_chrom-2	62314917	62323722	+	mRNA45150	7	0.461957
+scaffold_9	76444370	76453014	Dplan_chrom-2	70939279	70941534	+	mRNA45251	7	0.982587
+scaffold_9	76479977	76522096	Dplan_chrom-2	70952794	71015795	+	mRNA45252	7	0.284762
+scaffold_9	76629736	76712236	Dplan_chrom-2	71184312	71262526	+	mRNA45254	7	0.143939
+scaffold_9	76720299	76740277	Dplan_chrom-2	71280430	71304386	+	mRNA45255	7	0.718599
+scaffold_9	76838235	76853984	Dplan_chrom-2	71389995	71413406	+	mRNA45257	7	0.735043
+#block end
+#block begin
+scaffold_9	79316862	79435068	Dplan_chrom-2	81148428	81237432	+	mRNA45309	8	0.758142
+scaffold_9	79462355	79472233	Dplan_chrom-2	81250703	81265225	+	mRNA45314	8	0.697674
+scaffold_9	79475380	79530873	Dplan_chrom-2	81266226	81302295	+	mRNA45317	8	0.541333
+scaffold_9	79539506	79565774	Dplan_chrom-2	81314945	81352427	+	mRNA45318	8	0.90798
+scaffold_9	79590540	79591721	Dplan_chrom-2	81366253	81367434	+	mRNA45320	8	0.985618
+#block end
+#block begin
+scaffold_9	3694169	3722973	Dplan_chrom-2	76188014	76196982	-	mRNA41340	9	0.464439
+scaffold_9	3993835	4006917	Dplan_chrom-2	76001102	76020112	-	mRNA41345	9	0.945661
+scaffold_9	4195242	4196569	Dplan_chrom-2	75883063	75884393	-	mRNA41350	9	0.939785
+scaffold_9	4477089	4478387	Dplan_chrom-2	75464234	75465532	-	mRNA41356	9	0.993119
+#block end
+#block begin
+scaffold_9	95961382	95990265	Dplan_chrom-2	18778995	18807184	-	mRNA45678	10	0.556422
+scaffold_9	96948539	97004969	Dplan_chrom-2	17349973	17385799	-	mRNA45699	10	0.78234
+scaffold_9	97124903	97139713	Dplan_chrom-2	17221699	17225060	-	mRNA45703	10	0.811514
+scaffold_9	97740028	97805548	Dplan_chrom-2	16404608	16438411	-	mRNA45718	10	0.980913
+#block end
+#block begin
+scaffold_9	81133578	81156345	Dplan_chrom-2	50162510	50186525	-	mRNA45360	11	0.947955
+scaffold_9	81159065	81186262	Dplan_chrom-2	50141043	50157433	-	mRNA45361	11	0.824031
+scaffold_9	81634573	81636800	Dplan_chrom-2	49916883	49919082	-	mRNA45371	11	0.601323
+scaffold_9	81647206	81694050	Dplan_chrom-2	49880955	49908876	-	mRNA45373	11	0.544056
+#block end
+#block begin
+scaffold_9	79672087	79743193	Dplan_chrom-2	103838397	103897048	+	mRNA45322	12	0.786469
+scaffold_9	79800836	79821463	Dplan_chrom-2	103928790	103939509	+	mRNA45323	12	0.595625
+scaffold_9	79997937	80094393	Dplan_chrom-2	103988073	104062323	+	mRNA45326	12	0.239383
+scaffold_9	80196985	80197991	Dplan_chrom-2	104130784	104131790	+	mRNA45332	12	0.879265
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_10.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_10.fa -a ./Udiv-Dplan/Udiv.scaffold_10.cds.to.Dplan.chrom_2.liftover.sam -as ./Udiv/Udiv.scaffold_10.cds.fa -ar ./Udiv/Udiv.scaffold_10.cds.ref.sam -s ./Dplan/Dplan_chrom_2.fa -n ./Udiv-Dplan/Udiv.scaffold_10.cds.to.Dplan.chrom_2.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_10	17498542	17531137	Dplan_chrom-2	182382422	182396213	-	mRNA6083	1	0.737111
+scaffold_10	17542853	17562135	Dplan_chrom-2	182349933	182377385	-	mRNA6084	1	0.348394
+scaffold_10	50489353	50489779	Dplan_chrom-2	74492843	74493308	-	mRNA6566	1	0.963218
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_1.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_1.fa -a ./Udiv-Dplan/Udiv.scaffold_1.cds.to.Dplan.chrom_3.liftover.sam -as ./Udiv/Udiv.scaffold_1.cds.fa -ar ./Udiv/Udiv.scaffold_1.cds.ref.sam -s ./Dplan/Dplan_chrom_3.fa -n ./Udiv-Dplan/Udiv.scaffold_1.cds.to.Dplan.chrom_3.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_1	8377160	8387973	Dplan_chrom-3	42307562	42323936	-	mRNA179	1	0.97505
+scaffold_1	179933231	179941848	Dplan_chrom-3	30638669	30639695	-	mRNA3761	1	0.970534
+scaffold_1	201565590	201573871	Dplan_chrom-3	10634345	10637521	-	mRNA4193	1	0.750358
+scaffold_1	201617620	201631270	Dplan_chrom-3	7703138	7725604	-	mRNA4194	1	0.476623
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_2.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_2.fa -a ./Udiv-Dplan/Udiv.scaffold_2.cds.to.Dplan.chrom_3.liftover.sam -as ./Udiv/Udiv.scaffold_2.cds.fa -ar ./Udiv/Udiv.scaffold_2.cds.ref.sam -s ./Dplan/Dplan_chrom_3.fa -n ./Udiv-Dplan/Udiv.scaffold_2.cds.to.Dplan.chrom_3.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_2	33018318	33035267	Dplan_chrom-3	12052189	12063244	+	mRNA11532	1	0.825459
+scaffold_2	40850791	40865522	Dplan_chrom-3	12608380	12620100	+	mRNA11694	1	0.599483
+scaffold_2	40902914	40936365	Dplan_chrom-3	12674688	12719282	+	mRNA11696	1	0.966026
+scaffold_2	40952633	41034566	Dplan_chrom-3	12848642	12858936	+	mRNA11698	1	0.52496
+scaffold_2	41041476	41084769	Dplan_chrom-3	12861426	12900957	+	mRNA11700	1	0.705999
+scaffold_2	41427203	41460793	Dplan_chrom-3	13382879	13400675	+	mRNA11704	1	0.678489
+scaffold_2	41475978	41494049	Dplan_chrom-3	13412709	13439822	+	mRNA11705	1	0.912982
+scaffold_2	43271777	43284727	Dplan_chrom-3	17006006	17009923	+	mRNA11732	1	0.773196
+scaffold_2	51994147	52003631	Dplan_chrom-3	17496807	17501201	+	mRNA11888	1	0.777154
+scaffold_2	52005804	52031896	Dplan_chrom-3	17507845	17525538	+	mRNA11889	1	0.669287
+scaffold_2	52087863	52135051	Dplan_chrom-3	17560297	17605083	+	mRNA11892	1	0.976793
+scaffold_2	53183335	53208936	Dplan_chrom-3	19251635	19272734	+	mRNA11910	1	0.966346
+scaffold_2	53558318	53574384	Dplan_chrom-3	19630052	19666989	+	mRNA11923	1	0.785185
+scaffold_2	53903718	53924415	Dplan_chrom-3	20375350	20385538	+	mRNA11931	1	0.722675
+scaffold_2	54025384	54062477	Dplan_chrom-3	23383568	23419686	+	mRNA11934	1	0.792049
+scaffold_2	54128948	54171217	Dplan_chrom-3	23470904	23503875	+	mRNA11938	1	0.52669
+scaffold_2	54689833	54717184	Dplan_chrom-3	24673407	24708734	+	mRNA11948	1	0.723808
+#block end
+#block begin
+scaffold_2	61988479	62008684	Dplan_chrom-3	229116105	229125227	-	mRNA12103	2	0.617958
+scaffold_2	62021133	62053770	Dplan_chrom-3	229082819	229106760	-	mRNA12105	2	0.935185
+scaffold_2	63960588	64015484	Dplan_chrom-3	228774434	228854011	-	mRNA12166	2	0.892333
+scaffold_2	79487522	79537915	Dplan_chrom-3	202708296	202746154	-	mRNA12428	2	0.978783
+scaffold_2	79681605	79705794	Dplan_chrom-3	202690803	202695194	-	mRNA12433	2	0.963526
+scaffold_2	112607738	112641050	Dplan_chrom-3	175574163	175594668	-	mRNA13133	2	0.880253
+scaffold_2	113728162	113730347	Dplan_chrom-3	171943763	171945948	-	mRNA13145	2	0.661152
+scaffold_2	113835800	113869562	Dplan_chrom-3	171762480	171780310	-	mRNA13148	2	0.985507
+scaffold_2	116550048	116588458	Dplan_chrom-3	166472382	166493853	-	mRNA13206	2	0.873891
+scaffold_2	116907324	116951134	Dplan_chrom-3	166143983	166227130	-	mRNA13213	2	0.968287
+scaffold_2	116956828	117017283	Dplan_chrom-3	166104520	166130634	-	mRNA13214	2	0.917431
+scaffold_2	117038714	117040007	Dplan_chrom-3	166025597	166027061	-	mRNA13215	2	0.218372
+scaffold_2	117161053	117208286	Dplan_chrom-3	165776486	165807054	-	mRNA13219	2	0.982537
+scaffold_2	118180546	118204947	Dplan_chrom-3	154882232	154887093	-	mRNA13253	2	0.60543
+#block end
+#block begin
+scaffold_2	55508746	55547540	Dplan_chrom-3	9124300	9167601	-	mRNA11964	3	0.706219
+scaffold_2	55886370	55921646	Dplan_chrom-3	8822861	8833236	-	mRNA11971	3	0.51972
+scaffold_2	56258465	56280653	Dplan_chrom-3	8587173	8599195	-	mRNA11979	3	0.55095
+scaffold_2	56776051	56796290	Dplan_chrom-3	8135213	8138658	-	mRNA12002	3	0.811739
+scaffold_2	57104072	57206364	Dplan_chrom-3	7672752	7725615	-	mRNA12011	3	0.972172
+scaffold_2	57208777	57240787	Dplan_chrom-3	7639262	7662494	-	mRNA12012	3	0.740369
+scaffold_2	57282176	57293235	Dplan_chrom-3	7560595	7601708	-	mRNA12013	3	0.339241
+scaffold_2	57450622	57459108	Dplan_chrom-3	7523139	7525411	-	mRNA12015	3	0.490598
+scaffold_2	57939688	57964944	Dplan_chrom-3	6984223	7009851	-	mRNA12026	3	0.416223
+scaffold_2	58294135	58319723	Dplan_chrom-3	4450291	4474510	-	mRNA12037	3	0.830688
+scaffold_2	58432002	58618093	Dplan_chrom-3	3248807	3290988	-	mRNA12042	3	0.925615
+#block end
+#block begin
+scaffold_2	120257221	120267278	Dplan_chrom-3	139321560	139321729	-	mRNA13293	4	0.510511
+scaffold_2	120512063	120547324	Dplan_chrom-3	110183259	110221641	-	mRNA13300	4	0.535599
+scaffold_2	120562867	120605346	Dplan_chrom-3	110103601	110168646	-	mRNA13303	4	0.930515
+scaffold_2	121262808	121352816	Dplan_chrom-3	108890616	109066405	-	mRNA13317	4	0.977214
+scaffold_2	151254989	151260809	Dplan_chrom-3	73435286	73441299	-	mRNA13915	4	0.701389
+scaffold_2	151495910	151594117	Dplan_chrom-3	73140126	73181556	-	mRNA13923	4	0.619852
+scaffold_2	151872175	151992115	Dplan_chrom-3	72523373	72578060	-	mRNA13925	4	0.964869
+#block end
+#block begin
+scaffold_2	60586876	60614009	Dplan_chrom-3	31207609	31220751	-	mRNA12078	5	0.982287
+scaffold_2	60989509	61027623	Dplan_chrom-3	30514027	30542128	-	mRNA12084	5	0.816456
+scaffold_2	61219707	61221233	Dplan_chrom-3	30372691	30374217	-	mRNA12087	5	0.99869
+scaffold_2	61222116	61222264	Dplan_chrom-3	30371506	30371654	-	mRNA12088	5	0.558052
+scaffold_2	61428998	61516937	Dplan_chrom-3	30103812	30157686	-	mRNA12091	5	0.869707
+#block end
+#block begin
+scaffold_2	203525097	203526674	Dplan_chrom-3	148468979	148470550	-	mRNA15102	6	0.917399
+scaffold_2	203648943	203683105	Dplan_chrom-3	148292730	148323551	-	mRNA15104	6	0.697214
+scaffold_2	204694938	204697554	Dplan_chrom-3	145099369	145102062	-	mRNA15115	6	0.515152
+scaffold_2	204709280	204714648	Dplan_chrom-3	145080001	145089887	-	mRNA15116	6	0.723577
+scaffold_2	204723174	204734478	Dplan_chrom-3	145042721	145067257	-	mRNA15117	6	0.326644
+scaffold_2	204863489	204952511	Dplan_chrom-3	144879382	144943300	-	mRNA15122	6	0.683739
+#block end
+#block begin
+scaffold_2	163755240	163796408	Dplan_chrom-3	140423733	140440309	+	mRNA14185	7	0.486597
+scaffold_2	163817066	163846338	Dplan_chrom-3	140460427	140484352	+	mRNA14186	7	0.994328
+scaffold_2	164278604	164405330	Dplan_chrom-3	141107616	141208295	+	mRNA14195	7	0.340814
+scaffold_2	164415366	164453492	Dplan_chrom-3	141229782	141253189	+	mRNA14197	7	0.464208
+scaffold_2	178143758	178160791	Dplan_chrom-3	144142590	144151631	+	mRNA14508	7	0.546419
+scaffold_2	178300751	178301843	Dplan_chrom-3	144396069	144396446	+	mRNA14511	7	0.545455
+#block end
+#block begin
+scaffold_2	27677489	27694371	Dplan_chrom-3	44063530	44089536	-	mRNA11425	8	0.830672
+scaffold_2	30948665	30970817	Dplan_chrom-3	43714712	43737701	-	mRNA11482	8	0.969409
+scaffold_2	31205262	31229382	Dplan_chrom-3	43409981	43423219	-	mRNA11486	8	0.960069
+#block end
+#block begin
+scaffold_2	152107570	152112040	Dplan_chrom-3	72091694	72095735	+	mRNA13929	9	0.999077
+scaffold_2	152267245	152291136	Dplan_chrom-3	72177553	72192046	+	mRNA13932	9	0.778862
+scaffold_2	152511251	152536004	Dplan_chrom-3	72451803	72469695	+	mRNA13938	9	0.46241
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_3.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_3.fa -a ./Udiv-Dplan/Udiv.scaffold_3.cds.to.Dplan.chrom_3.liftover.sam -as ./Udiv/Udiv.scaffold_3.cds.fa -ar ./Udiv/Udiv.scaffold_3.cds.ref.sam -s ./Dplan/Dplan_chrom_3.fa -n ./Udiv-Dplan/Udiv.scaffold_3.cds.to.Dplan.chrom_3.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_3	10594507	10642631	Dplan_chrom-3	229106670	229125197	-	mRNA16190	1	0.436419
+scaffold_3	56611043	56615283	Dplan_chrom-3	130975461	130978267	-	mRNA17123	1	0.194074
+scaffold_3	75828952	75861455	Dplan_chrom-3	103843598	103844562	-	mRNA17597	1	0.756691
+scaffold_3	124540502	124584502	Dplan_chrom-3	30373210	30374144	-	mRNA18785	1	0.94274
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_4.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_4.fa -a ./Udiv-Dplan/Udiv.scaffold_4.cds.to.Dplan.chrom_3.liftover.sam -as ./Udiv/Udiv.scaffold_4.cds.fa -ar ./Udiv/Udiv.scaffold_4.cds.ref.sam -s ./Dplan/Dplan_chrom_3.fa -n ./Udiv-Dplan/Udiv.scaffold_4.cds.to.Dplan.chrom_3.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_4	20068252	20081863	Dplan_chrom-3	224683623	224691235	-	mRNA21366	1	0.264157
+scaffold_4	20140369	20210638	Dplan_chrom-3	80474021	80530963	-	mRNA21368	1	0.806174
+scaffold_4	20389015	20431333	Dplan_chrom-3	77707046	77725548	-	mRNA21372	1	0.992424
+scaffold_4	20689670	20706633	Dplan_chrom-3	77042978	77049482	-	mRNA21377	1	0.515521
+scaffold_4	20717088	20747092	Dplan_chrom-3	76997483	77021271	-	mRNA21379	1	0.595059
+scaffold_4	20983465	21040509	Dplan_chrom-3	76475894	76520258	-	mRNA21386	1	0.694496
+scaffold_4	22636915	22650286	Dplan_chrom-3	76303650	76317917	-	mRNA21412	1	0.778831
+scaffold_4	23270552	23326206	Dplan_chrom-3	45348782	45370734	-	mRNA21425	1	0.738644
+scaffold_4	163754220	163763528	Dplan_chrom-3	12703611	12719194	-	mRNA24501	1	0.564614
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_5.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_5.fa -a ./Udiv-Dplan/Udiv.scaffold_5.cds.to.Dplan.chrom_3.liftover.sam -as ./Udiv/Udiv.scaffold_5.cds.fa -ar ./Udiv/Udiv.scaffold_5.cds.ref.sam -s ./Dplan/Dplan_chrom_3.fa -n ./Udiv-Dplan/Udiv.scaffold_5.cds.to.Dplan.chrom_3.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_5	32349873	32354269	Dplan_chrom-3	10637154	10638883	+	mRNA26070	1	0.831845
+scaffold_5	134797270	134797799	Dplan_chrom-3	51224447	51226316	+	mRNA28269	1	0.844581
+scaffold_5	180811728	180815102	Dplan_chrom-3	128433645	128443907	+	mRNA29257	1	0.983333
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_6.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_6.fa -a ./Udiv-Dplan/Udiv.scaffold_6.cds.to.Dplan.chrom_3.liftover.sam -as ./Udiv/Udiv.scaffold_6.cds.fa -ar ./Udiv/Udiv.scaffold_6.cds.ref.sam -s ./Dplan/Dplan_chrom_3.fa -n ./Udiv-Dplan/Udiv.scaffold_6.cds.to.Dplan.chrom_3.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_6	41847162	41996175	Dplan_chrom-3	127082233	127362789	+	mRNA30632	1	0.800842
+scaffold_6	42040022	42135746	Dplan_chrom-3	127399334	127474266	+	mRNA30634	1	0.78596
+scaffold_6	42402781	42409781	Dplan_chrom-3	127757455	127771708	+	mRNA30640	1	0.561049
+scaffold_6	54495533	54536510	Dplan_chrom-3	130732318	130753520	+	mRNA30832	1	0.971098
+scaffold_6	54803163	54862494	Dplan_chrom-3	130756674	130763119	+	mRNA30840	1	0.771995
+scaffold_6	55280801	55307504	Dplan_chrom-3	131062586	131096271	+	mRNA30850	1	0.554863
+scaffold_6	55322689	55423829	Dplan_chrom-3	131113894	131168714	+	mRNA30852	1	0.587291
+scaffold_6	90502179	90531456	Dplan_chrom-3	133980452	134014211	+	mRNA31683	1	0.623986
+scaffold_6	90629351	90632154	Dplan_chrom-3	134082273	134085926	+	mRNA31688	1	0.378773
+scaffold_6	90714537	90776762	Dplan_chrom-3	135392540	135428044	+	mRNA31690	1	0.834324
+scaffold_6	92104975	92126707	Dplan_chrom-3	163745498	163773742	+	mRNA31730	1	0.614778
+scaffold_6	92478675	92485483	Dplan_chrom-3	186143432	186145417	+	mRNA31738	1	0.549435
+scaffold_6	92575679	92605633	Dplan_chrom-3	186161800	186321443	+	mRNA31740	1	0.52381
+#block end
+#block begin
+scaffold_6	108983316	109008380	Dplan_chrom-3	77675257	77682282	+	mRNA32067	2	0.956522
+scaffold_6	140599688	140751808	Dplan_chrom-3	89482827	89713356	+	mRNA32746	2	0.460517
+scaffold_6	145405221	145407445	Dplan_chrom-3	93455847	93458050	+	mRNA32821	2	0.867071
+scaffold_6	167613035	167704187	Dplan_chrom-3	126769875	126851745	+	mRNA33183	2	0.956557
+scaffold_6	167760702	167761476	Dplan_chrom-3	126911821	126912580	+	mRNA33185	2	0.969112
+scaffold_6	167783154	167818906	Dplan_chrom-3	126928082	126954931	+	mRNA33186	2	0.983076
+scaffold_6	167822048	167837830	Dplan_chrom-3	126958704	126967569	+	mRNA33187	2	0.690878
+scaffold_6	167930572	167937240	Dplan_chrom-3	127001879	127006735	+	mRNA33189	2	0.893229
+#block end
+#block begin
+scaffold_6	105924859	105926874	Dplan_chrom-3	221841487	221843490	-	mRNA31996	3	0.973602
+scaffold_6	105977806	106001676	Dplan_chrom-3	221773302	221809020	-	mRNA31998	3	0.760179
+scaffold_6	106869389	106897379	Dplan_chrom-3	204938415	204953798	-	mRNA32004	3	0.116415
+scaffold_6	107674466	107674724	Dplan_chrom-3	190965726	190965988	-	mRNA32025	3	0.829932
+scaffold_6	107896253	107898750	Dplan_chrom-3	190627937	190652156	-	mRNA32042	3	0.667508
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_7.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_7.fa -a ./Udiv-Dplan/Udiv.scaffold_7.cds.to.Dplan.chrom_3.liftover.sam -as ./Udiv/Udiv.scaffold_7.cds.fa -ar ./Udiv/Udiv.scaffold_7.cds.ref.sam -s ./Dplan/Dplan_chrom_3.fa -n ./Udiv-Dplan/Udiv.scaffold_7.cds.to.Dplan.chrom_3.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_8.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_8.fa -a ./Udiv-Dplan/Udiv.scaffold_8.cds.to.Dplan.chrom_3.liftover.sam -as ./Udiv/Udiv.scaffold_8.cds.fa -ar ./Udiv/Udiv.scaffold_8.cds.ref.sam -s ./Dplan/Dplan_chrom_3.fa -n ./Udiv-Dplan/Udiv.scaffold_8.cds.to.Dplan.chrom_3.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_9.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_9.fa -a ./Udiv-Dplan/Udiv.scaffold_9.cds.to.Dplan.chrom_3.liftover.sam -as ./Udiv/Udiv.scaffold_9.cds.fa -ar ./Udiv/Udiv.scaffold_9.cds.ref.sam -s ./Dplan/Dplan_chrom_3.fa -n ./Udiv-Dplan/Udiv.scaffold_9.cds.to.Dplan.chrom_3.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_9	72193900	72194140	Dplan_chrom-3	226332456	226332698	-	mRNA45050	1	0.979424
+scaffold_9	97761644	97785789	Dplan_chrom-3	200983779	200985754	-	mRNA45718	1	0.507607
+scaffold_9	114642897	114644679	Dplan_chrom-3	127803066	127804818	-	mRNA46313	1	0.718331
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_10.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_10.fa -a ./Udiv-Dplan/Udiv.scaffold_10.cds.to.Dplan.chrom_3.liftover.sam -as ./Udiv/Udiv.scaffold_10.cds.fa -ar ./Udiv/Udiv.scaffold_10.cds.ref.sam -s ./Dplan/Dplan_chrom_3.fa -n ./Udiv-Dplan/Udiv.scaffold_10.cds.to.Dplan.chrom_3.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_10	85432867	85461240	Dplan_chrom-3	9104253	9104765	+	mRNA7127	1	0.984586
+scaffold_10	91629605	91630391	Dplan_chrom-3	161752237	161752869	+	mRNA7230	1	0.698092
+scaffold_10	106631470	106631618	Dplan_chrom-3	192216844	192216995	+	mRNA7447	1	0.510417
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_1.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_1.fa -a ./Udiv-Dplan/Udiv.scaffold_1.cds.to.Dplan.chrom_4.liftover.sam -as ./Udiv/Udiv.scaffold_1.cds.fa -ar ./Udiv/Udiv.scaffold_1.cds.ref.sam -s ./Dplan/Dplan_chrom_4.fa -n ./Udiv-Dplan/Udiv.scaffold_1.cds.to.Dplan.chrom_4.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_1	36841055	36861711	Dplan_chrom-4	209420537	209431930	-	mRNA779	1	0.664052
+scaffold_1	36928612	36962156	Dplan_chrom-4	209290534	209333595	-	mRNA782	1	0.844618
+scaffold_1	74527236	74544383	Dplan_chrom-4	121890349	121933173	-	mRNA1501	1	0.663014
+scaffold_1	74560691	74567385	Dplan_chrom-4	121880394	121887936	-	mRNA1505	1	0.579805
+scaffold_1	74585725	74602767	Dplan_chrom-4	121853365	121871057	-	mRNA1506	1	0.787234
+scaffold_1	74605466	74626211	Dplan_chrom-4	121833988	121849909	-	mRNA1507	1	0.622168
+scaffold_1	76546665	76603336	Dplan_chrom-4	65230918	65255736	-	mRNA1555	1	0.727027
+scaffold_1	76637351	76671910	Dplan_chrom-4	65128049	65138759	-	mRNA1559	1	0.854267
+scaffold_1	76684115	76716059	Dplan_chrom-4	65112124	65126763	-	mRNA1560	1	0.993438
+scaffold_1	76717683	76724553	Dplan_chrom-4	65108993	65111107	-	mRNA1561	1	0.506276
+scaffold_1	76785594	76805790	Dplan_chrom-4	65055287	65062534	-	mRNA1563	1	0.871245
+#block end
+#block begin
+scaffold_1	138203266	138229462	Dplan_chrom-4	292103	312957	+	mRNA2863	2	0.672619
+scaffold_1	139262825	139476067	Dplan_chrom-4	5797719	5891124	+	mRNA2893	2	0.354244
+scaffold_1	139489673	139496458	Dplan_chrom-4	5891904	5895102	+	mRNA2895	2	0.466302
+scaffold_1	255285774	255286362	Dplan_chrom-4	40059231	40059831	+	mRNA5395	2	0.978224
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_2.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_2.fa -a ./Udiv-Dplan/Udiv.scaffold_2.cds.to.Dplan.chrom_4.liftover.sam -as ./Udiv/Udiv.scaffold_2.cds.fa -ar ./Udiv/Udiv.scaffold_2.cds.ref.sam -s ./Dplan/Dplan_chrom_4.fa -n ./Udiv-Dplan/Udiv.scaffold_2.cds.to.Dplan.chrom_4.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_2	60587020	60606487	Dplan_chrom-4	68475852	68490077	-	mRNA12078	1	0.724638
+scaffold_2	110676030	110717534	Dplan_chrom-4	56529037	56546236	-	mRNA13069	1	0.977739
+scaffold_2	110884980	110908060	Dplan_chrom-4	8316906	8342475	-	mRNA13075	1	0.781573
+scaffold_2	111039646	111099357	Dplan_chrom-4	8010090	8095456	-	mRNA13080	1	0.711665
+scaffold_2	111720040	111726822	Dplan_chrom-4	4623856	4628433	-	mRNA13102	1	0.449466
+scaffold_2	135710616	135710839	Dplan_chrom-4	1980325	1980547	-	mRNA13572	1	0.866667
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_3.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_3.fa -a ./Udiv-Dplan/Udiv.scaffold_3.cds.to.Dplan.chrom_4.liftover.sam -as ./Udiv/Udiv.scaffold_3.cds.fa -ar ./Udiv/Udiv.scaffold_3.cds.ref.sam -s ./Dplan/Dplan_chrom_4.fa -n ./Udiv-Dplan/Udiv.scaffold_3.cds.to.Dplan.chrom_4.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_3	104426708	104442998	Dplan_chrom-4	3930221	3939442	+	mRNA18326	1	0.955446
+scaffold_3	150333982	150334260	Dplan_chrom-4	91553683	91553960	+	mRNA19311	1	0.590909
+scaffold_3	213472499	213472956	Dplan_chrom-4	169656100	169656557	+	mRNA20416	1	0.919192
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_4.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_4.fa -a ./Udiv-Dplan/Udiv.scaffold_4.cds.to.Dplan.chrom_4.liftover.sam -as ./Udiv/Udiv.scaffold_4.cds.fa -ar ./Udiv/Udiv.scaffold_4.cds.ref.sam -s ./Dplan/Dplan_chrom_4.fa -n ./Udiv-Dplan/Udiv.scaffold_4.cds.to.Dplan.chrom_4.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_4	25177906	25179833	Dplan_chrom-4	160370833	160372751	-	mRNA21479	1	0.549985
+scaffold_4	116051594	116051831	Dplan_chrom-4	79178718	79178966	-	mRNA23408	1	0.963415
+scaffold_4	125508252	125612439	Dplan_chrom-4	63530375	63732591	-	mRNA23652	1	0.22807
+scaffold_4	125618028	125644899	Dplan_chrom-4	63478542	63527913	-	mRNA23653	1	0.163217
+scaffold_4	134402471	134416096	Dplan_chrom-4	8786141	8793867	-	mRNA23866	1	0.555556
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_5.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_5.fa -a ./Udiv-Dplan/Udiv.scaffold_5.cds.to.Dplan.chrom_4.liftover.sam -as ./Udiv/Udiv.scaffold_5.cds.fa -ar ./Udiv/Udiv.scaffold_5.cds.ref.sam -s ./Dplan/Dplan_chrom_4.fa -n ./Udiv-Dplan/Udiv.scaffold_5.cds.to.Dplan.chrom_4.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_5	38189397	38242147	Dplan_chrom-4	120968143	121001623	-	mRNA26187	1	0.83456
+scaffold_5	47813640	47837735	Dplan_chrom-4	6072302	6128075	-	mRNA26322	1	0.864341
+scaffold_5	47840880	47849358	Dplan_chrom-4	6065010	6071346	-	mRNA26323	1	0.525968
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_6.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_6.fa -a ./Udiv-Dplan/Udiv.scaffold_6.cds.to.Dplan.chrom_4.liftover.sam -as ./Udiv/Udiv.scaffold_6.cds.fa -ar ./Udiv/Udiv.scaffold_6.cds.ref.sam -s ./Dplan/Dplan_chrom_4.fa -n ./Udiv-Dplan/Udiv.scaffold_6.cds.to.Dplan.chrom_4.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_6	6716206	6716827	Dplan_chrom-4	61060953	61061578	+	mRNA29902	1	0.972887
+scaffold_6	47445564	47447494	Dplan_chrom-4	160370833	160372751	+	mRNA30727	1	0.467832
+scaffold_6	145613926	145687972	Dplan_chrom-4	195961550	196029675	+	mRNA32825	1	0.814081
+scaffold_6	146569083	146569292	Dplan_chrom-4	198056592	198056828	+	mRNA32837	1	0.70068
+scaffold_6	146652956	146671798	Dplan_chrom-4	198233642	198247465	+	mRNA32838	1	0.671296
+scaffold_6	146710984	146766940	Dplan_chrom-4	198270706	198320527	+	mRNA32843	1	0.591833
+scaffold_6	146791244	146910633	Dplan_chrom-4	198339712	198476213	+	mRNA32844	1	0.420089
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_7.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_7.fa -a ./Udiv-Dplan/Udiv.scaffold_7.cds.to.Dplan.chrom_4.liftover.sam -as ./Udiv/Udiv.scaffold_7.cds.fa -ar ./Udiv/Udiv.scaffold_7.cds.ref.sam -s ./Dplan/Dplan_chrom_4.fa -n ./Udiv-Dplan/Udiv.scaffold_7.cds.to.Dplan.chrom_4.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_7	83511601	83525172	Dplan_chrom-4	182092939	182115665	-	mRNA35272	1	0.470819
+scaffold_7	83534630	83564086	Dplan_chrom-4	182063986	182092554	-	mRNA35273	1	0.876828
+scaffold_7	83566657	83575911	Dplan_chrom-4	182026727	182028863	-	mRNA35274	1	0.708117
+scaffold_7	83596789	83605089	Dplan_chrom-4	182001089	182012706	-	mRNA35276	1	0.79974
+scaffold_7	85345977	85411557	Dplan_chrom-4	163934702	163997490	-	mRNA35316	1	0.98943
+scaffold_7	85631570	85660531	Dplan_chrom-4	163758461	163773732	-	mRNA35323	1	0.278257
+scaffold_7	85678900	85761948	Dplan_chrom-4	163478755	163746968	-	mRNA35324	1	0.397417
+scaffold_7	85967592	85968857	Dplan_chrom-4	163335759	163336991	-	mRNA35327	1	0.827491
+scaffold_7	88388600	88402837	Dplan_chrom-4	160269801	160283395	-	mRNA35367	1	0.829653
+scaffold_7	89221864	89270222	Dplan_chrom-4	158939944	158960883	-	mRNA35380	1	0.96948
+#block end
+#block begin
+scaffold_7	30734935	30750787	Dplan_chrom-4	192039839	192050155	+	mRNA34280	2	0.561905
+scaffold_7	30774534	30826679	Dplan_chrom-4	192075230	192076314	+	mRNA34281	2	0.211941
+scaffold_7	31232237	31256382	Dplan_chrom-4	192575539	192595786	+	mRNA34294	2	0.808901
+scaffold_7	31292714	31294873	Dplan_chrom-4	192658725	192660872	+	mRNA34296	2	0.653317
+scaffold_7	31312392	31347684	Dplan_chrom-4	192733688	192733965	+	mRNA34297	2	0.447665
+scaffold_7	31493829	31494032	Dplan_chrom-4	192987879	192988065	+	mRNA34301	2	0.761905
+scaffold_7	31755352	31825915	Dplan_chrom-4	193569799	193570156	+	mRNA34304	2	0.218498
+scaffold_7	32167629	32171128	Dplan_chrom-4	194384189	194393392	+	mRNA34318	2	0.767643
+scaffold_7	32180586	32180808	Dplan_chrom-4	194398456	194398662	+	mRNA34320	2	0.773946
+scaffold_7	37293927	37308789	Dplan_chrom-4	198504754	198512297	+	mRNA34430	2	0.919118
+scaffold_7	37315423	37315613	Dplan_chrom-4	198525620	198525810	+	mRNA34431	2	0.344262
+#block end
+#block begin
+scaffold_7	69705827	69727348	Dplan_chrom-4	150372804	150379006	-	mRNA34982	3	0.962462
+scaffold_7	69912214	69956215	Dplan_chrom-4	150126133	150156642	-	mRNA34988	3	0.620621
+scaffold_7	69963256	70037352	Dplan_chrom-4	150046629	150119900	-	mRNA34989	3	0.156388
+scaffold_7	70226968	70227515	Dplan_chrom-4	149865403	149865950	-	mRNA34991	3	0.964727
+scaffold_7	73739350	73800050	Dplan_chrom-4	140142115	140214970	-	mRNA35097	3	0.137546
+scaffold_7	73955203	74016642	Dplan_chrom-4	139959441	139989313	-	mRNA35101	3	0.59009
+scaffold_7	74076091	74121338	Dplan_chrom-4	139770502	139793227	-	mRNA35102	3	0.989927
+scaffold_7	74158615	74210708	Dplan_chrom-4	139680048	139712342	-	mRNA35105	3	0.990291
+scaffold_7	74399239	74434723	Dplan_chrom-4	139422407	139455598	-	mRNA35113	3	0.778767
+#block end
+#block begin
+scaffold_7	66710503	66712258	Dplan_chrom-4	139070040	139072022	-	mRNA34930	4	0.563596
+scaffold_7	67475005	67475886	Dplan_chrom-4	137777970	137778824	-	mRNA34944	4	0.793696
+scaffold_7	67635488	67635847	Dplan_chrom-4	137667765	137668096	-	mRNA34950	4	0.778626
+scaffold_7	67645200	67652554	Dplan_chrom-4	137623936	137629056	-	mRNA34951	4	0.761296
+scaffold_7	67660362	67685617	Dplan_chrom-4	137595338	137622390	-	mRNA34954	4	0.975543
+scaffold_7	67718792	67877226	Dplan_chrom-4	137348967	137485438	-	mRNA34956	4	0.402973
+scaffold_7	68178324	68211174	Dplan_chrom-4	137058836	137086203	-	mRNA34960	4	0.609342
+scaffold_7	68249862	68255098	Dplan_chrom-4	137022433	137027675	-	mRNA34963	4	0.972409
+#block end
+#block begin
+scaffold_7	79464883	79467150	Dplan_chrom-4	152056920	152059175	-	mRNA35179	5	0.947069
+scaffold_7	79476654	79492149	Dplan_chrom-4	152034547	152049337	-	mRNA35181	5	0.480952
+scaffold_7	79655781	79678366	Dplan_chrom-4	151779956	151808107	-	mRNA35185	5	0.57824
+scaffold_7	79752764	79791696	Dplan_chrom-4	151652426	151687058	-	mRNA35187	5	0.661022
+scaffold_7	80233085	80255765	Dplan_chrom-4	151291939	151303798	-	mRNA35197	5	0.984351
+scaffold_7	80271720	80275366	Dplan_chrom-4	151276394	151280025	-	mRNA35201	5	0.956637
+scaffold_7	80447672	80512281	Dplan_chrom-4	150918227	151009829	-	mRNA35205	5	0.765041
+#block end
+#block begin
+scaffold_7	39970735	40014280	Dplan_chrom-4	198668871	198723153	+	mRNA34460	6	0.749329
+scaffold_7	40157709	40201163	Dplan_chrom-4	198847194	198888961	+	mRNA34468	6	0.94209
+scaffold_7	40228897	40303407	Dplan_chrom-4	198988429	198999173	+	mRNA34470	6	0.588389
+scaffold_7	40689562	40706400	Dplan_chrom-4	199461185	199480827	+	mRNA34478	6	0.998133
+scaffold_7	41050616	41132332	Dplan_chrom-4	200210392	200351230	+	mRNA34483	6	0.655025
+scaffold_7	41812155	41853431	Dplan_chrom-4	201631813	201687438	+	mRNA34493	6	0.426701
+scaffold_7	41982841	42009873	Dplan_chrom-4	202141335	202161021	+	mRNA34497	6	0.71634
+#block end
+#block begin
+scaffold_7	76847951	76850381	Dplan_chrom-4	217962417	217974273	+	mRNA35141	7	0.975173
+scaffold_7	76879147	76881036	Dplan_chrom-4	218022715	218024529	+	mRNA35142	7	0.950265
+scaffold_7	76924253	76926528	Dplan_chrom-4	218055330	218057611	+	mRNA35144	7	0.963768
+scaffold_7	77347033	77363543	Dplan_chrom-4	218599367	218634957	+	mRNA35149	7	0.99665
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_8.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_8.fa -a ./Udiv-Dplan/Udiv.scaffold_8.cds.to.Dplan.chrom_4.liftover.sam -as ./Udiv/Udiv.scaffold_8.cds.fa -ar ./Udiv/Udiv.scaffold_8.cds.ref.sam -s ./Dplan/Dplan_chrom_4.fa -n ./Udiv-Dplan/Udiv.scaffold_8.cds.to.Dplan.chrom_4.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_8	125316755	125351216	Dplan_chrom-4	99583226	99617853	+	mRNA40117	1	0.967375
+scaffold_8	126526531	126572309	Dplan_chrom-4	111389430	111474168	+	mRNA40150	1	0.864671
+scaffold_8	127599428	127676311	Dplan_chrom-4	113814283	113881774	+	mRNA40173	1	0.980142
+scaffold_8	129467294	129482779	Dplan_chrom-4	116134432	116182742	+	mRNA40216	1	0.51338
+scaffold_8	129497935	129500819	Dplan_chrom-4	116194972	116197707	+	mRNA40217	1	0.948187
+scaffold_8	129570553	129616317	Dplan_chrom-4	116216906	116238237	+	mRNA40220	1	0.797054
+scaffold_8	129740419	129790718	Dplan_chrom-4	116441932	116523972	+	mRNA40226	1	0.985379
+scaffold_8	130006830	130007399	Dplan_chrom-4	116654714	116655283	+	mRNA40233	1	1
+scaffold_8	130007910	130030532	Dplan_chrom-4	116655967	116677350	+	mRNA40234	1	0.853221
+scaffold_8	130038663	130098593	Dplan_chrom-4	116695713	116720437	+	mRNA40235	1	0.549092
+scaffold_8	130106806	130150615	Dplan_chrom-4	116807284	116830654	+	mRNA40236	1	0.603198
+scaffold_8	130991988	130992409	Dplan_chrom-4	118698194	118698663	+	mRNA40246	1	0.923977
+scaffold_8	131127356	131131217	Dplan_chrom-4	118865798	118868816	+	mRNA40252	1	0.892029
+scaffold_8	132861679	132883930	Dplan_chrom-4	131532085	131549394	+	mRNA40281	1	0.8307
+scaffold_8	132947990	132964531	Dplan_chrom-4	131637651	131647141	+	mRNA40285	1	0.823666
+scaffold_8	132981271	132989028	Dplan_chrom-4	131668435	131672162	+	mRNA40287	1	0.656149
+scaffold_8	133339578	133354400	Dplan_chrom-4	132174897	132186202	+	mRNA40291	1	0.616383
+scaffold_8	133964709	134014150	Dplan_chrom-4	133867826	133969459	+	mRNA40310	1	0.262594
+#block end
+#block begin
+scaffold_8	75009472	75009707	Dplan_chrom-4	89432620	89432847	-	mRNA39144	2	0.663717
+scaffold_8	78176511	78239965	Dplan_chrom-4	68949939	68996487	-	mRNA39185	2	0.87931
+scaffold_8	78265131	78327192	Dplan_chrom-4	68883893	68925708	-	mRNA39187	2	0.790323
+scaffold_8	78345896	78400887	Dplan_chrom-4	68794393	68811204	-	mRNA39189	2	0.674433
+scaffold_8	78504139	78564975	Dplan_chrom-4	68653570	68706342	-	mRNA39194	2	0.748873
+scaffold_8	78592913	78650688	Dplan_chrom-4	68556914	68587166	-	mRNA39199	2	0.46944
+scaffold_8	78652485	78669203	Dplan_chrom-4	68534158	68548145	-	mRNA39200	2	0.957523
+scaffold_8	78733191	78769135	Dplan_chrom-4	68473455	68492671	-	mRNA39204	2	0.968881
+scaffold_8	79282302	79283211	Dplan_chrom-4	56712346	56713255	-	mRNA39221	2	0.990132
+scaffold_8	79520424	79550295	Dplan_chrom-4	56606538	56621964	-	mRNA39226	2	0.341941
+#block end
+#block begin
+scaffold_8	102277391	102290330	Dplan_chrom-4	99316458	99329677	-	mRNA39698	3	0.68295
+scaffold_8	104248467	104276107	Dplan_chrom-4	97583961	97620765	-	mRNA39747	3	0.768439
+scaffold_8	104288879	104304744	Dplan_chrom-4	97545582	97561131	-	mRNA39748	3	0.578842
+scaffold_8	104723141	104752071	Dplan_chrom-4	97179959	97213773	-	mRNA39761	3	0.957854
+scaffold_8	105213955	105224531	Dplan_chrom-4	96574872	96583320	-	mRNA39776	3	0.648148
+scaffold_8	116074315	116074983	Dplan_chrom-4	96172973	96173641	-	mRNA39918	3	0.593694
+scaffold_8	116078046	116095016	Dplan_chrom-4	96153102	96171091	-	mRNA39921	3	0.657237
+scaffold_8	116684214	116758813	Dplan_chrom-4	95645175	95705021	-	mRNA39931	3	0.807146
+#block end
+#block begin
+scaffold_8	121965657	121984741	Dplan_chrom-4	41227769	41238312	+	mRNA40011	4	0.929371
+scaffold_8	122073745	122095125	Dplan_chrom-4	41417093	41426550	+	mRNA40015	4	0.569986
+scaffold_8	122372130	122391706	Dplan_chrom-4	41752481	41795013	+	mRNA40026	4	0.501706
+scaffold_8	122446610	122477695	Dplan_chrom-4	41841623	41877805	+	mRNA40028	4	0.380337
+scaffold_8	122653560	122655001	Dplan_chrom-4	41971487	41972925	+	mRNA40035	4	0.817816
+scaffold_8	122672836	122673696	Dplan_chrom-4	41979327	41980187	+	mRNA40036	4	0.782087
+scaffold_8	122691736	122740435	Dplan_chrom-4	42002174	42030330	+	mRNA40037	4	0.534845
+scaffold_8	123637250	123646811	Dplan_chrom-4	43293775	43298475	+	mRNA40066	4	0.976303
+#block end
+#block begin
+scaffold_8	80221765	80234951	Dplan_chrom-4	7934272	7937188	+	mRNA39239	5	0.969697
+scaffold_8	95221987	95224628	Dplan_chrom-4	10783515	10786156	+	mRNA39557	5	0.970501
+scaffold_8	95855449	95942348	Dplan_chrom-4	13252440	13256935	+	mRNA39565	5	0.408203
+scaffold_8	96177876	96249465	Dplan_chrom-4	13775274	13868146	+	mRNA39567	5	0.344675
+scaffold_8	96976448	97020146	Dplan_chrom-4	15642998	15667358	+	mRNA39572	5	0.935065
+scaffold_8	99593749	99595731	Dplan_chrom-4	18629320	18631713	+	mRNA39624	5	0.517824
+scaffold_8	100029007	100029644	Dplan_chrom-4	30660775	30661412	+	mRNA39640	5	0.565603
+scaffold_8	100040928	100041806	Dplan_chrom-4	30670865	30671752	+	mRNA39641	5	0.989761
+#block end
+#block begin
+scaffold_8	137970558	138000524	Dplan_chrom-4	39296770	39315238	+	mRNA40397	6	0.97821
+scaffold_8	138089162	138136789	Dplan_chrom-4	39554678	39564401	+	mRNA40400	6	0.778
+scaffold_8	138187194	138203967	Dplan_chrom-4	39704775	39724595	+	mRNA40401	6	0.842478
+scaffold_8	138257622	138283788	Dplan_chrom-4	39802291	39827967	+	mRNA40404	6	0.951064
+scaffold_8	138296615	138301444	Dplan_chrom-4	39845251	39845399	+	mRNA40405	6	0.605691
+scaffold_8	138324125	138341436	Dplan_chrom-4	39851578	39855668	+	mRNA40406	6	0.622852
+#block end
+#block begin
+scaffold_8	124221953	124262381	Dplan_chrom-4	43953291	43984349	-	mRNA40085	7	0.395236
+scaffold_8	124294336	124316170	Dplan_chrom-4	43920389	43932920	-	mRNA40087	7	0.679104
+scaffold_8	124327026	124380040	Dplan_chrom-4	43892380	43900663	-	mRNA40088	7	0.907298
+scaffold_8	124490411	124497018	Dplan_chrom-4	43741961	43745690	-	mRNA40091	7	1
+scaffold_8	124522517	124541247	Dplan_chrom-4	43714915	43726905	-	mRNA40093	7	0.208241
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_9.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_9.fa -a ./Udiv-Dplan/Udiv.scaffold_9.cds.to.Dplan.chrom_4.liftover.sam -as ./Udiv/Udiv.scaffold_9.cds.fa -ar ./Udiv/Udiv.scaffold_9.cds.ref.sam -s ./Dplan/Dplan_chrom_4.fa -n ./Udiv-Dplan/Udiv.scaffold_9.cds.to.Dplan.chrom_4.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_9	84739171	84752406	Dplan_chrom-4	123003	146367	+	mRNA45435	1	0.9536
+scaffold_9	84760247	84787513	Dplan_chrom-4	155588	198783	+	mRNA45436	1	0.92115
+scaffold_9	103051773	103052334	Dplan_chrom-4	56761525	56764448	+	mRNA45836	1	0.817496
+scaffold_9	127326223	127351976	Dplan_chrom-4	125323021	125366462	+	mRNA46526	1	0.324303
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_10.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_10.fa -a ./Udiv-Dplan/Udiv.scaffold_10.cds.to.Dplan.chrom_4.liftover.sam -as ./Udiv/Udiv.scaffold_10.cds.fa -ar ./Udiv/Udiv.scaffold_10.cds.ref.sam -s ./Dplan/Dplan_chrom_4.fa -n ./Udiv-Dplan/Udiv.scaffold_10.cds.to.Dplan.chrom_4.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_10	30635786	30636181	Dplan_chrom-4	209136773	209137168	-	mRNA6263	1	0.959184
+scaffold_10	98138332	98138553	Dplan_chrom-4	169656136	169656361	-	mRNA7316	1	0.902439
+scaffold_10	109508390	109508827	Dplan_chrom-4	134820425	134820873	-	mRNA7525	1	0.450053
+scaffold_10	123631089	123669450	Dplan_chrom-4	134414062	134432608	-	mRNA7804	1	0.935333
+scaffold_10	125115495	125116276	Dplan_chrom-4	97756824	97757604	-	mRNA7824	1	0.337291
+scaffold_10	130500611	130501425	Dplan_chrom-4	91551283	91553508	-	mRNA7937	1	0.96837
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_1.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_1.fa -a ./Udiv-Dplan/Udiv.scaffold_1.cds.to.Dplan.chrom_5.liftover.sam -as ./Udiv/Udiv.scaffold_1.cds.fa -ar ./Udiv/Udiv.scaffold_1.cds.ref.sam -s ./Dplan/Dplan_chrom_5.fa -n ./Udiv-Dplan/Udiv.scaffold_1.cds.to.Dplan.chrom_5.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_1	105793280	105793461	Dplan_chrom-5	10210828	10211009	+	mRNA2132	1	0.0639944
+scaffold_1	107079950	107099235	Dplan_chrom-5	69299492	69436473	+	mRNA2145	1	0.954939
+scaffold_1	109347943	109348772	Dplan_chrom-5	84309712	84310543	+	mRNA2184	1	0.593587
+scaffold_1	117700233	117747779	Dplan_chrom-5	112875798	113082917	+	mRNA2395	1	0.0622867
+scaffold_1	174006791	174080110	Dplan_chrom-5	126139143	126218220	+	mRNA3659	1	0.82287
+scaffold_1	204255496	204256786	Dplan_chrom-5	156620541	156635070	+	mRNA4224	1	0.59254
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_2.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_2.fa -a ./Udiv-Dplan/Udiv.scaffold_2.cds.to.Dplan.chrom_5.liftover.sam -as ./Udiv/Udiv.scaffold_2.cds.fa -ar ./Udiv/Udiv.scaffold_2.cds.ref.sam -s ./Dplan/Dplan_chrom_5.fa -n ./Udiv-Dplan/Udiv.scaffold_2.cds.to.Dplan.chrom_5.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_2	3386660	3392540	Dplan_chrom-5	145919482	145990664	-	mRNA10827	1	0.945255
+scaffold_2	144198064	144198744	Dplan_chrom-5	69501626	69512633	-	mRNA13779	1	0.949791
+scaffold_2	150580796	150583546	Dplan_chrom-5	40786335	40809390	-	mRNA13896	1	0.96723
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_3.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_3.fa -a ./Udiv-Dplan/Udiv.scaffold_3.cds.to.Dplan.chrom_5.liftover.sam -as ./Udiv/Udiv.scaffold_3.cds.fa -ar ./Udiv/Udiv.scaffold_3.cds.ref.sam -s ./Dplan/Dplan_chrom_5.fa -n ./Udiv-Dplan/Udiv.scaffold_3.cds.to.Dplan.chrom_5.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_3	157679778	157796178	Dplan_chrom-5	10631676	10686910	+	mRNA19442	1	0.440036
+scaffold_3	158339622	158420713	Dplan_chrom-5	21251804	21270309	+	mRNA19448	1	0.889575
+scaffold_3	159997911	160072824	Dplan_chrom-5	21290310	21421438	+	mRNA19466	1	0.880808
+scaffold_3	160094438	160103063	Dplan_chrom-5	21450799	21487798	+	mRNA19467	1	0.800786
+scaffold_3	160352800	160359983	Dplan_chrom-5	22117101	22122243	+	mRNA19472	1	0.810849
+scaffold_3	160497716	160501327	Dplan_chrom-5	22389050	22392796	+	mRNA19473	1	0.957441
+scaffold_3	162611328	162808415	Dplan_chrom-5	27822323	27970329	+	mRNA19514	1	0.443219
+scaffold_3	162828916	162829353	Dplan_chrom-5	27972414	27972851	+	mRNA19519	1	0.9217
+scaffold_3	185035876	185153340	Dplan_chrom-5	40058915	40198610	+	mRNA19892	1	0.960784
+scaffold_3	185552943	185596881	Dplan_chrom-5	40788926	40809392	+	mRNA19896	1	0.843504
+scaffold_3	198939200	198939776	Dplan_chrom-5	55771153	55771681	+	mRNA20134	1	0.629496
+#block end
+#block begin
+scaffold_3	32551156	32615119	Dplan_chrom-5	214852812	214857508	-	mRNA16635	2	0.679454
+scaffold_3	32707950	32708143	Dplan_chrom-5	214751596	214751789	-	mRNA16637	2	0.468599
+scaffold_3	58420487	58472474	Dplan_chrom-5	201588025	201607052	-	mRNA17153	2	0.591787
+scaffold_3	61746144	61787077	Dplan_chrom-5	197807959	197829507	-	mRNA17219	2	0.447803
+scaffold_3	76645633	76669850	Dplan_chrom-5	191484166	191511404	-	mRNA17620	2	0.616785
+scaffold_3	76882522	76965958	Dplan_chrom-5	191354842	191366591	-	mRNA17626	2	0.570767
+scaffold_3	77294153	77296762	Dplan_chrom-5	191258309	191259784	-	mRNA17635	2	0.898148
+scaffold_3	90289638	90350229	Dplan_chrom-5	181208578	181218426	-	mRNA18001	2	0.958036
+scaffold_3	90377510	90492500	Dplan_chrom-5	181071725	181193119	-	mRNA18004	2	0.943131
+scaffold_3	115026766	115142540	Dplan_chrom-5	177865162	178022544	-	mRNA18573	2	0.849482
+scaffold_3	141378960	141385802	Dplan_chrom-5	175834063	175836182	-	mRNA19128	2	0.599409
+scaffold_3	141708425	141760863	Dplan_chrom-5	174944896	174962078	-	mRNA19130	2	0.906034
+#block end
+#block begin
+scaffold_3	21083548	21132573	Dplan_chrom-5	108787431	108803673	-	mRNA16388	3	0.674603
+scaffold_3	21476889	21477175	Dplan_chrom-5	108559832	108560095	-	mRNA16390	3	0.525316
+scaffold_3	21906996	22036260	Dplan_chrom-5	107927803	108007041	-	mRNA16396	3	0.693315
+scaffold_3	32131198	32131444	Dplan_chrom-5	69122499	69122730	-	mRNA16621	3	0.509009
+#block end
+#block begin
+scaffold_3	157056811	157077093	Dplan_chrom-5	10574526	10582854	-	mRNA19421	4	0.902821
+scaffold_3	157249611	157276422	Dplan_chrom-5	10304052	10367975	-	mRNA19427	4	0.375874
+scaffold_3	157394824	157440229	Dplan_chrom-5	9974796	9998248	-	mRNA19432	4	0.816485
+#block end
+#block begin
+scaffold_3	207489294	207588976	Dplan_chrom-5	67433718	67535983	+	mRNA20299	5	0.943023
+scaffold_3	207615940	207619966	Dplan_chrom-5	67592417	67596908	+	mRNA20300	5	0.921569
+scaffold_3	207652999	207657016	Dplan_chrom-5	67607688	67611896	+	mRNA20302	5	0.204893
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_4.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_4.fa -a ./Udiv-Dplan/Udiv.scaffold_4.cds.to.Dplan.chrom_5.liftover.sam -as ./Udiv/Udiv.scaffold_4.cds.fa -ar ./Udiv/Udiv.scaffold_4.cds.ref.sam -s ./Dplan/Dplan_chrom_5.fa -n ./Udiv-Dplan/Udiv.scaffold_4.cds.to.Dplan.chrom_5.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_4	27207462	27208338	Dplan_chrom-5	216141850	216165048	-	mRNA21507	1	0.769231
+scaffold_4	71751367	71751784	Dplan_chrom-5	215868661	215869095	-	mRNA22443	1	0.926282
+scaffold_4	118258158	118260339	Dplan_chrom-5	198184642	198186878	-	mRNA23458	1	0.750924
+scaffold_4	170182701	170184766	Dplan_chrom-5	140345545	140346857	-	mRNA24667	1	0.696362
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_5.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_5.fa -a ./Udiv-Dplan/Udiv.scaffold_5.cds.to.Dplan.chrom_5.liftover.sam -as ./Udiv/Udiv.scaffold_5.cds.fa -ar ./Udiv/Udiv.scaffold_5.cds.ref.sam -s ./Dplan/Dplan_chrom_5.fa -n ./Udiv-Dplan/Udiv.scaffold_5.cds.to.Dplan.chrom_5.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_5	80951743	80965538	Dplan_chrom-5	65107865	65118910	+	mRNA26970	1	0.906572
+scaffold_5	87034213	87047796	Dplan_chrom-5	146140460	146140953	+	mRNA27165	1	0.38073
+scaffold_5	140271539	140272371	Dplan_chrom-5	161967555	161982257	+	mRNA28381	1	0.822421
+scaffold_5	160894880	160910726	Dplan_chrom-5	171634653	171727833	+	mRNA28770	1	0.0742902
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_6.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_6.fa -a ./Udiv-Dplan/Udiv.scaffold_6.cds.to.Dplan.chrom_5.liftover.sam -as ./Udiv/Udiv.scaffold_6.cds.fa -ar ./Udiv/Udiv.scaffold_6.cds.ref.sam -s ./Dplan/Dplan_chrom_5.fa -n ./Udiv-Dplan/Udiv.scaffold_6.cds.to.Dplan.chrom_5.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_7.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_7.fa -a ./Udiv-Dplan/Udiv.scaffold_7.cds.to.Dplan.chrom_5.liftover.sam -as ./Udiv/Udiv.scaffold_7.cds.fa -ar ./Udiv/Udiv.scaffold_7.cds.ref.sam -s ./Dplan/Dplan_chrom_5.fa -n ./Udiv-Dplan/Udiv.scaffold_7.cds.to.Dplan.chrom_5.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_8.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_8.fa -a ./Udiv-Dplan/Udiv.scaffold_8.cds.to.Dplan.chrom_5.liftover.sam -as ./Udiv/Udiv.scaffold_8.cds.fa -ar ./Udiv/Udiv.scaffold_8.cds.ref.sam -s ./Dplan/Dplan_chrom_5.fa -n ./Udiv-Dplan/Udiv.scaffold_8.cds.to.Dplan.chrom_5.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_9.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_9.fa -a ./Udiv-Dplan/Udiv.scaffold_9.cds.to.Dplan.chrom_5.liftover.sam -as ./Udiv/Udiv.scaffold_9.cds.fa -ar ./Udiv/Udiv.scaffold_9.cds.ref.sam -s ./Dplan/Dplan_chrom_5.fa -n ./Udiv-Dplan/Udiv.scaffold_9.cds.to.Dplan.chrom_5.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_9	31374723	31375337	Dplan_chrom-5	211257400	211258029	-	mRNA42588	1	0.607319
+scaffold_9	47128178	47128637	Dplan_chrom-5	186914567	186915029	-	mRNA43759	1	0.653791
+scaffold_9	48359693	48360344	Dplan_chrom-5	183647143	183647704	-	mRNA43813	1	0.840841
+scaffold_9	52063788	52064024	Dplan_chrom-5	99403410	99403650	-	mRNA43947	1	0.166667
+scaffold_9	69576097	69582019	Dplan_chrom-5	84810166	84810409	-	mRNA44827	1	0.286219
+scaffold_9	71586763	71588606	Dplan_chrom-5	70468980	70470567	-	mRNA45006	1	0.816133
+scaffold_9	100968043	101001277	Dplan_chrom-5	47486745	47496510	-	mRNA45787	1	0.165357
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_10.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_10.fa -a ./Udiv-Dplan/Udiv.scaffold_10.cds.to.Dplan.chrom_5.liftover.sam -as ./Udiv/Udiv.scaffold_10.cds.fa -ar ./Udiv/Udiv.scaffold_10.cds.ref.sam -s ./Dplan/Dplan_chrom_5.fa -n ./Udiv-Dplan/Udiv.scaffold_10.cds.to.Dplan.chrom_5.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_10	55248212	55282725	Dplan_chrom-5	215795458	215819278	-	mRNA6645	1	0.805
+scaffold_10	55293941	55295173	Dplan_chrom-5	215781011	215783361	-	mRNA6646	1	0.36775
+scaffold_10	55412726	55414112	Dplan_chrom-5	215653692	215657218	-	mRNA6650	1	0.830006
+scaffold_10	55716205	55716507	Dplan_chrom-5	215390108	215390410	-	mRNA6655	1	0.977346
+scaffold_10	56056201	56097831	Dplan_chrom-5	215182832	215209007	-	mRNA6662	1	0.382138
+scaffold_10	66868617	66894357	Dplan_chrom-5	208421437	208438211	-	mRNA6843	1	0.902692
+scaffold_10	66933501	66954173	Dplan_chrom-5	208379935	208387022	-	mRNA6845	1	0.504167
+scaffold_10	67080096	67101004	Dplan_chrom-5	208190027	208216087	-	mRNA6847	1	0.508185
+scaffold_10	67242134	67327935	Dplan_chrom-5	207954531	208029840	-	mRNA6849	1	0.704416
+scaffold_10	67363781	67364008	Dplan_chrom-5	207819417	207819644	-	mRNA6850	1	0.894118
+scaffold_10	67455381	67490218	Dplan_chrom-5	207730493	207730984	-	mRNA6851	1	0.474247
+scaffold_10	68209049	68242747	Dplan_chrom-5	206774676	206794034	-	mRNA6856	1	0.966912
+scaffold_10	68268578	68268928	Dplan_chrom-5	206737438	206737788	-	mRNA6857	1	1
+scaffold_10	74215160	74269586	Dplan_chrom-5	189453303	189512961	-	mRNA6960	1	0.588119
+scaffold_10	74333170	74389288	Dplan_chrom-5	189367629	189413599	-	mRNA6962	1	0.938956
+#block end
+#block begin
+scaffold_10	39367897	39385800	Dplan_chrom-5	147363398	147724247	-	mRNA6391	2	0.163372
+scaffold_10	39525546	39564453	Dplan_chrom-5	147174823	147213724	-	mRNA6392	2	0.443164
+scaffold_10	40149156	40164319	Dplan_chrom-5	146380413	146398828	-	mRNA6404	2	0.778388
+scaffold_10	40164390	40164677	Dplan_chrom-5	146380043	146380336	-	mRNA6405	2	0.545098
+scaffold_10	40236430	40236672	Dplan_chrom-5	146309335	146309587	-	mRNA6409	2	0.724242
+scaffold_10	40373132	40390407	Dplan_chrom-5	146139751	146161366	-	mRNA6421	2	0.968541
+scaffold_10	40455328	40469159	Dplan_chrom-5	146028887	146053929	-	mRNA6423	2	0.57485
+scaffold_10	40481429	40544270	Dplan_chrom-5	145933312	146017395	-	mRNA6424	2	0.928889
+scaffold_10	40557620	40697704	Dplan_chrom-5	145796836	145920214	-	mRNA6426	2	0.983324
+scaffold_10	40843696	40843882	Dplan_chrom-5	145608401	145608572	-	mRNA6428	2	0.537217
+scaffold_10	41467789	41467990	Dplan_chrom-5	144821777	144821977	-	mRNA6433	2	0.589506
+scaffold_10	41686695	41724474	Dplan_chrom-5	144602841	144637144	-	mRNA6440	2	0.693076
+scaffold_10	41822726	41827678	Dplan_chrom-5	144431272	144431425	-	mRNA6442	2	0.649789
+scaffold_10	42053803	42056066	Dplan_chrom-5	144263497	144265741	-	mRNA6448	2	0.96124
+#block end
+#block begin
+scaffold_10	13903443	13918588	Dplan_chrom-5	125633227	125663337	+	mRNA6035	3	0.672515
+scaffold_10	17188388	17215162	Dplan_chrom-5	133103644	133161942	+	mRNA6079	3	0.859477
+scaffold_10	17369738	17386282	Dplan_chrom-5	133259189	133281326	+	mRNA6080	3	0.793834
+scaffold_10	17393656	17394566	Dplan_chrom-5	133292953	133293857	+	mRNA6081	3	0.977049
+scaffold_10	17498542	17538048	Dplan_chrom-5	133392805	133410375	+	mRNA6083	3	0.874065
+scaffold_10	17542810	17690535	Dplan_chrom-5	133412064	133529020	+	mRNA6084	3	0.876506
+scaffold_10	21815850	22096841	Dplan_chrom-5	138190093	138374339	+	mRNA6147	3	0.921811
+scaffold_10	22541823	22565035	Dplan_chrom-5	139318025	139345427	+	mRNA6154	3	0.788557
+#block end
+#block begin
+scaffold_10	130152802	130245306	Dplan_chrom-5	83603398	83679675	-	mRNA7926	4	0.940594
+scaffold_10	132826452	132860714	Dplan_chrom-5	63378412	63392280	-	mRNA7982	4	0.920904
+scaffold_10	132888590	132903323	Dplan_chrom-5	63314732	63333354	-	mRNA7983	4	0.582834
+scaffold_10	133285867	133310487	Dplan_chrom-5	63048948	63062909	-	mRNA7988	4	0.698603
+scaffold_10	133450964	133469791	Dplan_chrom-5	62925734	62930464	-	mRNA7992	4	0.761226
+scaffold_10	133692727	133701287	Dplan_chrom-5	62860404	62902135	-	mRNA7999	4	0.921077
+#block end
+#block begin
+scaffold_10	29514620	29521248	Dplan_chrom-5	167117676	167123080	+	mRNA6253	5	0.883548
+scaffold_10	29558315	29650961	Dplan_chrom-5	167140271	167194719	+	mRNA6254	5	0.176351
+scaffold_10	30175999	30244346	Dplan_chrom-5	168024322	168124256	+	mRNA6259	5	0.7908
+scaffold_10	30280289	30473149	Dplan_chrom-5	168185366	168425531	+	mRNA6260	5	0.796078
+scaffold_10	31273793	31309357	Dplan_chrom-5	169447600	169472795	+	mRNA6274	5	0.987937
+scaffold_10	31847935	31884014	Dplan_chrom-5	170237363	170245699	+	mRNA6282	5	0.873563
+#block end
+#block begin
+scaffold_10	13393067	13445066	Dplan_chrom-5	125558125	125587681	-	mRNA6024	6	0.757153
+scaffold_10	13556643	13557006	Dplan_chrom-5	125419691	125420059	-	mRNA6025	6	0.857843
+scaffold_10	13655023	13655340	Dplan_chrom-5	125305788	125306123	-	mRNA6028	6	0.46875
+scaffold_10	13671642	13680285	Dplan_chrom-5	125285582	125286465	-	mRNA6029	6	0.95874
+scaffold_10	13784125	13819527	Dplan_chrom-5	125145990	125190614	-	mRNA6032	6	0.902676
+#block end
+#block begin
+scaffold_10	7491760	7659454	Dplan_chrom-5	88865078	89023552	+	mRNA5928	7	0.706667
+scaffold_10	7929566	7986358	Dplan_chrom-5	89374955	89436973	+	mRNA5933	7	0.597815
+scaffold_10	7992068	8073335	Dplan_chrom-5	89441858	89493311	+	mRNA5934	7	0.988062
+scaffold_10	8387331	8413074	Dplan_chrom-5	89869692	89886953	+	mRNA5944	7	0.726003
+scaffold_10	8496907	8541843	Dplan_chrom-5	89900504	89939016	+	mRNA5947	7	0.565824
+#block end
+#block begin
+scaffold_10	35754699	35812668	Dplan_chrom-5	9629952	9661463	-	mRNA6345	8	0.93207
+scaffold_10	35828643	35909311	Dplan_chrom-5	9591087	9624955	-	mRNA6347	8	0.891331
+scaffold_10	35998090	35999470	Dplan_chrom-5	9486138	9487466	-	mRNA6350	8	0.938805
+scaffold_10	36042501	36043293	Dplan_chrom-5	9462430	9462594	-	mRNA6352	8	0.77619
+#block end
+#block begin
+scaffold_10	23652181	23652335	Dplan_chrom-5	58859454	58859589	+	mRNA6174	9	0.483871
+scaffold_10	23743080	23745757	Dplan_chrom-5	58949589	58949695	+	mRNA6177	9	0.276486
+scaffold_10	23746060	23746213	Dplan_chrom-5	58966709	58966868	+	mRNA6178	9	0.477564
+scaffold_10	23760896	23761051	Dplan_chrom-5	58976526	58976679	+	mRNA6179	9	0.719807
+scaffold_10	23767712	23768811	Dplan_chrom-5	58984835	58985928	+	mRNA6180	9	0.978437
+#block end
+#block begin
+scaffold_10	32426265	32426456	Dplan_chrom-5	154920483	154920678	+	mRNA6294	10	0.666667
+scaffold_10	32716244	32751838	Dplan_chrom-5	155240656	155278853	+	mRNA6298	10	0.674162
+scaffold_10	32783634	32832969	Dplan_chrom-5	155303277	155330019	+	mRNA6299	10	0.813092
+scaffold_10	34763425	34864095	Dplan_chrom-5	158954758	159048638	+	mRNA6325	10	0.68861
+#block end
+#block begin
+scaffold_10	46026478	46091964	Dplan_chrom-5	118884560	118919352	-	mRNA6512	11	0.906111
+scaffold_10	46157544	46203244	Dplan_chrom-5	118812377	118842002	-	mRNA6515	11	0.988722
+scaffold_10	52811507	52943272	Dplan_chrom-5	92324174	92344980	-	mRNA6604	11	0.930654
+#block end
+#block begin
+scaffold_10	6849645	6863127	Dplan_chrom-5	122227164	122235533	+	mRNA5918	12	0.911858
+scaffold_10	7060805	7106083	Dplan_chrom-5	122745692	122756761	+	mRNA5922	12	0.752484
+scaffold_10	7127452	7205131	Dplan_chrom-5	122759167	122792029	+	mRNA5924	12	0.994536
+#block end
+#block begin
+scaffold_10	37840687	37840851	Dplan_chrom-5	35659838	35660002	-	mRNA6367	13	0.279188
+scaffold_10	38830824	38831504	Dplan_chrom-5	22663038	22663712	-	mRNA6383	13	0.986784
+scaffold_10	38934740	38996388	Dplan_chrom-5	22477334	22537133	-	mRNA6386	13	0.624582
+scaffold_10	39049092	39089511	Dplan_chrom-5	15199310	15250256	-	mRNA6388	13	0.679583
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_1.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_1.fa -a ./Udiv-Dplan/Udiv.scaffold_1.cds.to.Dplan.chrom_6.liftover.sam -as ./Udiv/Udiv.scaffold_1.cds.fa -ar ./Udiv/Udiv.scaffold_1.cds.ref.sam -s ./Dplan/Dplan_chrom_6.fa -n ./Udiv-Dplan/Udiv.scaffold_1.cds.to.Dplan.chrom_6.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_1	179943993	179969319	Dplan_chrom-6	64807214	64838971	+	mRNA3762	1	0.57095
+scaffold_1	180048159	180106192	Dplan_chrom-6	64872362	64909138	+	mRNA3763	1	0.327539
+scaffold_1	180259794	180301409	Dplan_chrom-6	65018871	65050496	+	mRNA3765	1	0.237882
+scaffold_1	180946857	181026278	Dplan_chrom-6	66084523	66142239	+	mRNA3775	1	0.947845
+scaffold_1	183984220	183990015	Dplan_chrom-6	75493479	75502460	+	mRNA3845	1	0.676145
+scaffold_1	184012786	184023734	Dplan_chrom-6	75510196	75512787	+	mRNA3848	1	0.480874
+scaffold_1	184058244	184092474	Dplan_chrom-6	75529590	75544432	+	mRNA3850	1	0.372731
+scaffold_1	185816002	185817487	Dplan_chrom-6	76422154	76423645	+	mRNA3903	1	0.938815
+scaffold_1	185834985	185866789	Dplan_chrom-6	76441647	76454621	+	mRNA3904	1	0.711727
+scaffold_1	185891131	185907186	Dplan_chrom-6	76463518	76473011	+	mRNA3905	1	0.768632
+scaffold_1	186489069	186535491	Dplan_chrom-6	77088264	77154235	+	mRNA3926	1	0.241408
+scaffold_1	186792000	186808458	Dplan_chrom-6	77690339	77697412	+	mRNA3934	1	0.800595
+scaffold_1	187024446	187047790	Dplan_chrom-6	78959680	78988123	+	mRNA3937	1	0.462731
+scaffold_1	188443119	188505930	Dplan_chrom-6	81388944	81429051	+	mRNA3955	1	0.509908
+scaffold_1	188684888	188716363	Dplan_chrom-6	81676000	81689456	+	mRNA3961	1	0.360573
+scaffold_1	188872573	188892642	Dplan_chrom-6	81923525	81935244	+	mRNA3964	1	0.878539
+scaffold_1	189081343	189084996	Dplan_chrom-6	82249279	82250807	+	mRNA3970	1	0.800963
+scaffold_1	190045755	190048951	Dplan_chrom-6	84511167	84514366	+	mRNA3989	1	0.942262
+scaffold_1	190238993	190255634	Dplan_chrom-6	84766032	84773797	+	mRNA3992	1	0.483156
+scaffold_1	190265328	190330255	Dplan_chrom-6	84776483	84828816	+	mRNA3993	1	0.92024
+scaffold_1	190349992	190444355	Dplan_chrom-6	84869107	84999179	+	mRNA3994	1	0.97177
+scaffold_1	190673405	190706842	Dplan_chrom-6	85272447	85286680	+	mRNA4003	1	0.569665
+#block end
+#block begin
+scaffold_1	155122381	155122746	Dplan_chrom-6	90197014	90197330	+	mRNA3241	2	0.594542
+scaffold_1	155202943	155207882	Dplan_chrom-6	90328327	90328871	+	mRNA3242	2	0.525048
+scaffold_1	158451174	158451810	Dplan_chrom-6	94549549	94550184	+	mRNA3307	2	0.773723
+scaffold_1	158632537	158683356	Dplan_chrom-6	94737337	94767086	+	mRNA3311	2	0.932619
+scaffold_1	158743575	158781407	Dplan_chrom-6	94936212	94961281	+	mRNA3313	2	0.992446
+scaffold_1	158880416	159000522	Dplan_chrom-6	95113984	95220669	+	mRNA3318	2	0.939259
+scaffold_1	159175056	159175339	Dplan_chrom-6	95382563	95382846	+	mRNA3321	2	0.353308
+scaffold_1	159343559	159363079	Dplan_chrom-6	95615696	95628417	+	mRNA3323	2	0.471074
+scaffold_1	163170055	163235777	Dplan_chrom-6	103690627	103761270	+	mRNA3402	2	0.950531
+scaffold_1	163237681	163240860	Dplan_chrom-6	103762930	103763488	+	mRNA3403	2	0.994949
+scaffold_1	163292600	163297851	Dplan_chrom-6	103865271	103867495	+	mRNA3406	2	0.297344
+scaffold_1	163542825	163589498	Dplan_chrom-6	104155580	104169533	+	mRNA3412	2	0.996716
+scaffold_1	168743200	168760445	Dplan_chrom-6	104438291	104441469	+	mRNA3546	2	0.587065
+scaffold_1	168868594	168888785	Dplan_chrom-6	104573805	104587300	+	mRNA3549	2	0.729918
+scaffold_1	168914807	168961460	Dplan_chrom-6	104631615	104696095	+	mRNA3555	2	0.8564
+scaffold_1	170583794	170625520	Dplan_chrom-6	107207057	107215269	+	mRNA3579	2	0.644325
+scaffold_1	170774290	170910420	Dplan_chrom-6	107292311	107410743	+	mRNA3592	2	0.672761
+scaffold_1	171630097	171665534	Dplan_chrom-6	108575368	108596301	+	mRNA3599	2	0.985373
+scaffold_1	171745678	171829312	Dplan_chrom-6	108700729	108738921	+	mRNA3602	2	0.334677
+#block end
+#block begin
+scaffold_1	218191712	218204955	Dplan_chrom-6	188907038	188912899	+	mRNA4528	3	0.819048
+scaffold_1	218396963	218427368	Dplan_chrom-6	189297226	189316611	+	mRNA4534	3	0.951327
+scaffold_1	218428794	218474490	Dplan_chrom-6	189351577	189396684	+	mRNA4535	3	0.389853
+scaffold_1	218484093	218491345	Dplan_chrom-6	189415644	189428768	+	mRNA4536	3	0.702797
+scaffold_1	218495600	218519607	Dplan_chrom-6	189438509	189456737	+	mRNA4539	3	0.989861
+scaffold_1	218523812	218527130	Dplan_chrom-6	189460360	189461275	+	mRNA4540	3	0.633333
+scaffold_1	218551838	218566967	Dplan_chrom-6	189482649	189495630	+	mRNA4541	3	0.468733
+scaffold_1	218611404	218632104	Dplan_chrom-6	189521274	189538496	+	mRNA4542	3	0.807525
+scaffold_1	218642736	218651636	Dplan_chrom-6	189549132	189560748	+	mRNA4543	3	0.956178
+scaffold_1	221188172	221229359	Dplan_chrom-6	194768578	194798825	+	mRNA4588	3	0.979952
+scaffold_1	221256854	221273926	Dplan_chrom-6	194866815	194876127	+	mRNA4589	3	0.149665
+#block end
+#block begin
+scaffold_1	133064037	133124200	Dplan_chrom-6	142593118	142621296	-	mRNA2753	4	0.355981
+scaffold_1	133145077	133146807	Dplan_chrom-6	142576480	142578210	-	mRNA2754	4	0.916667
+scaffold_1	134178724	134219887	Dplan_chrom-6	142461303	142486853	-	mRNA2788	4	0.549958
+scaffold_1	134413258	134448507	Dplan_chrom-6	142235216	142282386	-	mRNA2789	4	0.847826
+scaffold_1	134606052	134606878	Dplan_chrom-6	142101991	142102808	-	mRNA2795	4	0.759363
+scaffold_1	136021417	136035661	Dplan_chrom-6	141976774	141982811	-	mRNA2816	4	0.782274
+scaffold_1	136208686	136211672	Dplan_chrom-6	141709792	141712601	-	mRNA2825	4	0.992157
+scaffold_1	136215678	136228220	Dplan_chrom-6	141698572	141707784	-	mRNA2826	4	0.919137
+scaffold_1	150784126	150841698	Dplan_chrom-6	140700009	140762960	-	mRNA3137	4	0.789174
+#block end
+#block begin
+scaffold_1	238066361	238082361	Dplan_chrom-6	6186329	6198781	+	mRNA4990	5	0.630385
+scaffold_1	238094652	238110605	Dplan_chrom-6	6256379	6265225	+	mRNA4991	5	0.815348
+scaffold_1	238120097	238158820	Dplan_chrom-6	6269811	6324589	+	mRNA4992	5	0.320682
+scaffold_1	245035253	245044383	Dplan_chrom-6	17642013	17651181	+	mRNA5142	5	1
+scaffold_1	249508155	249556844	Dplan_chrom-6	33984771	34031928	+	mRNA5226	5	0.851662
+scaffold_1	249631034	249631206	Dplan_chrom-6	34163400	34163572	+	mRNA5230	5	0.446194
+scaffold_1	250287423	250312404	Dplan_chrom-6	35061013	35072162	+	mRNA5245	5	0.893851
+scaffold_1	264829616	264857934	Dplan_chrom-6	35255873	35270578	+	mRNA5578	5	0.969359
+#block end
+#block begin
+scaffold_1	208426704	208497537	Dplan_chrom-6	153207694	153331854	+	mRNA4306	6	0.933836
+scaffold_1	208792885	208804472	Dplan_chrom-6	154432264	154462580	+	mRNA4313	6	0.472089
+scaffold_1	208847684	208854068	Dplan_chrom-6	154484129	154495545	+	mRNA4314	6	0.982759
+scaffold_1	208854135	208854977	Dplan_chrom-6	154495612	154496457	+	mRNA4315	6	0.988138
+scaffold_1	208948437	208960880	Dplan_chrom-6	154615249	154631760	+	mRNA4318	6	0.889655
+scaffold_1	209017978	209030913	Dplan_chrom-6	157295380	157313398	+	mRNA4322	6	0.96234
+#block end
+#block begin
+scaffold_1	171914913	171936285	Dplan_chrom-6	43643479	43663396	-	mRNA3606	7	0.820571
+scaffold_1	172089473	172155042	Dplan_chrom-6	43531288	43586440	-	mRNA3607	7	0.133899
+scaffold_1	174615698	174641362	Dplan_chrom-6	39730175	39736102	-	mRNA3662	7	0.325843
+scaffold_1	176052320	176075862	Dplan_chrom-6	37485463	37533654	-	mRNA3683	7	0.418489
+scaffold_1	176136819	176145298	Dplan_chrom-6	37414047	37417427	-	mRNA3686	7	0.93864
+scaffold_1	176174148	176211351	Dplan_chrom-6	37372987	37397497	-	mRNA3687	7	0.899815
+scaffold_1	176495175	176505289	Dplan_chrom-6	36881300	36917089	-	mRNA3692	7	0.674216
+#block end
+#block begin
+scaffold_1	229354997	229375988	Dplan_chrom-6	194944765	194961881	+	mRNA4798	8	0.645892
+scaffold_1	229397137	229399236	Dplan_chrom-6	195008455	195010554	+	mRNA4799	8	0.994762
+scaffold_1	230155495	230202700	Dplan_chrom-6	196297144	196400555	+	mRNA4821	8	0.813559
+scaffold_1	230212041	230233975	Dplan_chrom-6	196400679	196430610	+	mRNA4824	8	0.985009
+#block end
+#block begin
+scaffold_1	196547666	196639424	Dplan_chrom-6	52796769	52839144	+	mRNA4088	9	0.800407
+scaffold_1	197687222	197693938	Dplan_chrom-6	54716146	54723179	+	mRNA4099	9	0.920635
+scaffold_1	198016265	198043836	Dplan_chrom-6	55172506	55207604	+	mRNA4109	9	0.854318
+scaffold_1	204510400	204573085	Dplan_chrom-6	61720906	61763329	+	mRNA4238	9	0.929451
+#block end
+#block begin
+scaffold_1	224994088	225080592	Dplan_chrom-6	134250546	134336728	-	mRNA4678	10	0.142379
+scaffold_1	225599897	225601040	Dplan_chrom-6	133828971	133830117	-	mRNA4697	10	0.248011
+scaffold_1	225725244	225753644	Dplan_chrom-6	133743111	133772406	-	mRNA4701	10	0.601362
+scaffold_1	225997537	226002371	Dplan_chrom-6	131622022	131627455	-	mRNA4711	10	0.899106
+scaffold_1	226003542	226018740	Dplan_chrom-6	131603730	131620896	-	mRNA4712	10	1
+scaffold_1	226021496	226030059	Dplan_chrom-6	131588670	131597057	-	mRNA4713	10	0.4219
+#block end
+#block begin
+scaffold_1	265559443	265570986	Dplan_chrom-6	168570276	168581302	-	mRNA5593	11	0.516632
+scaffold_1	265743740	265775685	Dplan_chrom-6	168230730	168256977	-	mRNA5602	11	0.593939
+scaffold_1	265799820	265800882	Dplan_chrom-6	168156861	168159667	-	mRNA5604	11	0.263103
+scaffold_1	266059403	266105095	Dplan_chrom-6	167796714	167812512	-	mRNA5611	11	0.881101
+scaffold_1	266163435	266169193	Dplan_chrom-6	167739084	167754040	-	mRNA5612	11	0.249859
+scaffold_1	266335802	266359107	Dplan_chrom-6	167511896	167527350	-	mRNA5617	11	0.461073
+#block end
+#block begin
+scaffold_1	109286083	109328923	Dplan_chrom-6	210643820	210655052	-	mRNA2183	12	0.93597
+scaffold_1	109522823	109537918	Dplan_chrom-6	210476969	210503082	-	mRNA2193	12	0.912281
+scaffold_1	109595158	109612292	Dplan_chrom-6	210384036	210388345	-	mRNA2196	12	0.917808
+#block end
+#block begin
+scaffold_1	214721115	214742831	Dplan_chrom-6	210847016	210853356	+	mRNA4469	13	0.832173
+scaffold_1	214756356	214768335	Dplan_chrom-6	210875798	210882647	+	mRNA4470	13	0.403743
+scaffold_1	214790646	214819287	Dplan_chrom-6	210899191	210926951	+	mRNA4471	13	0.632079
+scaffold_1	215332542	215333618	Dplan_chrom-6	212132430	212133506	+	mRNA4489	13	0.848051
+#block end
+#block begin
+scaffold_1	230766657	230781090	Dplan_chrom-6	157701226	157710217	+	mRNA4843	14	0.654404
+scaffold_1	230918061	230940647	Dplan_chrom-6	157857930	157868743	+	mRNA4847	14	0.988159
+scaffold_1	230941803	230964076	Dplan_chrom-6	157870634	157898528	+	mRNA4848	14	0.530625
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_2.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_2.fa -a ./Udiv-Dplan/Udiv.scaffold_2.cds.to.Dplan.chrom_6.liftover.sam -as ./Udiv/Udiv.scaffold_2.cds.fa -ar ./Udiv/Udiv.scaffold_2.cds.ref.sam -s ./Dplan/Dplan_chrom_6.fa -n ./Udiv-Dplan/Udiv.scaffold_2.cds.to.Dplan.chrom_6.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_2	62724219	62724926	Dplan_chrom-6	194098794	194099828	-	mRNA12123	1	0.961864
+scaffold_2	62725056	62725495	Dplan_chrom-6	194097010	194097994	-	mRNA12124	1	0.935484
+scaffold_2	81089610	81111949	Dplan_chrom-6	81926334	81933310	-	mRNA12465	1	0.782708
+scaffold_2	182368494	182379409	Dplan_chrom-6	67186548	67191467	-	mRNA14609	1	0.606195
+scaffold_2	188698851	188741145	Dplan_chrom-6	17131284	17158579	-	mRNA14793	1	0.815848
+scaffold_2	207239703	207241429	Dplan_chrom-6	1206800	1209996	-	mRNA15171	1	0.723188
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_3.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_3.fa -a ./Udiv-Dplan/Udiv.scaffold_3.cds.to.Dplan.chrom_6.liftover.sam -as ./Udiv/Udiv.scaffold_3.cds.fa -ar ./Udiv/Udiv.scaffold_3.cds.ref.sam -s ./Dplan/Dplan_chrom_6.fa -n ./Udiv-Dplan/Udiv.scaffold_3.cds.to.Dplan.chrom_6.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_4.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_4.fa -a ./Udiv-Dplan/Udiv.scaffold_4.cds.to.Dplan.chrom_6.liftover.sam -as ./Udiv/Udiv.scaffold_4.cds.fa -ar ./Udiv/Udiv.scaffold_4.cds.ref.sam -s ./Dplan/Dplan_chrom_6.fa -n ./Udiv-Dplan/Udiv.scaffold_4.cds.to.Dplan.chrom_6.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_4	13901033	13913361	Dplan_chrom-6	62800316	62803368	-	mRNA21186	1	0.378227
+scaffold_4	13953475	14061902	Dplan_chrom-6	62706336	62779468	-	mRNA21193	1	0.365232
+scaffold_4	14199819	14288418	Dplan_chrom-6	62460540	62585878	-	mRNA21194	1	0.230054
+scaffold_4	14347462	14365748	Dplan_chrom-6	62376994	62402445	-	mRNA21195	1	0.941436
+scaffold_4	14501638	14534884	Dplan_chrom-6	35865752	35884891	-	mRNA21201	1	0.713194
+scaffold_4	14566826	14604306	Dplan_chrom-6	35732309	35744618	-	mRNA21202	1	0.805169
+scaffold_4	16511146	16559356	Dplan_chrom-6	21033674	21071614	-	mRNA21259	1	0.179616
+scaffold_4	17288582	17311428	Dplan_chrom-6	20929827	20939592	-	mRNA21284	1	0.952265
+#block end
+#block begin
+scaffold_4	118376202	118382085	Dplan_chrom-6	154985257	154991937	-	mRNA23464	2	0.844156
+scaffold_4	136708059	136708998	Dplan_chrom-6	133454736	133455482	-	mRNA23913	2	0.97305
+scaffold_4	191519038	191520812	Dplan_chrom-6	122356576	122358350	-	mRNA25069	2	0.913313
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_5.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_5.fa -a ./Udiv-Dplan/Udiv.scaffold_5.cds.to.Dplan.chrom_6.liftover.sam -as ./Udiv/Udiv.scaffold_5.cds.fa -ar ./Udiv/Udiv.scaffold_5.cds.ref.sam -s ./Dplan/Dplan_chrom_6.fa -n ./Udiv-Dplan/Udiv.scaffold_5.cds.to.Dplan.chrom_6.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_5	12277952	12278348	Dplan_chrom-6	826310	828393	+	mRNA25727	1	0.9801
+scaffold_5	139245795	139517961	Dplan_chrom-6	60145353	60342015	+	mRNA28357	1	0.677011
+scaffold_5	139533879	139567217	Dplan_chrom-6	60352401	60382832	+	mRNA28359	1	0.758477
+scaffold_5	149983554	149991582	Dplan_chrom-6	61194187	61195678	+	mRNA28538	1	0.901667
+scaffold_5	149999061	150033401	Dplan_chrom-6	61233039	61264814	+	mRNA28539	1	0.968992
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_6.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_6.fa -a ./Udiv-Dplan/Udiv.scaffold_6.cds.to.Dplan.chrom_6.liftover.sam -as ./Udiv/Udiv.scaffold_6.cds.fa -ar ./Udiv/Udiv.scaffold_6.cds.ref.sam -s ./Dplan/Dplan_chrom_6.fa -n ./Udiv-Dplan/Udiv.scaffold_6.cds.to.Dplan.chrom_6.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_7.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_7.fa -a ./Udiv-Dplan/Udiv.scaffold_7.cds.to.Dplan.chrom_6.liftover.sam -as ./Udiv/Udiv.scaffold_7.cds.fa -ar ./Udiv/Udiv.scaffold_7.cds.ref.sam -s ./Dplan/Dplan_chrom_6.fa -n ./Udiv-Dplan/Udiv.scaffold_7.cds.to.Dplan.chrom_6.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_7	18776911	18803807	Dplan_chrom-6	122418360	122439708	+	mRNA34077	1	0.531558
+scaffold_7	44863037	44907672	Dplan_chrom-6	153538340	153563112	+	mRNA34539	1	0.814219
+scaffold_7	44912782	44917288	Dplan_chrom-6	153568484	153576328	+	mRNA34540	1	0.669065
+scaffold_7	123119599	123120068	Dplan_chrom-6	194096979	194097994	+	mRNA36130	1	0.939024
+scaffold_7	123120235	123120902	Dplan_chrom-6	194098831	194099828	+	mRNA36131	1	0.962798
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_8.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_8.fa -a ./Udiv-Dplan/Udiv.scaffold_8.cds.to.Dplan.chrom_6.liftover.sam -as ./Udiv/Udiv.scaffold_8.cds.fa -ar ./Udiv/Udiv.scaffold_8.cds.ref.sam -s ./Dplan/Dplan_chrom_6.fa -n ./Udiv-Dplan/Udiv.scaffold_8.cds.to.Dplan.chrom_6.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_8	14377222	14378628	Dplan_chrom-6	194096883	194099828	-	mRNA37925	1	0.968811
+scaffold_8	78776110	78799395	Dplan_chrom-6	167558948	167564290	-	mRNA39205	1	0.936897
+scaffold_8	85601331	85611655	Dplan_chrom-6	37415344	37417418	-	mRNA39333	1	0.770627
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_9.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_9.fa -a ./Udiv-Dplan/Udiv.scaffold_9.cds.to.Dplan.chrom_6.liftover.sam -as ./Udiv/Udiv.scaffold_9.cds.fa -ar ./Udiv/Udiv.scaffold_9.cds.ref.sam -s ./Dplan/Dplan_chrom_6.fa -n ./Udiv-Dplan/Udiv.scaffold_9.cds.to.Dplan.chrom_6.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_10.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_10.fa -a ./Udiv-Dplan/Udiv.scaffold_10.cds.to.Dplan.chrom_6.liftover.sam -as ./Udiv/Udiv.scaffold_10.cds.fa -ar ./Udiv/Udiv.scaffold_10.cds.ref.sam -s ./Dplan/Dplan_chrom_6.fa -n ./Udiv-Dplan/Udiv.scaffold_10.cds.to.Dplan.chrom_6.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_1.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_1.fa -a ./Udiv-Dplan/Udiv.scaffold_1.cds.to.Dplan.chrom_7.liftover.sam -as ./Udiv/Udiv.scaffold_1.cds.fa -ar ./Udiv/Udiv.scaffold_1.cds.ref.sam -s ./Dplan/Dplan_chrom_7.fa -n ./Udiv-Dplan/Udiv.scaffold_1.cds.to.Dplan.chrom_7.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_1	20549784	20550335	Dplan_chrom-7	153768764	153769330	-	mRNA456	1	0.16975
+scaffold_1	49824044	49825646	Dplan_chrom-7	149903254	149904864	-	mRNA940	1	0.628187
+scaffold_1	52156990	52209930	Dplan_chrom-7	112058958	112137093	-	mRNA991	1	0.429504
+scaffold_1	155202940	155207614	Dplan_chrom-7	54403421	54403700	-	mRNA3242	1	0.26975
+scaffold_1	204649683	204707971	Dplan_chrom-7	3777366	3830992	-	mRNA4242	1	0.698968
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_2.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_2.fa -a ./Udiv-Dplan/Udiv.scaffold_2.cds.to.Dplan.chrom_7.liftover.sam -as ./Udiv/Udiv.scaffold_2.cds.fa -ar ./Udiv/Udiv.scaffold_2.cds.ref.sam -s ./Dplan/Dplan_chrom_7.fa -n ./Udiv-Dplan/Udiv.scaffold_2.cds.to.Dplan.chrom_7.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_2	81469484	81530249	Dplan_chrom-7	196876252	196925949	-	mRNA12477	1	0.685027
+scaffold_2	81839265	81851132	Dplan_chrom-7	196056321	196063338	-	mRNA12479	1	0.842276
+scaffold_2	81859815	81924528	Dplan_chrom-7	195988652	195993489	-	mRNA12480	1	0.773118
+scaffold_2	81933158	81954471	Dplan_chrom-7	195964736	195984138	-	mRNA12481	1	0.966341
+scaffold_2	83784962	83824622	Dplan_chrom-7	167227175	167365713	-	mRNA12527	1	0.76551
+scaffold_2	101670235	101671342	Dplan_chrom-7	157731741	157732767	-	mRNA12882	1	0.88025
+scaffold_2	101982813	101983049	Dplan_chrom-7	157369163	157369399	-	mRNA12895	1	0.490683
+scaffold_2	159104929	159133585	Dplan_chrom-7	84477736	84563235	-	mRNA14111	1	0.381594
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_3.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_3.fa -a ./Udiv-Dplan/Udiv.scaffold_3.cds.to.Dplan.chrom_7.liftover.sam -as ./Udiv/Udiv.scaffold_3.cds.fa -ar ./Udiv/Udiv.scaffold_3.cds.ref.sam -s ./Dplan/Dplan_chrom_7.fa -n ./Udiv-Dplan/Udiv.scaffold_3.cds.to.Dplan.chrom_7.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_3	32886866	32887091	Dplan_chrom-7	36934734	36934966	+	mRNA16649	1	0.15814
+scaffold_3	84655419	84656406	Dplan_chrom-7	66945267	66947411	+	mRNA17796	1	0.946429
+scaffold_3	154549955	154553259	Dplan_chrom-7	123838327	123838561	+	mRNA19382	1	0.194305
+scaffold_3	180371572	180372647	Dplan_chrom-7	157731745	157732748	+	mRNA19820	1	0.567901
+scaffold_3	213472499	213472956	Dplan_chrom-7	162966940	162967390	+	mRNA20416	1	0.90101
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_4.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_4.fa -a ./Udiv-Dplan/Udiv.scaffold_4.cds.to.Dplan.chrom_7.liftover.sam -as ./Udiv/Udiv.scaffold_4.cds.fa -ar ./Udiv/Udiv.scaffold_4.cds.ref.sam -s ./Dplan/Dplan_chrom_7.fa -n ./Udiv-Dplan/Udiv.scaffold_4.cds.to.Dplan.chrom_7.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_4	176111368	176115529	Dplan_chrom-7	52417774	52422133	+	mRNA24776	1	1
+scaffold_4	176645976	176736060	Dplan_chrom-7	52709402	52814152	+	mRNA24790	1	0.676882
+scaffold_4	176753894	176773633	Dplan_chrom-7	52840190	52860193	+	mRNA24793	1	0.918095
+scaffold_4	176813261	176839497	Dplan_chrom-7	52903499	52910964	+	mRNA24797	1	0.973829
+scaffold_4	179538627	179633423	Dplan_chrom-7	54235611	54341094	+	mRNA24850	1	0.315689
+scaffold_4	179794247	179794612	Dplan_chrom-7	54507806	54508133	+	mRNA24854	1	0.719818
+scaffold_4	185238761	185265876	Dplan_chrom-7	65744980	65780090	+	mRNA24897	1	0.906396
+scaffold_4	185296603	185297239	Dplan_chrom-7	65809606	65810242	+	mRNA24898	1	0.685185
+scaffold_4	185517214	185528463	Dplan_chrom-7	66078898	66089496	+	mRNA24903	1	0.39548
+scaffold_4	185659117	185674022	Dplan_chrom-7	66186940	66197295	+	mRNA24909	1	0.557355
+scaffold_4	186028782	186045673	Dplan_chrom-7	66547654	66564513	+	mRNA24919	1	0.702762
+scaffold_4	186109060	186120121	Dplan_chrom-7	66624134	66627749	+	mRNA24922	1	0.784219
+scaffold_4	189276590	189278009	Dplan_chrom-7	79392075	79393503	+	mRNA24994	1	0.676573
+#block end
+#block begin
+scaffold_4	26874496	26927622	Dplan_chrom-7	90630856	90636837	-	mRNA21501	2	0.477551
+scaffold_4	27083121	27102774	Dplan_chrom-7	90540137	90564934	-	mRNA21505	2	0.922566
+scaffold_4	27207431	27208546	Dplan_chrom-7	88521286	88522401	-	mRNA21507	2	0.986737
+scaffold_4	28047418	28057236	Dplan_chrom-7	88257319	88273186	-	mRNA21538	2	1
+scaffold_4	28062579	28063992	Dplan_chrom-7	88250977	88252390	-	mRNA21539	2	0.983051
+scaffold_4	28303522	28328635	Dplan_chrom-7	87756103	87760889	-	mRNA21545	2	0.937695
+scaffold_4	29199720	29202773	Dplan_chrom-7	86557675	86560734	-	mRNA21568	2	0.992141
+scaffold_4	30961364	30992297	Dplan_chrom-7	84452771	84500640	-	mRNA21601	2	0.929057
+scaffold_4	31820589	31822567	Dplan_chrom-7	81642452	81643660	-	mRNA21613	2	0.492986
+scaffold_4	31857344	31909782	Dplan_chrom-7	81490002	81531182	-	mRNA21614	2	0.633684
+#block end
+#block begin
+scaffold_4	161235503	161246199	Dplan_chrom-7	93073185	93077818	+	mRNA24427	3	0.988048
+scaffold_4	161718791	161829780	Dplan_chrom-7	93760178	93837743	+	mRNA24437	3	0.771985
+scaffold_4	161867747	161876526	Dplan_chrom-7	93887100	93892431	+	mRNA24438	3	0.617647
+scaffold_4	162844938	162845227	Dplan_chrom-7	98436903	98437202	+	mRNA24469	3	0.736695
+scaffold_4	162872587	162872732	Dplan_chrom-7	98482921	98483135	+	mRNA24473	3	0.417391
+scaffold_4	162922537	162976389	Dplan_chrom-7	98561059	98615748	+	mRNA24477	3	0.547619
+scaffold_4	168493545	168495433	Dplan_chrom-7	100378341	100380151	+	mRNA24609	3	0.325906
+scaffold_4	168600371	168628231	Dplan_chrom-7	100536195	100581459	+	mRNA24612	3	0.787062
+scaffold_4	168692115	168694995	Dplan_chrom-7	100674616	100677484	+	mRNA24615	3	0.972366
+scaffold_4	169034202	169043267	Dplan_chrom-7	101004945	101014210	+	mRNA24629	3	0.703934
+scaffold_4	169274356	169331270	Dplan_chrom-7	101384290	101430231	+	mRNA24640	3	0.774308
+#block end
+#block begin
+scaffold_4	303426	322806	Dplan_chrom-7	20855123	20858993	+	mRNA20878	4	0.990476
+scaffold_4	330218	375576	Dplan_chrom-7	20862584	20873116	+	mRNA20879	4	0.359968
+scaffold_4	1691010	1763429	Dplan_chrom-7	23821727	23844235	+	mRNA20895	4	0.565376
+scaffold_4	2196264	2225144	Dplan_chrom-7	24586961	24595065	+	mRNA20903	4	0.864322
+scaffold_4	2820543	2820704	Dplan_chrom-7	25613819	25613966	+	mRNA20918	4	0.403955
+scaffold_4	5445124	5472130	Dplan_chrom-7	29400402	29433029	+	mRNA20964	4	0.827731
+scaffold_4	19159570	19178526	Dplan_chrom-7	46340320	46348334	+	mRNA21338	4	0.526042
+scaffold_4	19307416	19328746	Dplan_chrom-7	46481978	46503742	+	mRNA21342	4	0.609665
+scaffold_4	19366796	19383542	Dplan_chrom-7	46567741	46574042	+	mRNA21344	4	0.975913
+scaffold_4	19567193	19592170	Dplan_chrom-7	46692249	46716573	+	mRNA21351	4	0.683136
+#block end
+#block begin
+scaffold_4	142744412	142744923	Dplan_chrom-7	118850554	118851065	+	mRNA24070	5	0.998051
+scaffold_4	142777626	142807173	Dplan_chrom-7	118858825	118871824	+	mRNA24071	5	0.660272
+scaffold_4	142818095	142819102	Dplan_chrom-7	118875643	118876655	+	mRNA24072	5	0.921127
+scaffold_4	142825251	142843050	Dplan_chrom-7	118888571	118895224	+	mRNA24073	5	0.995595
+scaffold_4	142848067	142864082	Dplan_chrom-7	118897106	118902325	+	mRNA24074	5	0.78375
+scaffold_4	142869116	142875016	Dplan_chrom-7	118910507	118917372	+	mRNA24075	5	1
+scaffold_4	142875089	142896492	Dplan_chrom-7	118917459	118930566	+	mRNA24076	5	0.995595
+scaffold_4	157498446	157513665	Dplan_chrom-7	126508601	126533715	+	mRNA24344	5	0.997191
+#block end
+#block begin
+scaffold_4	157855828	157884427	Dplan_chrom-7	11723820	11760232	-	mRNA24350	6	0.903901
+scaffold_4	157970566	157981082	Dplan_chrom-7	11600343	11616179	-	mRNA24353	6	0.909737
+scaffold_4	158019994	158026968	Dplan_chrom-7	11526689	11531669	-	mRNA24356	6	0.937429
+scaffold_4	158031748	158043682	Dplan_chrom-7	11509809	11517589	-	mRNA24357	6	0.869963
+scaffold_4	159278118	159279362	Dplan_chrom-7	7886465	7887688	-	mRNA24372	6	0.866522
+scaffold_4	161030932	161039380	Dplan_chrom-7	4510547	4513202	-	mRNA24419	6	0.899136
+#block end
+#block begin
+scaffold_4	170548324	170554243	Dplan_chrom-7	48883096	48895309	-	mRNA24681	7	0.338095
+scaffold_4	170580371	170588102	Dplan_chrom-7	48860350	48862253	-	mRNA24682	7	0.886275
+scaffold_4	170643388	170644336	Dplan_chrom-7	48731552	48732494	-	mRNA24684	7	0.946993
+scaffold_4	170906176	170907548	Dplan_chrom-7	48384805	48386180	-	mRNA24698	7	0.365922
+scaffold_4	171959688	171983034	Dplan_chrom-7	46987677	47003725	-	mRNA24726	7	0.321913
+scaffold_4	171988117	172034414	Dplan_chrom-7	46945161	46986211	-	mRNA24727	7	0.798587
+#block end
+#block begin
+scaffold_4	174202478	174257044	Dplan_chrom-7	17944181	18042861	+	mRNA24756	8	0.749627
+scaffold_4	174908711	174923765	Dplan_chrom-7	19026504	19036598	+	mRNA24758	8	0.807692
+scaffold_4	174941400	174963096	Dplan_chrom-7	19043592	19061754	+	mRNA24760	8	0.734716
+scaffold_4	174989782	175018200	Dplan_chrom-7	19073688	19079069	+	mRNA24761	8	0.62572
+#block end
+#block begin
+scaffold_4	138118837	138126260	Dplan_chrom-7	163773152	163778767	+	mRNA23955	9	0.321356
+scaffold_4	138735554	138808073	Dplan_chrom-7	164665926	164666525	+	mRNA23982	9	0.684932
+scaffold_4	138810075	138810314	Dplan_chrom-7	164670664	164670889	+	mRNA23984	9	0.512644
+scaffold_4	138928006	138928581	Dplan_chrom-7	164842080	164842658	+	mRNA23987	9	0.625407
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_5.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_5.fa -a ./Udiv-Dplan/Udiv.scaffold_5.cds.to.Dplan.chrom_7.liftover.sam -as ./Udiv/Udiv.scaffold_5.cds.fa -ar ./Udiv/Udiv.scaffold_5.cds.ref.sam -s ./Dplan/Dplan_chrom_7.fa -n ./Udiv-Dplan/Udiv.scaffold_5.cds.to.Dplan.chrom_7.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_6.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_6.fa -a ./Udiv-Dplan/Udiv.scaffold_6.cds.to.Dplan.chrom_7.liftover.sam -as ./Udiv/Udiv.scaffold_6.cds.fa -ar ./Udiv/Udiv.scaffold_6.cds.ref.sam -s ./Dplan/Dplan_chrom_7.fa -n ./Udiv-Dplan/Udiv.scaffold_6.cds.to.Dplan.chrom_7.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_6	37120387	37120680	Dplan_chrom-7	202904051	202904360	-	mRNA30545	1	0.778711
+scaffold_6	67630803	67631474	Dplan_chrom-7	202027912	202028580	-	mRNA31175	1	0.683128
+scaffold_6	67764135	67791867	Dplan_chrom-7	201785996	201795278	-	mRNA31176	1	0.985836
+scaffold_6	67814380	67829871	Dplan_chrom-7	201757757	201770486	-	mRNA31177	1	0.813953
+scaffold_6	87778175	87785822	Dplan_chrom-7	193832616	193838035	-	mRNA31622	1	0.608273
+scaffold_6	130378059	130459549	Dplan_chrom-7	179063985	179111096	-	mRNA32542	1	0.989497
+scaffold_6	130868921	130878053	Dplan_chrom-7	178019273	178025203	-	mRNA32546	1	0.962487
+scaffold_6	130890155	130941691	Dplan_chrom-7	177981208	178012324	-	mRNA32547	1	0.956021
+scaffold_6	166470604	166651455	Dplan_chrom-7	114897166	115010581	-	mRNA33166	1	0.898778
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_7.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_7.fa -a ./Udiv-Dplan/Udiv.scaffold_7.cds.to.Dplan.chrom_7.liftover.sam -as ./Udiv/Udiv.scaffold_7.cds.fa -ar ./Udiv/Udiv.scaffold_7.cds.ref.sam -s ./Dplan/Dplan_chrom_7.fa -n ./Udiv-Dplan/Udiv.scaffold_7.cds.to.Dplan.chrom_7.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_8.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_8.fa -a ./Udiv-Dplan/Udiv.scaffold_8.cds.to.Dplan.chrom_7.liftover.sam -as ./Udiv/Udiv.scaffold_8.cds.fa -ar ./Udiv/Udiv.scaffold_8.cds.ref.sam -s ./Dplan/Dplan_chrom_7.fa -n ./Udiv-Dplan/Udiv.scaffold_8.cds.to.Dplan.chrom_7.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_8	41831270	41853890	Dplan_chrom-7	2550723	2565361	+	mRNA38501	1	0.720238
+scaffold_8	41906053	41920676	Dplan_chrom-7	2598246	2607807	+	mRNA38503	1	0.335996
+scaffold_8	46236715	46282563	Dplan_chrom-7	105558788	105591771	+	mRNA38605	1	0.500581
+scaffold_8	46304370	46316849	Dplan_chrom-7	105624439	105630428	+	mRNA38606	1	0.918385
+scaffold_8	46327407	46352977	Dplan_chrom-7	105649356	105678516	+	mRNA38607	1	0.904033
+scaffold_8	46424758	46447813	Dplan_chrom-7	105779095	105791195	+	mRNA38609	1	0.984
+scaffold_8	55641515	55774672	Dplan_chrom-7	151453932	151604765	+	mRNA38774	1	0.781174
+scaffold_8	56031080	56104879	Dplan_chrom-7	152084935	152173039	+	mRNA38781	1	0.625321
+scaffold_8	56734738	56739143	Dplan_chrom-7	153356904	153365702	+	mRNA38791	1	0.843802
+scaffold_8	57495770	57531759	Dplan_chrom-7	174050439	174070453	+	mRNA38802	1	0.964366
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_9.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_9.fa -a ./Udiv-Dplan/Udiv.scaffold_9.cds.to.Dplan.chrom_7.liftover.sam -as ./Udiv/Udiv.scaffold_9.cds.fa -ar ./Udiv/Udiv.scaffold_9.cds.ref.sam -s ./Dplan/Dplan_chrom_7.fa -n ./Udiv-Dplan/Udiv.scaffold_9.cds.to.Dplan.chrom_7.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_9	54070042	54107491	Dplan_chrom-7	4437447	4464889	+	mRNA44121	1	0.616624
+scaffold_9	57445077	57445374	Dplan_chrom-7	142930953	142931225	+	mRNA44286	1	0.974359
+scaffold_9	89705673	89743653	Dplan_chrom-7	149842720	149844700	+	mRNA45531	1	0.485728
+scaffold_9	138066502	138068038	Dplan_chrom-7	183518308	183522667	+	mRNA46798	1	0.184909
+scaffold_9	138484305	138496102	Dplan_chrom-7	193796545	193801017	+	mRNA46805	1	0.715953
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_10.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_10.fa -a ./Udiv-Dplan/Udiv.scaffold_10.cds.to.Dplan.chrom_7.liftover.sam -as ./Udiv/Udiv.scaffold_10.cds.fa -ar ./Udiv/Udiv.scaffold_10.cds.ref.sam -s ./Dplan/Dplan_chrom_7.fa -n ./Udiv-Dplan/Udiv.scaffold_10.cds.to.Dplan.chrom_7.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_1.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_1.fa -a ./Udiv-Dplan/Udiv.scaffold_1.cds.to.Dplan.chrom_8.liftover.sam -as ./Udiv/Udiv.scaffold_1.cds.fa -ar ./Udiv/Udiv.scaffold_1.cds.ref.sam -s ./Dplan/Dplan_chrom_8.fa -n ./Udiv-Dplan/Udiv.scaffold_1.cds.to.Dplan.chrom_8.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_1	51387813	51428368	Dplan_chrom-8	88337829	88358501	+	mRNA975	1	0.962853
+scaffold_1	51428548	51428929	Dplan_chrom-8	88358684	88359048	+	mRNA976	1	0.664762
+scaffold_1	51484159	51509412	Dplan_chrom-8	88564656	88578998	+	mRNA978	1	0.946154
+scaffold_1	52142885	52210053	Dplan_chrom-8	88720476	88789188	+	mRNA991	1	0.96227
+scaffold_1	52250551	52251122	Dplan_chrom-8	88907937	88908508	+	mRNA992	1	0.961279
+scaffold_1	52272348	52304742	Dplan_chrom-8	88928439	88960420	+	mRNA993	1	0.438048
+scaffold_1	52544906	52581072	Dplan_chrom-8	89136740	89148763	+	mRNA1006	1	0.590057
+scaffold_1	52608527	52645057	Dplan_chrom-8	89190644	89197829	+	mRNA1007	1	0.954508
+scaffold_1	53354184	53408886	Dplan_chrom-8	89396135	89427527	+	mRNA1017	1	0.639183
+scaffold_1	53519640	53541484	Dplan_chrom-8	150985795	151000247	+	mRNA1020	1	0.811301
+scaffold_1	53547637	53576870	Dplan_chrom-8	151005088	151034346	+	mRNA1022	1	0.852564
+scaffold_1	55287068	55337272	Dplan_chrom-8	155124180	155142029	+	mRNA1049	1	0.982249
+scaffold_1	55474082	55602603	Dplan_chrom-8	163653529	163707677	+	mRNA1056	1	0.885916
+scaffold_1	55650820	55656846	Dplan_chrom-8	163770760	163771358	+	mRNA1057	1	0.11697
+scaffold_1	55716601	55760562	Dplan_chrom-8	163842320	163866985	+	mRNA1059	1	0.842617
+#block end
+#block begin
+scaffold_1	58212341	58308749	Dplan_chrom-8	25320322	25394818	+	mRNA1147	2	0.957401
+scaffold_1	63441304	63469469	Dplan_chrom-8	25574456	25590065	+	mRNA1264	2	0.362933
+scaffold_1	64041978	64043265	Dplan_chrom-8	26341736	26343025	+	mRNA1286	2	0.932166
+scaffold_1	64237738	64253571	Dplan_chrom-8	26420074	26435212	+	mRNA1291	2	0.455568
+scaffold_1	65470616	65523714	Dplan_chrom-8	26607383	26637063	+	mRNA1323	2	0.720918
+scaffold_1	65615323	65616369	Dplan_chrom-8	26684131	26685174	+	mRNA1325	2	0.93733
+scaffold_1	65650865	65670909	Dplan_chrom-8	26845322	26854638	+	mRNA1327	2	0.414698
+scaffold_1	80585838	80587399	Dplan_chrom-8	26871452	26873013	+	mRNA1664	2	0.941574
+scaffold_1	85214936	85303011	Dplan_chrom-8	27923668	27929621	+	mRNA1778	2	0.82699
+scaffold_1	85681121	85793129	Dplan_chrom-8	29142415	29170746	+	mRNA1790	2	0.704996
+scaffold_1	85901298	85934246	Dplan_chrom-8	29227880	29232564	+	mRNA1792	2	0.747879
+scaffold_1	86990730	87229827	Dplan_chrom-8	29998113	30104126	+	mRNA1822	2	0.500879
+scaffold_1	87253570	87260452	Dplan_chrom-8	30121109	30126210	+	mRNA1823	2	0.842222
+#block end
+#block begin
+scaffold_1	36983456	37043125	Dplan_chrom-8	83876954	83941909	-	mRNA783	3	0.383678
+scaffold_1	37128325	37329941	Dplan_chrom-8	83465712	83617752	-	mRNA785	3	0.757315
+scaffold_1	37343209	37356243	Dplan_chrom-8	83439865	83453828	-	mRNA786	3	0.90719
+scaffold_1	37578612	37585754	Dplan_chrom-8	83192858	83199311	-	mRNA797	3	0.307042
+scaffold_1	39536557	39563148	Dplan_chrom-8	71514242	71526648	-	mRNA834	3	0.351729
+scaffold_1	43047414	43054519	Dplan_chrom-8	62645471	62650665	-	mRNA872	3	0.433946
+scaffold_1	45076977	45187067	Dplan_chrom-8	57957534	57959304	-	mRNA884	3	0.513752
+scaffold_1	46216014	46267810	Dplan_chrom-8	51158789	51210720	-	mRNA891	3	0.358042
+scaffold_1	46698266	46730231	Dplan_chrom-8	50266214	50393685	-	mRNA898	3	0.673595
+scaffold_1	48016370	48093419	Dplan_chrom-8	46990353	47093314	-	mRNA912	3	0.582583
+scaffold_1	48813537	48855518	Dplan_chrom-8	45330286	45364043	-	mRNA922	3	0.954575
+scaffold_1	48877519	48944101	Dplan_chrom-8	45276282	45328649	-	mRNA923	3	0.948006
+scaffold_1	48993006	48993331	Dplan_chrom-8	45234524	45234843	-	mRNA927	3	0.686022
+scaffold_1	49683400	49729120	Dplan_chrom-8	44357490	44370618	-	mRNA937	3	0.713303
+#block end
+#block begin
+scaffold_1	56354533	56391705	Dplan_chrom-8	166738173	166754679	+	mRNA1077	4	0.608025
+scaffold_1	57281746	57288405	Dplan_chrom-8	167934596	167939801	+	mRNA1115	4	0.912752
+scaffold_1	57289260	57289447	Dplan_chrom-8	167941130	167941320	+	mRNA1116	4	0.688645
+scaffold_1	57367468	57377477	Dplan_chrom-8	168030807	168036705	+	mRNA1119	4	0.696391
+#block end
+#block begin
+scaffold_1	24907782	24919355	Dplan_chrom-8	182115474	182127548	+	mRNA542	5	0.832007
+scaffold_1	24952493	25001998	Dplan_chrom-8	182139768	182180902	+	mRNA543	5	0.988124
+scaffold_1	25247627	25248398	Dplan_chrom-8	182391774	182392545	+	mRNA553	5	0.857143
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_2.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_2.fa -a ./Udiv-Dplan/Udiv.scaffold_2.cds.to.Dplan.chrom_8.liftover.sam -as ./Udiv/Udiv.scaffold_2.cds.fa -ar ./Udiv/Udiv.scaffold_2.cds.ref.sam -s ./Dplan/Dplan_chrom_8.fa -n ./Udiv-Dplan/Udiv.scaffold_2.cds.to.Dplan.chrom_8.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_2	55593776	55600687	Dplan_chrom-8	165941530	165946568	-	mRNA11966	1	0.994838
+scaffold_2	128660960	128674133	Dplan_chrom-8	124968090	124976570	-	mRNA13460	1	0.534627
+scaffold_2	128677102	128729812	Dplan_chrom-8	124931656	124965899	-	mRNA13461	1	0.956808
+scaffold_2	168784538	168784871	Dplan_chrom-8	119306264	119306563	-	mRNA14287	1	0.710145
+scaffold_2	168875325	168875468	Dplan_chrom-8	119201127	119201264	-	mRNA14291	1	0.397101
+scaffold_2	168897803	168897978	Dplan_chrom-8	119169135	119169299	-	mRNA14293	1	0.29078
+scaffold_2	169088615	169088743	Dplan_chrom-8	118885507	118885631	-	mRNA14298	1	0.54386
+scaffold_2	169206580	169207029	Dplan_chrom-8	118682703	118683132	-	mRNA14302	1	0.88
+scaffold_2	170029823	170089246	Dplan_chrom-8	117754931	117810066	-	mRNA14328	1	0.806349
+scaffold_2	170437619	170454222	Dplan_chrom-8	116731935	116740933	-	mRNA14331	1	0.607949
+scaffold_2	170468614	170522547	Dplan_chrom-8	116671253	116711115	-	mRNA14332	1	0.735032
+scaffold_2	170555989	170583470	Dplan_chrom-8	116608336	116625915	-	mRNA14333	1	0.950388
+scaffold_2	171173741	171174471	Dplan_chrom-8	115374397	115393830	-	mRNA14345	1	0.115506
+#block end
+#block begin
+scaffold_2	176645333	176692253	Dplan_chrom-8	20937144	20940426	+	mRNA14472	2	0.144414
+scaffold_2	176804738	176830286	Dplan_chrom-8	21045559	21058932	+	mRNA14482	2	0.314815
+scaffold_2	180593015	180630796	Dplan_chrom-8	36238082	36253373	+	mRNA14564	2	0.724401
+scaffold_2	180653412	180699747	Dplan_chrom-8	36278372	36289696	+	mRNA14565	2	0.329745
+scaffold_2	205281094	205347856	Dplan_chrom-8	40014155	40075878	+	mRNA15127	2	0.526124
+scaffold_2	213214975	213220558	Dplan_chrom-8	97215641	97221251	+	mRNA15320	2	0.920563
+scaffold_2	213238019	213281550	Dplan_chrom-8	97241473	97312490	+	mRNA15321	2	0.607267
+scaffold_2	213559404	213564475	Dplan_chrom-8	97549751	97560931	+	mRNA15326	2	0.696041
+scaffold_2	214155687	214283926	Dplan_chrom-8	98509566	98533476	+	mRNA15350	2	0.42094
+scaffold_2	214600038	214665749	Dplan_chrom-8	99187584	99209376	+	mRNA15356	2	0.459738
+scaffold_2	214790450	214810859	Dplan_chrom-8	99353421	99395898	+	mRNA15367	2	0.774164
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_3.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_3.fa -a ./Udiv-Dplan/Udiv.scaffold_3.cds.to.Dplan.chrom_8.liftover.sam -as ./Udiv/Udiv.scaffold_3.cds.fa -ar ./Udiv/Udiv.scaffold_3.cds.ref.sam -s ./Dplan/Dplan_chrom_8.fa -n ./Udiv-Dplan/Udiv.scaffold_3.cds.to.Dplan.chrom_8.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_4.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_4.fa -a ./Udiv-Dplan/Udiv.scaffold_4.cds.to.Dplan.chrom_8.liftover.sam -as ./Udiv/Udiv.scaffold_4.cds.fa -ar ./Udiv/Udiv.scaffold_4.cds.ref.sam -s ./Dplan/Dplan_chrom_8.fa -n ./Udiv-Dplan/Udiv.scaffold_4.cds.to.Dplan.chrom_8.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_4	15935314	15963379	Dplan_chrom-8	170403247	170406669	-	mRNA21241	1	0.494318
+scaffold_4	16083297	16138624	Dplan_chrom-8	170299669	170317354	-	mRNA21247	1	0.468316
+scaffold_4	16172114	16186550	Dplan_chrom-8	170262740	170276374	-	mRNA21248	1	0.476375
+scaffold_4	118258158	118264593	Dplan_chrom-8	165941560	165946568	-	mRNA23458	1	0.968219
+scaffold_4	124992624	125041586	Dplan_chrom-8	100168619	100374647	-	mRNA23639	1	0.161677
+scaffold_4	143909896	143919466	Dplan_chrom-8	36594528	36599642	-	mRNA24107	1	0.699433
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_5.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_5.fa -a ./Udiv-Dplan/Udiv.scaffold_5.cds.to.Dplan.chrom_8.liftover.sam -as ./Udiv/Udiv.scaffold_5.cds.fa -ar ./Udiv/Udiv.scaffold_5.cds.ref.sam -s ./Dplan/Dplan_chrom_8.fa -n ./Udiv-Dplan/Udiv.scaffold_5.cds.to.Dplan.chrom_8.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_5	12277463	12277767	Dplan_chrom-8	14520973	14521266	+	mRNA25726	1	0.75
+scaffold_5	12277953	12278353	Dplan_chrom-8	159248417	159248839	+	mRNA25727	1	0.995025
+scaffold_5	71419996	71461620	Dplan_chrom-8	166523646	166565562	+	mRNA26792	1	0.742034
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_6.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_6.fa -a ./Udiv-Dplan/Udiv.scaffold_6.cds.to.Dplan.chrom_8.liftover.sam -as ./Udiv/Udiv.scaffold_6.cds.fa -ar ./Udiv/Udiv.scaffold_6.cds.ref.sam -s ./Dplan/Dplan_chrom_8.fa -n ./Udiv-Dplan/Udiv.scaffold_6.cds.to.Dplan.chrom_8.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_6	44461201	44560272	Dplan_chrom-8	198630444	198672172	-	mRNA30681	1	0.763841
+scaffold_6	44697709	44712454	Dplan_chrom-8	196410891	196414352	-	mRNA30686	1	0.51626
+scaffold_6	46327907	46328093	Dplan_chrom-8	185189138	185189324	-	mRNA30719	1	0.0644605
+scaffold_6	128071005	128076866	Dplan_chrom-8	184188055	184190184	-	mRNA32481	1	0.668254
+scaffold_6	162427701	162430219	Dplan_chrom-8	162969959	162972495	-	mRNA33090	1	0.849551
+scaffold_6	162638771	162681414	Dplan_chrom-8	162774283	162786192	-	mRNA33092	1	0.91343
+scaffold_6	162844196	162963772	Dplan_chrom-8	162310546	162404508	-	mRNA33096	1	0.684564
+scaffold_6	163057562	163081964	Dplan_chrom-8	162147607	162161347	-	mRNA33097	1	0.80137
+scaffold_6	163382063	163383076	Dplan_chrom-8	161822211	161823212	-	mRNA33102	1	0.979437
+scaffold_6	163865443	163900297	Dplan_chrom-8	161236220	161246182	-	mRNA33110	1	0.587992
+scaffold_6	167025002	167119516	Dplan_chrom-8	37340849	37386080	-	mRNA33172	1	0.734827
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_7.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_7.fa -a ./Udiv-Dplan/Udiv.scaffold_7.cds.to.Dplan.chrom_8.liftover.sam -as ./Udiv/Udiv.scaffold_7.cds.fa -ar ./Udiv/Udiv.scaffold_7.cds.ref.sam -s ./Dplan/Dplan_chrom_8.fa -n ./Udiv-Dplan/Udiv.scaffold_7.cds.to.Dplan.chrom_8.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_7	33880156	33880617	Dplan_chrom-8	133770929	133771393	-	mRNA34375	1	0.889546
+scaffold_7	36310241	36310832	Dplan_chrom-8	133688441	133689034	-	mRNA34402	1	0.403181
+scaffold_7	36318278	36364755	Dplan_chrom-8	133642750	133676245	-	mRNA34403	1	0.861758
+scaffold_7	122892855	122894770	Dplan_chrom-8	60744781	60746694	-	mRNA36126	1	0.391981
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_8.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_8.fa -a ./Udiv-Dplan/Udiv.scaffold_8.cds.to.Dplan.chrom_8.liftover.sam -as ./Udiv/Udiv.scaffold_8.cds.fa -ar ./Udiv/Udiv.scaffold_8.cds.ref.sam -s ./Dplan/Dplan_chrom_8.fa -n ./Udiv-Dplan/Udiv.scaffold_8.cds.to.Dplan.chrom_8.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_9.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_9.fa -a ./Udiv-Dplan/Udiv.scaffold_9.cds.to.Dplan.chrom_8.liftover.sam -as ./Udiv/Udiv.scaffold_9.cds.fa -ar ./Udiv/Udiv.scaffold_9.cds.ref.sam -s ./Dplan/Dplan_chrom_8.fa -n ./Udiv-Dplan/Udiv.scaffold_9.cds.to.Dplan.chrom_8.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_9	65981498	65981822	Dplan_chrom-8	183069201	183069522	-	mRNA44552	1	0.90678
+scaffold_9	87083548	87083756	Dplan_chrom-8	49948096	49948723	-	mRNA45473	1	0.839357
+scaffold_9	112045149	112045383	Dplan_chrom-8	26436041	26436274	-	mRNA46263	1	0.822695
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_10.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_10.fa -a ./Udiv-Dplan/Udiv.scaffold_10.cds.to.Dplan.chrom_8.liftover.sam -as ./Udiv/Udiv.scaffold_10.cds.fa -ar ./Udiv/Udiv.scaffold_10.cds.ref.sam -s ./Dplan/Dplan_chrom_8.fa -n ./Udiv-Dplan/Udiv.scaffold_10.cds.to.Dplan.chrom_8.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_10	103779021	103779541	Dplan_chrom-8	26436187	26436857	+	mRNA7412	1	0.798742
+scaffold_10	106631470	106631629	Dplan_chrom-8	35059674	35059836	+	mRNA7447	1	0.548611
+scaffold_10	123775094	123805822	Dplan_chrom-8	56057099	56069294	+	mRNA7806	1	0.682939
+scaffold_10	123914931	123926405	Dplan_chrom-8	164046396	164060603	+	mRNA7810	1	0.627451
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_1.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_1.fa -a ./Udiv-Dplan/Udiv.scaffold_1.cds.to.Dplan.chrom_9.liftover.sam -as ./Udiv/Udiv.scaffold_1.cds.fa -ar ./Udiv/Udiv.scaffold_1.cds.ref.sam -s ./Dplan/Dplan_chrom_9.fa -n ./Udiv-Dplan/Udiv.scaffold_1.cds.to.Dplan.chrom_9.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_1	2284896	2300083	Dplan_chrom-9	71458070	71458354	+	mRNA46	1	0.484694
+scaffold_1	2405063	2437556	Dplan_chrom-9	71515668	71540186	+	mRNA50	1	0.619603
+scaffold_1	3315338	3332353	Dplan_chrom-9	93479130	93487086	+	mRNA63	1	0.553328
+scaffold_1	3388182	3427311	Dplan_chrom-9	106476304	106514139	+	mRNA65	1	0.699526
+scaffold_1	228424578	228451435	Dplan_chrom-9	124143311	124164901	+	mRNA4771	1	0.90781
+scaffold_1	228896741	228903106	Dplan_chrom-9	124755391	124759653	+	mRNA4784	1	0.7
+scaffold_1	228915394	228926753	Dplan_chrom-9	124773218	124782040	+	mRNA4785	1	0.809195
+scaffold_1	228931603	228953755	Dplan_chrom-9	124786133	124808887	+	mRNA4786	1	0.842786
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_2.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_2.fa -a ./Udiv-Dplan/Udiv.scaffold_2.cds.to.Dplan.chrom_9.liftover.sam -as ./Udiv/Udiv.scaffold_2.cds.fa -ar ./Udiv/Udiv.scaffold_2.cds.ref.sam -s ./Dplan/Dplan_chrom_9.fa -n ./Udiv-Dplan/Udiv.scaffold_2.cds.to.Dplan.chrom_9.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_2	107982354	108094308	Dplan_chrom-9	186407048	186519694	-	mRNA13014	1	0.199183
+scaffold_2	108122139	108125675	Dplan_chrom-9	186370603	186374175	-	mRNA13018	1	0.287172
+scaffold_2	139860604	139863037	Dplan_chrom-9	162195801	162198298	-	mRNA13675	1	0.219735
+scaffold_2	139993531	140073103	Dplan_chrom-9	162067555	162072907	-	mRNA13678	1	0.891493
+scaffold_2	140105506	140131827	Dplan_chrom-9	162006993	162055055	-	mRNA13681	1	0.939928
+scaffold_2	140142851	140152715	Dplan_chrom-9	161979735	161984350	-	mRNA13682	1	0.330561
+scaffold_2	144531651	144543557	Dplan_chrom-9	154698113	154713703	-	mRNA13787	1	0.657105
+scaffold_2	144796277	144848718	Dplan_chrom-9	154079321	154103706	-	mRNA13793	1	0.920981
+scaffold_2	145026732	145053208	Dplan_chrom-9	153868444	153904898	-	mRNA13796	1	0.574578
+scaffold_2	145360881	145468914	Dplan_chrom-9	153033293	153160327	-	mRNA13802	1	0.80356
+scaffold_2	145479002	145517216	Dplan_chrom-9	153001154	153013722	-	mRNA13803	1	0.847352
+scaffold_2	145950926	145962141	Dplan_chrom-9	151914352	151935778	-	mRNA13805	1	0.765131
+scaffold_2	146912980	146920971	Dplan_chrom-9	150198311	150201404	-	mRNA13821	1	0.491138
+scaffold_2	147355842	147453751	Dplan_chrom-9	148072224	148130635	-	mRNA13828	1	0.820852
+scaffold_2	147530762	147610082	Dplan_chrom-9	147782959	147986408	-	mRNA13829	1	0.559764
+scaffold_2	148894060	148899277	Dplan_chrom-9	145267012	145267928	-	mRNA13851	1	0.745196
+scaffold_2	148923128	148944948	Dplan_chrom-9	145088525	145124186	-	mRNA13853	1	0.474064
+scaffold_2	156316297	156328207	Dplan_chrom-9	140098567	140102235	-	mRNA14031	1	0.512402
+scaffold_2	156638787	156645451	Dplan_chrom-9	138306347	138312336	-	mRNA14047	1	0.96997
+scaffold_2	156861754	156862682	Dplan_chrom-9	138088755	138089683	-	mRNA14052	1	0.991453
+scaffold_2	157165213	157175783	Dplan_chrom-9	137892913	137898309	-	mRNA14064	1	0.867077
+#block end
+#block begin
+scaffold_2	182368206	182379640	Dplan_chrom-9	85854343	85858797	+	mRNA14609	2	0.991888
+scaffold_2	185881995	185907511	Dplan_chrom-9	98242524	98265883	+	mRNA14714	2	0.652572
+scaffold_2	185913303	185956734	Dplan_chrom-9	98330244	98362182	+	mRNA14715	2	0.665248
+scaffold_2	186145186	186145455	Dplan_chrom-9	98550395	98550666	+	mRNA14722	2	0.518304
+scaffold_2	186302513	186341443	Dplan_chrom-9	98730660	98752020	+	mRNA14729	2	0.991847
+scaffold_2	187811762	187841170	Dplan_chrom-9	102916166	102924856	+	mRNA14768	2	0.88764
+scaffold_2	187955732	187991195	Dplan_chrom-9	102996246	103161895	+	mRNA14773	2	0.133484
+scaffold_2	190090482	190114965	Dplan_chrom-9	105121167	105142729	+	mRNA14830	2	0.725355
+scaffold_2	191117237	191138923	Dplan_chrom-9	107832828	107852024	+	mRNA14845	2	0.544954
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_3.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_3.fa -a ./Udiv-Dplan/Udiv.scaffold_3.cds.to.Dplan.chrom_9.liftover.sam -as ./Udiv/Udiv.scaffold_3.cds.fa -ar ./Udiv/Udiv.scaffold_3.cds.ref.sam -s ./Dplan/Dplan_chrom_9.fa -n ./Udiv-Dplan/Udiv.scaffold_3.cds.to.Dplan.chrom_9.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_3	72365234	72376234	Dplan_chrom-9	182292468	182294190	-	mRNA17489	1	0.949853
+scaffold_3	77612284	77701412	Dplan_chrom-9	139623686	139634225	-	mRNA17637	1	0.691466
+scaffold_3	104657089	104687051	Dplan_chrom-9	134303333	134341358	-	mRNA18335	1	0.131277
+scaffold_3	162680595	162754670	Dplan_chrom-9	133603268	133646344	-	mRNA19514	1	0.247891
+scaffold_3	208027693	208039749	Dplan_chrom-9	133003086	133006776	-	mRNA20317	1	0.920319
+scaffold_3	211853887	211855533	Dplan_chrom-9	40561042	40562847	-	mRNA20378	1	0.901024
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_4.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_4.fa -a ./Udiv-Dplan/Udiv.scaffold_4.cds.to.Dplan.chrom_9.liftover.sam -as ./Udiv/Udiv.scaffold_4.cds.fa -ar ./Udiv/Udiv.scaffold_4.cds.ref.sam -s ./Dplan/Dplan_chrom_9.fa -n ./Udiv-Dplan/Udiv.scaffold_4.cds.to.Dplan.chrom_9.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_4	78083360	78083612	Dplan_chrom-9	159850762	159851013	-	mRNA22599	1	0.401274
+scaffold_4	112344570	112345247	Dplan_chrom-9	131838636	131840302	-	mRNA23337	1	0.943005
+scaffold_4	118258158	118264621	Dplan_chrom-9	85854345	85858797	-	mRNA23458	1	0.99187
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_5.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_5.fa -a ./Udiv-Dplan/Udiv.scaffold_5.cds.to.Dplan.chrom_9.liftover.sam -as ./Udiv/Udiv.scaffold_5.cds.fa -ar ./Udiv/Udiv.scaffold_5.cds.ref.sam -s ./Dplan/Dplan_chrom_9.fa -n ./Udiv-Dplan/Udiv.scaffold_5.cds.to.Dplan.chrom_9.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_5	28799900	28802231	Dplan_chrom-9	151090286	151091087	+	mRNA26000	1	0.927991
+scaffold_5	51907316	51907621	Dplan_chrom-9	166384973	166386547	+	mRNA26369	1	0.996732
+scaffold_5	163272546	163287268	Dplan_chrom-9	175912803	175935236	+	mRNA28827	1	0.788332
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_6.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_6.fa -a ./Udiv-Dplan/Udiv.scaffold_6.cds.to.Dplan.chrom_9.liftover.sam -as ./Udiv/Udiv.scaffold_6.cds.fa -ar ./Udiv/Udiv.scaffold_6.cds.ref.sam -s ./Dplan/Dplan_chrom_9.fa -n ./Udiv-Dplan/Udiv.scaffold_6.cds.to.Dplan.chrom_9.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_7.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_7.fa -a ./Udiv-Dplan/Udiv.scaffold_7.cds.to.Dplan.chrom_9.liftover.sam -as ./Udiv/Udiv.scaffold_7.cds.fa -ar ./Udiv/Udiv.scaffold_7.cds.ref.sam -s ./Dplan/Dplan_chrom_9.fa -n ./Udiv-Dplan/Udiv.scaffold_7.cds.to.Dplan.chrom_9.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_7	132611208	132672271	Dplan_chrom-9	112718211	112751949	+	mRNA36325	1	0.842697
+scaffold_7	132787905	132907121	Dplan_chrom-9	112813171	112885832	+	mRNA36331	1	0.943422
+scaffold_7	133266863	133293202	Dplan_chrom-9	113463467	113470952	+	mRNA36339	1	0.850538
+scaffold_7	133574338	133621991	Dplan_chrom-9	113691581	113756654	+	mRNA36345	1	0.947566
+scaffold_7	134130856	134174933	Dplan_chrom-9	114604239	114657538	+	mRNA36347	1	0.977178
+scaffold_7	140796696	140806160	Dplan_chrom-9	120584226	120590374	+	mRNA36471	1	0.974684
+scaffold_7	141321882	141364220	Dplan_chrom-9	121899555	121908417	+	mRNA36483	1	0.978695
+scaffold_7	141519845	141558350	Dplan_chrom-9	122163030	122177695	+	mRNA36485	1	0.911743
+scaffold_7	141559412	141616706	Dplan_chrom-9	122182288	122212389	+	mRNA36486	1	0.666299
+scaffold_7	147318132	147355533	Dplan_chrom-9	134938272	134965901	+	mRNA36609	1	0.532898
+scaffold_7	147379587	147397811	Dplan_chrom-9	134973904	134986952	+	mRNA36613	1	0.597257
+scaffold_7	148614244	148615559	Dplan_chrom-9	135741231	135742549	+	mRNA36640	1	0.851924
+scaffold_7	148880827	148929263	Dplan_chrom-9	135944088	135987905	+	mRNA36647	1	0.838166
+#block end
+#block begin
+scaffold_7	91800823	91831821	Dplan_chrom-9	47614899	47630330	-	mRNA35441	2	0.631195
+scaffold_7	96713333	96753882	Dplan_chrom-9	47423613	47441868	-	mRNA35560	2	0.871847
+scaffold_7	96778124	96779977	Dplan_chrom-9	47397406	47399266	-	mRNA35562	2	0.877013
+scaffold_7	98982923	99000020	Dplan_chrom-9	46304631	46318748	-	mRNA35647	2	0.997669
+scaffold_7	99017695	99019506	Dplan_chrom-9	46299205	46301037	-	mRNA35648	2	0.811278
+scaffold_7	99090218	99093013	Dplan_chrom-9	46273522	46276305	-	mRNA35651	2	0.846872
+scaffold_7	99244461	99259888	Dplan_chrom-9	46069325	46078585	-	mRNA35655	2	0.603666
+#block end
+#block begin
+scaffold_7	13667122	13708963	Dplan_chrom-9	69924070	69986121	+	mRNA33971	3	0.778736
+scaffold_7	18047923	18052599	Dplan_chrom-9	85854336	85858797	+	mRNA34064	3	0.999263
+scaffold_7	54940330	54941991	Dplan_chrom-9	109849621	109851282	+	mRNA34707	3	0.965035
+scaffold_7	55513427	55515159	Dplan_chrom-9	110261013	110262733	+	mRNA34713	3	0.942414
+#block end
+#block begin
+scaffold_7	154879777	154911908	Dplan_chrom-9	15793990	15794285	-	mRNA36782	4	0.5
+scaffold_7	155049856	155050212	Dplan_chrom-9	15664445	15664780	-	mRNA36785	4	0.802005
+scaffold_7	155360377	155362428	Dplan_chrom-9	15121411	15124658	-	mRNA36786	4	0.352313
+scaffold_7	155894126	155895793	Dplan_chrom-9	14177072	14178703	-	mRNA36794	4	0.930915
+scaffold_7	156340045	156340169	Dplan_chrom-9	13584589	13584713	-	mRNA36808	4	0.415282
+scaffold_7	156493766	156549485	Dplan_chrom-9	13187382	13252031	-	mRNA36813	4	0.387055
+#block end
+#block begin
+scaffold_7	113268828	113284268	Dplan_chrom-9	9340823	9364258	-	mRNA35954	5	0.976787
+scaffold_7	113310414	113455489	Dplan_chrom-9	9288441	9323044	-	mRNA35957	5	0.934366
+scaffold_7	114099671	114102029	Dplan_chrom-9	8414587	8416959	-	mRNA35973	5	0.894716
+scaffold_7	114251417	114271277	Dplan_chrom-9	8253217	8260621	-	mRNA35974	5	0.278395
+#block end
+#block begin
+scaffold_7	114788655	114815098	Dplan_chrom-9	30816459	30841197	-	mRNA35988	6	0.588631
+scaffold_7	116292237	116333207	Dplan_chrom-9	29765012	29786148	-	mRNA36018	6	0.420286
+scaffold_7	117136486	117145905	Dplan_chrom-9	28535962	28541727	-	mRNA36025	6	0.944444
+scaffold_7	117188711	117241367	Dplan_chrom-9	28469419	28517659	-	mRNA36026	6	0.978836
+#block end
+#block begin
+scaffold_7	127569576	127633056	Dplan_chrom-9	179222243	179269663	-	mRNA36217	7	0.887902
+scaffold_7	127659373	127737508	Dplan_chrom-9	179180907	179218635	-	mRNA36221	7	0.846795
+scaffold_7	128009120	128010228	Dplan_chrom-9	174260540	174275009	-	mRNA36227	7	0.981233
+#block end
+#block begin
+scaffold_7	101935363	101946349	Dplan_chrom-9	21701729	21999840	+	mRNA35721	8	0.172217
+scaffold_7	102414803	102420771	Dplan_chrom-9	22169786	22171219	+	mRNA35731	8	0.617587
+scaffold_7	102456811	102529760	Dplan_chrom-9	22181349	22203100	+	mRNA35733	8	0.208895
+scaffold_7	102554333	102558841	Dplan_chrom-9	22236777	22241240	+	mRNA35734	8	0.842266
+scaffold_7	102583257	102624181	Dplan_chrom-9	22280844	22301314	+	mRNA35735	8	0.780952
+#block end
+#block begin
+scaffold_7	157328206	157335802	Dplan_chrom-9	35639567	35640570	+	mRNA36832	9	0.824786
+scaffold_7	157439015	157466565	Dplan_chrom-9	35721166	35741285	+	mRNA36833	9	0.597128
+scaffold_7	157472042	157500964	Dplan_chrom-9	35743023	35760569	+	mRNA36834	9	0.753695
+scaffold_7	157525585	157555598	Dplan_chrom-9	35930478	35951977	+	mRNA36835	9	0.384242
+#block end
+#block begin
+scaffold_7	158691815	158731218	Dplan_chrom-9	60875256	60904473	+	mRNA36896	10	0.994326
+scaffold_7	158839217	158990760	Dplan_chrom-9	61254699	61486489	+	mRNA36899	10	0.99162
+scaffold_7	160340994	160448920	Dplan_chrom-9	64134982	64135125	+	mRNA36919	10	0.448598
+#block end
+#block begin
+scaffold_7	170258881	170339724	Dplan_chrom-9	65092898	65135234	-	mRNA37141	11	0.877493
+scaffold_7	170447647	170451543	Dplan_chrom-9	65021138	65031847	-	mRNA37146	11	0.486825
+scaffold_7	170666524	170685095	Dplan_chrom-9	64862649	64867311	-	mRNA37150	11	0.801093
+#block end
+#block begin
+scaffold_7	99589477	99591194	Dplan_chrom-9	49840642	49842305	-	mRNA35664	12	0.416667
+scaffold_7	99645211	99739974	Dplan_chrom-9	49749614	49776617	-	mRNA35665	12	0.769744
+scaffold_7	99803164	99894318	Dplan_chrom-9	49627258	49695157	-	mRNA35666	12	0.900036
+#block end
+#block begin
+scaffold_7	108319166	108366233	Dplan_chrom-9	55546110	55597588	+	mRNA35844	13	0.683939
+scaffold_7	108880900	108995191	Dplan_chrom-9	56421255	56516353	+	mRNA35858	13	0.420198
+scaffold_7	109848966	109866596	Dplan_chrom-9	57548806	57559829	+	mRNA35867	13	0.907181
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_8.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_8.fa -a ./Udiv-Dplan/Udiv.scaffold_8.cds.to.Dplan.chrom_9.liftover.sam -as ./Udiv/Udiv.scaffold_8.cds.fa -ar ./Udiv/Udiv.scaffold_8.cds.ref.sam -s ./Dplan/Dplan_chrom_9.fa -n ./Udiv-Dplan/Udiv.scaffold_8.cds.to.Dplan.chrom_9.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_8	60366826	60377268	Dplan_chrom-9	6285665	6292109	+	mRNA38842	1	0.837681
+scaffold_8	87565123	87584870	Dplan_chrom-9	85664458	85676832	+	mRNA39385	1	0.216694
+scaffold_8	87606387	87607514	Dplan_chrom-9	85703080	85704237	+	mRNA39387	1	0.914787
+scaffold_8	140761049	140761987	Dplan_chrom-9	131838403	131840324	+	mRNA40484	1	0.97832
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_9.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_9.fa -a ./Udiv-Dplan/Udiv.scaffold_9.cds.to.Dplan.chrom_9.liftover.sam -as ./Udiv/Udiv.scaffold_9.cds.fa -ar ./Udiv/Udiv.scaffold_9.cds.ref.sam -s ./Dplan/Dplan_chrom_9.fa -n ./Udiv-Dplan/Udiv.scaffold_9.cds.to.Dplan.chrom_9.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_9	57445073	57445374	Dplan_chrom-9	176267143	176267438	-	mRNA44286	1	0.991453
+scaffold_9	126329203	126371298	Dplan_chrom-9	84884126	84903844	-	mRNA46508	1	0.708512
+scaffold_9	126530534	126581268	Dplan_chrom-9	84699424	84730662	-	mRNA46511	1	0.64243
+scaffold_9	126947565	127098252	Dplan_chrom-9	84513710	84579081	-	mRNA46521	1	0.696601
+scaffold_9	128902601	128925302	Dplan_chrom-9	82765900	82788668	-	mRNA46555	1	0.577716
+scaffold_9	129297443	129334208	Dplan_chrom-9	82191352	82223308	-	mRNA46559	1	0.775475
+scaffold_9	129570594	129634545	Dplan_chrom-9	81723302	81812869	-	mRNA46570	1	0.680172
+scaffold_9	144746260	144770144	Dplan_chrom-9	18102208	18142313	-	mRNA46923	1	0.241093
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_10.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_10.fa -a ./Udiv-Dplan/Udiv.scaffold_10.cds.to.Dplan.chrom_9.liftover.sam -as ./Udiv/Udiv.scaffold_10.cds.fa -ar ./Udiv/Udiv.scaffold_10.cds.ref.sam -s ./Dplan/Dplan_chrom_9.fa -n ./Udiv-Dplan/Udiv.scaffold_10.cds.to.Dplan.chrom_9.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_10	12275170	12277434	Dplan_chrom-9	100748087	100750333	-	mRNA5999	1	0.920714
+scaffold_10	30635786	30636181	Dplan_chrom-9	44599584	44599987	-	mRNA6263	1	0.959184
+scaffold_10	113223199	113225884	Dplan_chrom-9	31934816	31937506	-	mRNA7592	1	0.850521
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_1.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_1.fa -a ./Udiv-Dplan/Udiv.scaffold_1.cds.to.Dplan.chrom_10.liftover.sam -as ./Udiv/Udiv.scaffold_1.cds.fa -ar ./Udiv/Udiv.scaffold_1.cds.ref.sam -s ./Dplan/Dplan_chrom_10.fa -n ./Udiv-Dplan/Udiv.scaffold_1.cds.to.Dplan.chrom_10.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_1	171916786	171940971	Dplan_chrom-10	69551811	69689569	+	mRNA3606	1	0.0623123
+scaffold_1	179931751	179932241	Dplan_chrom-10	110363263	110364243	+	mRNA3760	1	0.899225
+scaffold_1	200428984	200459342	Dplan_chrom-10	152425794	152449991	+	mRNA4163	1	0.75443
+scaffold_1	200466099	200511856	Dplan_chrom-10	152455666	152481344	+	mRNA4164	1	0.941283
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_2.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_2.fa -a ./Udiv-Dplan/Udiv.scaffold_2.cds.to.Dplan.chrom_10.liftover.sam -as ./Udiv/Udiv.scaffold_2.cds.fa -ar ./Udiv/Udiv.scaffold_2.cds.ref.sam -s ./Dplan/Dplan_chrom_10.fa -n ./Udiv-Dplan/Udiv.scaffold_2.cds.to.Dplan.chrom_10.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_3.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_3.fa -a ./Udiv-Dplan/Udiv.scaffold_3.cds.to.Dplan.chrom_10.liftover.sam -as ./Udiv/Udiv.scaffold_3.cds.fa -ar ./Udiv/Udiv.scaffold_3.cds.ref.sam -s ./Dplan/Dplan_chrom_10.fa -n ./Udiv-Dplan/Udiv.scaffold_3.cds.to.Dplan.chrom_10.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_4.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_4.fa -a ./Udiv-Dplan/Udiv.scaffold_4.cds.to.Dplan.chrom_10.liftover.sam -as ./Udiv/Udiv.scaffold_4.cds.fa -ar ./Udiv/Udiv.scaffold_4.cds.ref.sam -s ./Dplan/Dplan_chrom_10.fa -n ./Udiv-Dplan/Udiv.scaffold_4.cds.to.Dplan.chrom_10.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_4	13792231	13796960	Dplan_chrom-10	154680006	154682667	-	mRNA21182	1	0.310241
+scaffold_4	64368141	64369967	Dplan_chrom-10	143307642	143314163	-	mRNA22295	1	0.958199
+scaffold_4	64584235	64619736	Dplan_chrom-10	143046287	143074846	-	mRNA22303	1	0.969831
+scaffold_4	64620620	64626730	Dplan_chrom-10	143039805	143045425	-	mRNA22304	1	0.991065
+scaffold_4	77605127	77654906	Dplan_chrom-10	140453415	140495679	-	mRNA22589	1	0.819404
+scaffold_4	106467005	106570592	Dplan_chrom-10	127883689	127910481	-	mRNA23193	1	0.993283
+scaffold_4	106581660	106587098	Dplan_chrom-10	127868103	127871904	-	mRNA23194	1	0.356241
+scaffold_4	117945592	117985784	Dplan_chrom-10	113406525	113460887	-	mRNA23447	1	0.595447
+scaffold_4	118258158	118264623	Dplan_chrom-10	113068003	113072473	-	mRNA23458	1	0.996305
+scaffold_4	131279293	131302757	Dplan_chrom-10	113028529	113035800	-	mRNA23796	1	0.893393
+#block end
+#block begin
+scaffold_4	132955355	133155600	Dplan_chrom-10	110832327	111028208	+	mRNA23834	2	0.994777
+scaffold_4	133200684	133211313	Dplan_chrom-10	111062464	111074377	+	mRNA23835	2	0.563202
+scaffold_4	133253866	133254366	Dplan_chrom-10	111896759	111897259	+	mRNA23837	2	0.998004
+scaffold_4	133338915	133373549	Dplan_chrom-10	111944829	111994692	+	mRNA23839	2	0.857069
+scaffold_4	133915082	133940345	Dplan_chrom-10	112540212	112555421	+	mRNA23851	2	0.509074
+scaffold_4	134000106	134106573	Dplan_chrom-10	112599921	112726566	+	mRNA23854	2	0.823319
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_5.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_5.fa -a ./Udiv-Dplan/Udiv.scaffold_5.cds.to.Dplan.chrom_10.liftover.sam -as ./Udiv/Udiv.scaffold_5.cds.fa -ar ./Udiv/Udiv.scaffold_5.cds.ref.sam -s ./Dplan/Dplan_chrom_10.fa -n ./Udiv-Dplan/Udiv.scaffold_5.cds.to.Dplan.chrom_10.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_6.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_6.fa -a ./Udiv-Dplan/Udiv.scaffold_6.cds.to.Dplan.chrom_10.liftover.sam -as ./Udiv/Udiv.scaffold_6.cds.fa -ar ./Udiv/Udiv.scaffold_6.cds.ref.sam -s ./Dplan/Dplan_chrom_10.fa -n ./Udiv-Dplan/Udiv.scaffold_6.cds.to.Dplan.chrom_10.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_7.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_7.fa -a ./Udiv-Dplan/Udiv.scaffold_7.cds.to.Dplan.chrom_10.liftover.sam -as ./Udiv/Udiv.scaffold_7.cds.fa -ar ./Udiv/Udiv.scaffold_7.cds.ref.sam -s ./Dplan/Dplan_chrom_10.fa -n ./Udiv-Dplan/Udiv.scaffold_7.cds.to.Dplan.chrom_10.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_7	18047928	18052599	Dplan_chrom-10	113068004	113072473	+	mRNA34064	1	0.988938
+scaffold_7	148391373	148422544	Dplan_chrom-10	136364552	136367723	+	mRNA36637	1	0.564394
+scaffold_7	148491790	148528432	Dplan_chrom-10	136503446	136531138	+	mRNA36638	1	0.906977
+scaffold_7	164662101	164662201	Dplan_chrom-10	167274187	167274301	+	mRNA37007	1	0.152338
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_8.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_8.fa -a ./Udiv-Dplan/Udiv.scaffold_8.cds.to.Dplan.chrom_10.liftover.sam -as ./Udiv/Udiv.scaffold_8.cds.fa -ar ./Udiv/Udiv.scaffold_8.cds.ref.sam -s ./Dplan/Dplan_chrom_10.fa -n ./Udiv-Dplan/Udiv.scaffold_8.cds.to.Dplan.chrom_10.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_9.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_9.fa -a ./Udiv-Dplan/Udiv.scaffold_9.cds.to.Dplan.chrom_10.liftover.sam -as ./Udiv/Udiv.scaffold_9.cds.fa -ar ./Udiv/Udiv.scaffold_9.cds.ref.sam -s ./Dplan/Dplan_chrom_10.fa -n ./Udiv-Dplan/Udiv.scaffold_9.cds.to.Dplan.chrom_10.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_9	53157534	53174125	Dplan_chrom-10	107801916	107814858	+	mRNA44049	1	0.303788
+scaffold_9	53186957	53190106	Dplan_chrom-10	107821448	107824596	+	mRNA44050	1	0.925794
+scaffold_9	56052981	56092278	Dplan_chrom-10	108029030	108066781	+	mRNA44233	1	0.88699
+scaffold_9	56209322	56306341	Dplan_chrom-10	108393061	108556015	+	mRNA44239	1	0.378922
+scaffold_9	57280093	57308406	Dplan_chrom-10	158189689	158210577	+	mRNA44276	1	0.993884
+scaffold_9	57641870	57671809	Dplan_chrom-10	160313353	160327494	+	mRNA44292	1	0.866205
+scaffold_9	58229184	58251243	Dplan_chrom-10	160512378	160544444	+	mRNA44302	1	0.624892
+scaffold_9	58472293	58508792	Dplan_chrom-10	162961513	162977549	+	mRNA44305	1	0.784597
+scaffold_9	59218574	59315465	Dplan_chrom-10	168789418	168943023	+	mRNA44329	1	0.755567
+#block end
+#block begin
+scaffold_9	61682542	61693303	Dplan_chrom-10	2485643	2497965	+	mRNA44415	2	0.678803
+scaffold_9	61765939	61766571	Dplan_chrom-10	2958670	2959311	+	mRNA44418	2	0.743227
+scaffold_9	63235343	63236274	Dplan_chrom-10	4585808	4586739	+	mRNA44455	2	0.891451
+scaffold_9	63868280	64031108	Dplan_chrom-10	6005017	6278854	+	mRNA44479	2	0.901042
+scaffold_9	64467435	64512941	Dplan_chrom-10	7429378	7441132	+	mRNA44487	2	0.266194
+scaffold_9	95291363	95336681	Dplan_chrom-10	8592789	8741703	+	mRNA45659	2	0.0801992
+scaffold_9	112045149	112045383	Dplan_chrom-10	9513200	9513434	+	mRNA46263	2	0.833333
+#block end
+#block begin
+scaffold_9	18263402	18263537	Dplan_chrom-10	36323669	36323805	-	mRNA41723	3	0.0697436
+scaffold_9	21026225	21027285	Dplan_chrom-10	34389652	34390712	-	mRNA41821	3	0.680339
+scaffold_9	36003272	36057163	Dplan_chrom-10	18934770	18999220	-	mRNA42928	3	0.694665
+scaffold_9	36160583	36172769	Dplan_chrom-10	18911835	18919001	-	mRNA42937	3	0.604006
+scaffold_9	36194011	36255946	Dplan_chrom-10	18824227	18904861	-	mRNA42939	3	0.78592
+scaffold_9	37055462	37154727	Dplan_chrom-10	17991382	18090598	-	mRNA43047	3	0.571774
+#block end
+#block begin
+scaffold_9	41654409	41669551	Dplan_chrom-10	72795631	72816001	-	mRNA43313	4	0.420045
+scaffold_9	41785317	41786323	Dplan_chrom-10	72760031	72761037	-	mRNA43330	4	0.784543
+scaffold_9	41853801	41862909	Dplan_chrom-10	72721497	72726412	-	mRNA43340	4	0.70098
+scaffold_9	41891029	41901968	Dplan_chrom-10	72709643	72717753	-	mRNA43344	4	0.653333
+scaffold_9	41927071	41949924	Dplan_chrom-10	72595055	72624010	-	mRNA43347	4	0.611679
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_10.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_10.fa -a ./Udiv-Dplan/Udiv.scaffold_10.cds.to.Dplan.chrom_10.liftover.sam -as ./Udiv/Udiv.scaffold_10.cds.fa -ar ./Udiv/Udiv.scaffold_10.cds.ref.sam -s ./Dplan/Dplan_chrom_10.fa -n ./Udiv-Dplan/Udiv.scaffold_10.cds.to.Dplan.chrom_10.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_1.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_1.fa -a ./Udiv-Dplan/Udiv.scaffold_1.cds.to.Dplan.chrom_11.liftover.sam -as ./Udiv/Udiv.scaffold_1.cds.fa -ar ./Udiv/Udiv.scaffold_1.cds.ref.sam -s ./Dplan/Dplan_chrom_11.fa -n ./Udiv-Dplan/Udiv.scaffold_1.cds.to.Dplan.chrom_11.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_1	136795282	136831352	Dplan_chrom-11	106710546	106731545	-	mRNA2842	1	0.840151
+scaffold_1	136903564	136920479	Dplan_chrom-11	106607369	106616862	-	mRNA2843	1	0.720861
+scaffold_1	147750063	147750832	Dplan_chrom-11	95298681	95299453	-	mRNA3082	1	0.855556
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_2.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_2.fa -a ./Udiv-Dplan/Udiv.scaffold_2.cds.to.Dplan.chrom_11.liftover.sam -as ./Udiv/Udiv.scaffold_2.cds.fa -ar ./Udiv/Udiv.scaffold_2.cds.ref.sam -s ./Dplan/Dplan_chrom_11.fa -n ./Udiv-Dplan/Udiv.scaffold_2.cds.to.Dplan.chrom_11.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_3.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_3.fa -a ./Udiv-Dplan/Udiv.scaffold_3.cds.to.Dplan.chrom_11.liftover.sam -as ./Udiv/Udiv.scaffold_3.cds.fa -ar ./Udiv/Udiv.scaffold_3.cds.ref.sam -s ./Dplan/Dplan_chrom_11.fa -n ./Udiv-Dplan/Udiv.scaffold_3.cds.to.Dplan.chrom_11.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_3	102315617	102320337	Dplan_chrom-11	14770291	14894113	+	mRNA18273	1	0.207051
+scaffold_3	195085038	195086434	Dplan_chrom-11	62146071	62147494	+	mRNA20073	1	0.885477
+scaffold_3	195098374	195099152	Dplan_chrom-11	62148083	62148857	+	mRNA20075	1	0.733716
+scaffold_3	213472499	213472930	Dplan_chrom-11	68667384	68667817	+	mRNA20416	1	0.864646
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_4.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_4.fa -a ./Udiv-Dplan/Udiv.scaffold_4.cds.to.Dplan.chrom_11.liftover.sam -as ./Udiv/Udiv.scaffold_4.cds.fa -ar ./Udiv/Udiv.scaffold_4.cds.ref.sam -s ./Dplan/Dplan_chrom_11.fa -n ./Udiv-Dplan/Udiv.scaffold_4.cds.to.Dplan.chrom_11.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_5.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_5.fa -a ./Udiv-Dplan/Udiv.scaffold_5.cds.to.Dplan.chrom_11.liftover.sam -as ./Udiv/Udiv.scaffold_5.cds.fa -ar ./Udiv/Udiv.scaffold_5.cds.ref.sam -s ./Dplan/Dplan_chrom_11.fa -n ./Udiv-Dplan/Udiv.scaffold_5.cds.to.Dplan.chrom_11.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_5	59907997	59965991	Dplan_chrom-11	80123249	80153479	-	mRNA26521	1	0.816479
+scaffold_5	60039124	60060781	Dplan_chrom-11	80010079	80032342	-	mRNA26524	1	0.969479
+scaffold_5	60780198	60918073	Dplan_chrom-11	78254275	78438802	-	mRNA26536	1	0.837366
+scaffold_5	61763373	61804802	Dplan_chrom-11	76448275	76483375	-	mRNA26548	1	0.812283
+scaffold_5	69116686	69116995	Dplan_chrom-11	71460903	71461157	-	mRNA26737	1	0.368576
+scaffold_5	69122930	69127432	Dplan_chrom-11	71434363	71457583	-	mRNA26738	1	0.536937
+scaffold_5	69508527	69511235	Dplan_chrom-11	70838421	70838643	-	mRNA26747	1	0.451613
+scaffold_5	69602170	69675187	Dplan_chrom-11	70590889	70679056	-	mRNA26751	1	0.972746
+scaffold_5	70101684	70153021	Dplan_chrom-11	70130763	70188139	-	mRNA26764	1	0.82397
+scaffold_5	70267579	70268003	Dplan_chrom-11	70027147	70027559	-	mRNA26766	1	0.683333
+scaffold_5	70496329	70563904	Dplan_chrom-11	69734695	69812272	-	mRNA26773	1	0.766414
+scaffold_5	71047883	71065287	Dplan_chrom-11	69247164	69267786	-	mRNA26782	1	0.931842
+scaffold_5	71246645	71247507	Dplan_chrom-11	69045948	69046810	-	mRNA26787	1	0.898002
+scaffold_5	71419961	71470105	Dplan_chrom-11	68945207	68971832	-	mRNA26792	1	0.984783
+scaffold_5	71474461	71476678	Dplan_chrom-11	68940375	68943069	-	mRNA26794	1	0.724868
+scaffold_5	72688597	72724674	Dplan_chrom-11	67089046	67104184	-	mRNA26811	1	0.991087
+scaffold_5	79589303	79602256	Dplan_chrom-11	65126515	65133311	-	mRNA26948	1	0.964992
+#block end
+#block begin
+scaffold_5	55099572	55121792	Dplan_chrom-11	48620439	48627184	-	mRNA26436	2	0.59909
+scaffold_5	55257328	55258767	Dplan_chrom-11	47875707	47877107	-	mRNA26439	2	0.702772
+scaffold_5	55273343	55533100	Dplan_chrom-11	47670480	47814606	-	mRNA26440	2	0.991724
+scaffold_5	55900558	55939050	Dplan_chrom-11	46867830	46920429	-	mRNA26450	2	0.859649
+scaffold_5	56241040	56241248	Dplan_chrom-11	46440673	46440879	-	mRNA26457	2	0.935185
+scaffold_5	56371191	56371338	Dplan_chrom-11	46268794	46268932	-	mRNA26460	2	0.373656
+scaffold_5	56712402	56757206	Dplan_chrom-11	45729594	45766335	-	mRNA26465	2	0.87988
+scaffold_5	56953110	57010088	Dplan_chrom-11	45363327	45444908	-	mRNA26475	2	0.849372
+scaffold_5	57263425	57334885	Dplan_chrom-11	44951462	44977169	-	mRNA26481	2	0.951691
+scaffold_5	57509936	57527962	Dplan_chrom-11	44738086	44743487	-	mRNA26485	2	0.807256
+scaffold_5	57693191	57729174	Dplan_chrom-11	44405060	44420502	-	mRNA26489	2	0.496848
+scaffold_5	58492896	58508498	Dplan_chrom-11	43286522	43319926	-	mRNA26501	2	0.753012
+#block end
+#block begin
+scaffold_5	34185267	34199198	Dplan_chrom-11	159332667	159337940	-	mRNA26096	3	0.97043
+scaffold_5	43118890	43119061	Dplan_chrom-11	133260474	133260634	-	mRNA26250	3	0.174242
+scaffold_5	47980634	47981872	Dplan_chrom-11	125842647	125843885	-	mRNA26328	3	0.917417
+scaffold_5	47998082	48003737	Dplan_chrom-11	125797568	125800247	-	mRNA26329	3	0.841332
+scaffold_5	48352472	48378640	Dplan_chrom-11	122359070	122378091	-	mRNA26339	3	0.931783
+scaffold_5	48897636	48937744	Dplan_chrom-11	120589290	120688300	-	mRNA26340	3	0.546385
+scaffold_5	49412521	49600788	Dplan_chrom-11	119561592	119911169	-	mRNA26346	3	0.664981
+scaffold_5	50227371	50396837	Dplan_chrom-11	117353372	117757788	-	mRNA26353	3	0.568003
+scaffold_5	51907316	51907621	Dplan_chrom-11	115059051	115060597	-	mRNA26369	3	0.996732
+scaffold_5	53237835	53298733	Dplan_chrom-11	110909578	110925161	-	mRNA26391	3	0.936275
+scaffold_5	53608681	53634125	Dplan_chrom-11	110575396	110589639	-	mRNA26401	3	0.531136
+scaffold_5	53909129	53920355	Dplan_chrom-11	110170885	110174754	-	mRNA26408	3	0.834869
+#block end
+#block begin
+scaffold_5	80571364	80582958	Dplan_chrom-11	109413673	109424015	-	mRNA26964	4	0.812268
+scaffold_5	80911607	80930394	Dplan_chrom-11	109247308	109294421	-	mRNA26968	4	0.975649
+scaffold_5	81382361	81383092	Dplan_chrom-11	102806003	102806731	-	mRNA26982	4	0.638739
+scaffold_5	81387828	81413828	Dplan_chrom-11	102768659	102801510	-	mRNA26983	4	0.307867
+scaffold_5	81416166	81429979	Dplan_chrom-11	102733339	102752767	-	mRNA26984	4	0.575445
+scaffold_5	81796130	81832706	Dplan_chrom-11	101152920	101174360	-	mRNA26998	4	0.882775
+scaffold_5	81947458	81972550	Dplan_chrom-11	101082837	101096109	-	mRNA27003	4	0.518
+scaffold_5	82694548	82759574	Dplan_chrom-11	98920246	98987855	-	mRNA27030	4	0.8564
+scaffold_5	82936955	82937218	Dplan_chrom-11	98647565	98647809	-	mRNA27037	4	0.641745
+scaffold_5	83004610	83005031	Dplan_chrom-11	98565769	98566211	-	mRNA27042	4	0.699234
+scaffold_5	89402710	89416291	Dplan_chrom-11	92868109	92889475	-	mRNA27227	4	0.387731
+scaffold_5	92020331	92064136	Dplan_chrom-11	90056053	90077551	-	mRNA27275	4	0.783497
+#block end
+#block begin
+scaffold_5	15834646	15919699	Dplan_chrom-11	86479233	86561919	-	mRNA25784	5	0.345922
+scaffold_5	15924651	16014323	Dplan_chrom-11	86384834	86474183	-	mRNA25785	5	0.272247
+scaffold_5	16060905	16102823	Dplan_chrom-11	86338843	86360037	-	mRNA25788	5	0.935484
+scaffold_5	16714457	16715116	Dplan_chrom-11	85449630	85450440	-	mRNA25802	5	0.87218
+scaffold_5	16731841	16771883	Dplan_chrom-11	85394575	85436865	-	mRNA25804	5	0.883405
+scaffold_5	18357766	18408749	Dplan_chrom-11	81064103	81081151	-	mRNA25821	5	0.958132
+scaffold_5	24145527	24186655	Dplan_chrom-11	80849936	80885356	-	mRNA25938	5	0.367808
+#block end
+#block begin
+scaffold_5	27829270	27971980	Dplan_chrom-11	36325947	36580435	-	mRNA25995	6	0.993461
+scaffold_5	29272087	29301396	Dplan_chrom-11	33445267	33466043	-	mRNA26007	6	0.812726
+scaffold_5	29563684	29563820	Dplan_chrom-11	32899742	32899880	-	mRNA26017	6	0.416667
+scaffold_5	29728270	29766376	Dplan_chrom-11	32283298	32310522	-	mRNA26018	6	0.409268
+scaffold_5	30587046	30623885	Dplan_chrom-11	31259275	31288541	-	mRNA26039	6	0.931373
+scaffold_5	31569602	31575224	Dplan_chrom-11	29840709	29846398	-	mRNA26061	6	0.305296
+#block end
+#block begin
+scaffold_5	58653339	58681824	Dplan_chrom-11	2875190	2895002	+	mRNA26503	7	0.845878
+scaffold_5	59512511	59805407	Dplan_chrom-11	4263226	4581356	+	mRNA26515	7	0.621519
+scaffold_5	59840872	59852524	Dplan_chrom-11	4608566	4621397	+	mRNA26519	7	0.690196
+scaffold_5	59877792	59879982	Dplan_chrom-11	4638920	4639760	+	mRNA26520	7	0.72846
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_6.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_6.fa -a ./Udiv-Dplan/Udiv.scaffold_6.cds.to.Dplan.chrom_11.liftover.sam -as ./Udiv/Udiv.scaffold_6.cds.fa -ar ./Udiv/Udiv.scaffold_6.cds.ref.sam -s ./Dplan/Dplan_chrom_11.fa -n ./Udiv-Dplan/Udiv.scaffold_6.cds.to.Dplan.chrom_11.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_6	112742249	112776682	Dplan_chrom-11	4455859	4527464	+	mRNA32160	1	0.462788
+scaffold_6	122528590	122529305	Dplan_chrom-11	48797576	48798288	+	mRNA32374	1	0.953146
+scaffold_6	122529348	122529882	Dplan_chrom-11	48798332	48798866	+	mRNA32375	1	0.96337
+scaffold_6	154510711	154519197	Dplan_chrom-11	115058506	115058866	+	mRNA32976	1	0.944444
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_7.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_7.fa -a ./Udiv-Dplan/Udiv.scaffold_7.cds.to.Dplan.chrom_11.liftover.sam -as ./Udiv/Udiv.scaffold_7.cds.fa -ar ./Udiv/Udiv.scaffold_7.cds.ref.sam -s ./Dplan/Dplan_chrom_11.fa -n ./Udiv-Dplan/Udiv.scaffold_7.cds.to.Dplan.chrom_11.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_7	56060361	56074768	Dplan_chrom-11	106751777	106763873	+	mRNA34724	1	0.771226
+scaffold_7	123790680	123827828	Dplan_chrom-11	152109071	152130436	+	mRNA36145	1	0.662593
+scaffold_7	147206164	147229988	Dplan_chrom-11	152704064	152735849	+	mRNA36606	1	0.941667
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_8.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_8.fa -a ./Udiv-Dplan/Udiv.scaffold_8.cds.to.Dplan.chrom_11.liftover.sam -as ./Udiv/Udiv.scaffold_8.cds.fa -ar ./Udiv/Udiv.scaffold_8.cds.ref.sam -s ./Dplan/Dplan_chrom_11.fa -n ./Udiv-Dplan/Udiv.scaffold_8.cds.to.Dplan.chrom_11.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_9.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_9.fa -a ./Udiv-Dplan/Udiv.scaffold_9.cds.to.Dplan.chrom_11.liftover.sam -as ./Udiv/Udiv.scaffold_9.cds.fa -ar ./Udiv/Udiv.scaffold_9.cds.ref.sam -s ./Dplan/Dplan_chrom_11.fa -n ./Udiv-Dplan/Udiv.scaffold_9.cds.to.Dplan.chrom_11.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_9	30269614	30270793	Dplan_chrom-11	25083547	25084704	+	mRNA42491	1	0.969543
+scaffold_9	57445073	57445374	Dplan_chrom-11	62132225	62132519	+	mRNA44286	1	0.991453
+scaffold_9	87948275	87982378	Dplan_chrom-11	100636688	100652409	+	mRNA45502	1	0.822619
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_10.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_10.fa -a ./Udiv-Dplan/Udiv.scaffold_10.cds.to.Dplan.chrom_11.liftover.sam -as ./Udiv/Udiv.scaffold_10.cds.fa -ar ./Udiv/Udiv.scaffold_10.cds.ref.sam -s ./Dplan/Dplan_chrom_11.fa -n ./Udiv-Dplan/Udiv.scaffold_10.cds.to.Dplan.chrom_11.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_1.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_1.fa -a ./Udiv-Dplan/Udiv.scaffold_1.cds.to.Dplan.chrom_12.liftover.sam -as ./Udiv/Udiv.scaffold_1.cds.fa -ar ./Udiv/Udiv.scaffold_1.cds.ref.sam -s ./Dplan/Dplan_chrom_12.fa -n ./Udiv-Dplan/Udiv.scaffold_1.cds.to.Dplan.chrom_12.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_1	35322632	35324509	Dplan_chrom-12	151932518	151934428	-	mRNA739	1	0.41387
+scaffold_1	147750063	147750835	Dplan_chrom-12	116431537	116432312	-	mRNA3082	1	0.858889
+scaffold_1	166696243	166719358	Dplan_chrom-12	86412252	86419319	-	mRNA3493	1	0.310185
+scaffold_1	236921264	236975982	Dplan_chrom-12	24175235	24228549	-	mRNA4967	1	0.847799
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_2.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_2.fa -a ./Udiv-Dplan/Udiv.scaffold_2.cds.to.Dplan.chrom_12.liftover.sam -as ./Udiv/Udiv.scaffold_2.cds.fa -ar ./Udiv/Udiv.scaffold_2.cds.ref.sam -s ./Dplan/Dplan_chrom_12.fa -n ./Udiv-Dplan/Udiv.scaffold_2.cds.to.Dplan.chrom_12.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_2	98050439	98050641	Dplan_chrom-12	149840921	149841150	-	mRNA12802	1	0.882883
+scaffold_2	135710616	135710869	Dplan_chrom-12	148787362	148787615	-	mRNA13572	1	0.996078
+scaffold_2	198604123	198604399	Dplan_chrom-12	116432027	116432309	-	mRNA14978	1	0.795977
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_3.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_3.fa -a ./Udiv-Dplan/Udiv.scaffold_3.cds.to.Dplan.chrom_12.liftover.sam -as ./Udiv/Udiv.scaffold_3.cds.fa -ar ./Udiv/Udiv.scaffold_3.cds.ref.sam -s ./Dplan/Dplan_chrom_12.fa -n ./Udiv-Dplan/Udiv.scaffold_3.cds.to.Dplan.chrom_12.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_3	4855767	4921992	Dplan_chrom-12	100555773	100590649	-	mRNA16096	1	0.616467
+scaffold_3	5576325	5626405	Dplan_chrom-12	99958004	99980519	-	mRNA16102	1	0.454301
+scaffold_3	6169056	6170849	Dplan_chrom-12	98385446	98387182	-	mRNA16113	1	0.868537
+scaffold_3	7153151	7156774	Dplan_chrom-12	97022713	97022962	-	mRNA16123	1	0.666667
+scaffold_3	7881184	7883187	Dplan_chrom-12	95415178	95417175	-	mRNA16129	1	0.983533
+scaffold_3	9279825	9281675	Dplan_chrom-12	92301627	92303480	-	mRNA16156	1	0.797586
+scaffold_3	12443646	12456037	Dplan_chrom-12	91641995	91644736	-	mRNA16218	1	0.5
+scaffold_3	12523011	12619481	Dplan_chrom-12	91464262	91550632	-	mRNA16219	1	0.691176
+scaffold_3	13046209	13387925	Dplan_chrom-12	90409864	90911360	-	mRNA16221	1	0.995531
+scaffold_3	13913131	14121279	Dplan_chrom-12	89737172	89876660	-	mRNA16227	1	0.807947
+scaffold_3	14215107	14230267	Dplan_chrom-12	89658950	89659208	-	mRNA16229	1	0.777778
+scaffold_3	14298315	14298545	Dplan_chrom-12	89605585	89605815	-	mRNA16233	1	0.66092
+scaffold_3	14322040	14322286	Dplan_chrom-12	89529896	89530142	-	mRNA16234	1	0.635417
+scaffold_3	14346555	14364153	Dplan_chrom-12	89511431	89518195	-	mRNA16235	1	0.569814
+scaffold_3	14594931	14720652	Dplan_chrom-12	89313421	89402967	-	mRNA16238	1	0.719298
+scaffold_3	14981092	15114022	Dplan_chrom-12	89242706	89286576	-	mRNA16248	1	0.798865
+scaffold_3	15166502	15250895	Dplan_chrom-12	89162277	89191672	-	mRNA16250	1	0.962125
+scaffold_3	26562222	26562494	Dplan_chrom-12	74010036	74010308	-	mRNA16465	1	0.743169
+#block end
+#block begin
+scaffold_3	128691069	128758475	Dplan_chrom-12	143276629	143285319	-	mRNA18895	2	0.783862
+scaffold_3	128801957	128870787	Dplan_chrom-12	143242200	143267065	-	mRNA18900	2	0.715686
+scaffold_3	129137234	129137607	Dplan_chrom-12	142926229	142926583	-	mRNA18902	2	0.705128
+scaffold_3	129553843	129558111	Dplan_chrom-12	142594904	142600297	-	mRNA18915	2	0.542213
+scaffold_3	154077585	154103112	Dplan_chrom-12	140971819	140977448	-	mRNA19375	2	0.418251
+scaffold_3	167927410	167927541	Dplan_chrom-12	129857513	129857634	-	mRNA19611	2	0.580952
+scaffold_3	167948232	168033010	Dplan_chrom-12	129650854	129749802	-	mRNA19612	2	0.906205
+scaffold_3	168189780	168233306	Dplan_chrom-12	129389786	129433222	-	mRNA19615	2	0.38118
+scaffold_3	174215906	174338143	Dplan_chrom-12	121234061	121375904	-	mRNA19732	2	0.561181
+scaffold_3	174438139	174523298	Dplan_chrom-12	121092523	121183120	-	mRNA19735	2	0.772487
+scaffold_3	174590329	174652718	Dplan_chrom-12	120990522	121005169	-	mRNA19736	2	0.644638
+#block end
+#block begin
+scaffold_3	191069929	191085894	Dplan_chrom-12	9197756	9208354	+	mRNA19979	3	0.593621
+scaffold_3	191187451	191187585	Dplan_chrom-12	9320950	9321106	+	mRNA19988	3	0.368852
+scaffold_3	191407079	191415047	Dplan_chrom-12	9576904	9588466	+	mRNA20000	3	0.483622
+scaffold_3	191457314	191457444	Dplan_chrom-12	9665279	9665407	+	mRNA20002	3	0.421569
+scaffold_3	191488425	191488641	Dplan_chrom-12	9723358	9723596	+	mRNA20003	3	0.484848
+scaffold_3	191553081	191604888	Dplan_chrom-12	9807483	9893338	+	mRNA20006	3	0.931942
+scaffold_3	191678697	191794119	Dplan_chrom-12	10018277	10058885	+	mRNA20009	3	0.911765
+scaffold_3	192688913	192734596	Dplan_chrom-12	11667841	11690329	+	mRNA20020	3	0.443031
+scaffold_3	205145008	205241328	Dplan_chrom-12	22264996	22311832	+	mRNA20275	3	0.995006
+#block end
+#block begin
+scaffold_3	125856947	125861631	Dplan_chrom-12	60053459	60056191	-	mRNA18821	4	0.665179
+scaffold_3	125908459	125925275	Dplan_chrom-12	59954090	59976327	-	mRNA18822	4	0.96875
+scaffold_3	126289911	126304485	Dplan_chrom-12	59715948	59722838	-	mRNA18834	4	0.96737
+scaffold_3	126394860	126429941	Dplan_chrom-12	59668282	59689560	-	mRNA18835	4	0.961887
+scaffold_3	126531647	126602331	Dplan_chrom-12	59613711	59639081	-	mRNA18838	4	0.521156
+scaffold_3	127009746	127010769	Dplan_chrom-12	59407890	59408862	-	mRNA18844	4	0.870523
+#block end
+#block begin
+scaffold_3	69727359	69784080	Dplan_chrom-12	40070069	40090454	-	mRNA17428	5	0.927536
+scaffold_3	122258319	122287185	Dplan_chrom-12	32166174	32166492	-	mRNA18742	5	0.354444
+scaffold_3	122852902	122890758	Dplan_chrom-12	31528138	31566167	-	mRNA18749	5	0.61442
+scaffold_3	122985462	122993122	Dplan_chrom-12	31360278	31367922	-	mRNA18753	5	0.973927
+scaffold_3	123488084	123502863	Dplan_chrom-12	30869454	30886906	-	mRNA18761	5	0.940751
+scaffold_3	123540713	123569720	Dplan_chrom-12	30841309	30850393	-	mRNA18764	5	0.915266
+#block end
+#block begin
+scaffold_3	30124522	30160597	Dplan_chrom-12	24605415	24611661	-	mRNA16560	6	1
+scaffold_3	30191049	30200098	Dplan_chrom-12	24597898	24598458	-	mRNA16563	6	0.655556
+scaffold_3	30238839	30280664	Dplan_chrom-12	24585687	24591673	-	mRNA16565	6	0.655477
+scaffold_3	43252170	43307847	Dplan_chrom-12	22966274	22991318	-	mRNA16826	6	0.917492
+scaffold_3	43551758	43565795	Dplan_chrom-12	22751421	22764222	-	mRNA16836	6	0.660518
+#block end
+#block begin
+scaffold_3	179969368	180058298	Dplan_chrom-12	42651955	42706007	-	mRNA19815	7	0.967331
+scaffold_3	180123214	180303827	Dplan_chrom-12	42592243	42592619	-	mRNA19818	7	0.871795
+scaffold_3	180371571	180373017	Dplan_chrom-12	42247760	42249230	-	mRNA19820	7	0.854321
+scaffold_3	188239766	188262645	Dplan_chrom-12	41165259	41171263	-	mRNA19933	7	0.810321
+#block end
+#block begin
+scaffold_3	398621	515421	Dplan_chrom-12	72433043	72519207	-	mRNA16017	8	0.922139
+scaffold_3	634947	774558	Dplan_chrom-12	72275091	72373383	-	mRNA16020	8	0.884379
+scaffold_3	848023	853616	Dplan_chrom-12	72205391	72208487	-	mRNA16026	8	0.496088
+scaffold_3	3454418	3530694	Dplan_chrom-12	63295164	63309294	-	mRNA16065	8	0.884082
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_4.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_4.fa -a ./Udiv-Dplan/Udiv.scaffold_4.cds.to.Dplan.chrom_12.liftover.sam -as ./Udiv/Udiv.scaffold_4.cds.fa -ar ./Udiv/Udiv.scaffold_4.cds.ref.sam -s ./Dplan/Dplan_chrom_12.fa -n ./Udiv-Dplan/Udiv.scaffold_4.cds.to.Dplan.chrom_12.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_5.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_5.fa -a ./Udiv-Dplan/Udiv.scaffold_5.cds.to.Dplan.chrom_12.liftover.sam -as ./Udiv/Udiv.scaffold_5.cds.fa -ar ./Udiv/Udiv.scaffold_5.cds.ref.sam -s ./Dplan/Dplan_chrom_12.fa -n ./Udiv-Dplan/Udiv.scaffold_5.cds.to.Dplan.chrom_12.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_6.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_6.fa -a ./Udiv-Dplan/Udiv.scaffold_6.cds.to.Dplan.chrom_12.liftover.sam -as ./Udiv/Udiv.scaffold_6.cds.fa -ar ./Udiv/Udiv.scaffold_6.cds.ref.sam -s ./Dplan/Dplan_chrom_12.fa -n ./Udiv-Dplan/Udiv.scaffold_6.cds.to.Dplan.chrom_12.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_6	10717824	10719500	Dplan_chrom-12	59607040	59631353	+	mRNA29993	1	0.32241
+scaffold_6	21409985	21411812	Dplan_chrom-12	60143988	60177867	+	mRNA30211	1	0.888554
+scaffold_6	37120387	37120722	Dplan_chrom-12	83272207	83272564	+	mRNA30545	1	0.918768
+scaffold_6	95640968	95641888	Dplan_chrom-12	116431178	116432097	+	mRNA31782	1	0.998914
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_7.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_7.fa -a ./Udiv-Dplan/Udiv.scaffold_7.cds.to.Dplan.chrom_12.liftover.sam -as ./Udiv/Udiv.scaffold_7.cds.fa -ar ./Udiv/Udiv.scaffold_7.cds.ref.sam -s ./Dplan/Dplan_chrom_12.fa -n ./Udiv-Dplan/Udiv.scaffold_7.cds.to.Dplan.chrom_12.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_7	56217621	56220201	Dplan_chrom-12	17330755	17376356	+	mRNA34729	1	0.462218
+scaffold_7	96713280	96753882	Dplan_chrom-12	66682495	66683957	+	mRNA35560	1	0.995228
+scaffold_7	117759903	117761147	Dplan_chrom-12	96898827	96900009	+	mRNA36038	1	0.934765
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_8.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_8.fa -a ./Udiv-Dplan/Udiv.scaffold_8.cds.to.Dplan.chrom_12.liftover.sam -as ./Udiv/Udiv.scaffold_8.cds.fa -ar ./Udiv/Udiv.scaffold_8.cds.ref.sam -s ./Dplan/Dplan_chrom_12.fa -n ./Udiv-Dplan/Udiv.scaffold_8.cds.to.Dplan.chrom_12.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_9.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_9.fa -a ./Udiv-Dplan/Udiv.scaffold_9.cds.to.Dplan.chrom_12.liftover.sam -as ./Udiv/Udiv.scaffold_9.cds.fa -ar ./Udiv/Udiv.scaffold_9.cds.ref.sam -s ./Dplan/Dplan_chrom_12.fa -n ./Udiv-Dplan/Udiv.scaffold_9.cds.to.Dplan.chrom_12.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_10.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_10.fa -a ./Udiv-Dplan/Udiv.scaffold_10.cds.to.Dplan.chrom_12.liftover.sam -as ./Udiv/Udiv.scaffold_10.cds.fa -ar ./Udiv/Udiv.scaffold_10.cds.ref.sam -s ./Dplan/Dplan_chrom_12.fa -n ./Udiv-Dplan/Udiv.scaffold_10.cds.to.Dplan.chrom_12.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_10	79250985	79320957	Dplan_chrom-12	151780670	151849706	-	mRNA7042	1	0.878674
+scaffold_10	95955361	96001851	Dplan_chrom-12	119571876	119595104	-	mRNA7292	1	0.848608
+scaffold_10	104974445	105025274	Dplan_chrom-12	117359190	117388016	-	mRNA7422	1	0.765382
+scaffold_10	108821901	108952290	Dplan_chrom-12	114979500	115039269	-	mRNA7492	1	0.806897
+scaffold_10	108964559	108984635	Dplan_chrom-12	114959648	114965969	-	mRNA7493	1	0.68617
+scaffold_10	109007376	109069817	Dplan_chrom-12	114908977	114923945	-	mRNA7496	1	0.948987
+scaffold_10	109347724	109385499	Dplan_chrom-12	114399761	114422936	-	mRNA7502	1	0.28341
+scaffold_10	115352833	115443909	Dplan_chrom-12	109190217	109279139	-	mRNA7638	1	0.983333
+scaffold_10	115829585	115884462	Dplan_chrom-12	108737451	108797931	-	mRNA7643	1	0.975518
+scaffold_10	116329364	116403459	Dplan_chrom-12	108234897	108322648	-	mRNA7650	1	0.924686
+scaffold_10	117065202	117065760	Dplan_chrom-12	107226095	107226674	-	mRNA7660	1	0.91771
+scaffold_10	117118560	117118849	Dplan_chrom-12	107143892	107144181	-	mRNA7661	1	1
+scaffold_10	117466599	117522603	Dplan_chrom-12	106565370	106648140	-	mRNA7666	1	0.97006
+scaffold_10	118287316	118391543	Dplan_chrom-12	105219529	105221560	-	mRNA7687	1	0.851472
+scaffold_10	119519683	119529251	Dplan_chrom-12	103793158	103798576	-	mRNA7706	1	0.194122
+scaffold_10	121440674	121484092	Dplan_chrom-12	47626289	47647188	-	mRNA7754	1	0.935948
+#block end
+#block begin
+scaffold_10	59768492	59804629	Dplan_chrom-12	22154008	22167184	-	mRNA6734	2	0.860667
+scaffold_10	78683173	78699143	Dplan_chrom-12	17208247	17223863	-	mRNA7031	2	0.436077
+scaffold_10	78903930	78947891	Dplan_chrom-12	16886130	16906651	-	mRNA7036	2	0.934101
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_1.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_1.fa -a ./Udiv-Dplan/Udiv.scaffold_1.cds.to.Dplan.chrom_13.liftover.sam -as ./Udiv/Udiv.scaffold_1.cds.fa -ar ./Udiv/Udiv.scaffold_1.cds.ref.sam -s ./Dplan/Dplan_chrom_13.fa -n ./Udiv-Dplan/Udiv.scaffold_1.cds.to.Dplan.chrom_13.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_2.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_2.fa -a ./Udiv-Dplan/Udiv.scaffold_2.cds.to.Dplan.chrom_13.liftover.sam -as ./Udiv/Udiv.scaffold_2.cds.fa -ar ./Udiv/Udiv.scaffold_2.cds.ref.sam -s ./Dplan/Dplan_chrom_13.fa -n ./Udiv-Dplan/Udiv.scaffold_2.cds.to.Dplan.chrom_13.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_2	22161403	22163102	Dplan_chrom-13	59507246	59508947	-	mRNA11301	1	0.991228
+scaffold_2	114495861	114497849	Dplan_chrom-13	13570119	13572084	-	mRNA13164	1	0.96633
+scaffold_2	114498176	114498852	Dplan_chrom-13	13569114	13569792	-	mRNA13165	1	0.877037
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_3.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_3.fa -a ./Udiv-Dplan/Udiv.scaffold_3.cds.to.Dplan.chrom_13.liftover.sam -as ./Udiv/Udiv.scaffold_3.cds.fa -ar ./Udiv/Udiv.scaffold_3.cds.ref.sam -s ./Dplan/Dplan_chrom_13.fa -n ./Udiv-Dplan/Udiv.scaffold_3.cds.to.Dplan.chrom_13.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_4.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_4.fa -a ./Udiv-Dplan/Udiv.scaffold_4.cds.to.Dplan.chrom_13.liftover.sam -as ./Udiv/Udiv.scaffold_4.cds.fa -ar ./Udiv/Udiv.scaffold_4.cds.ref.sam -s ./Dplan/Dplan_chrom_13.fa -n ./Udiv-Dplan/Udiv.scaffold_4.cds.to.Dplan.chrom_13.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_5.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_5.fa -a ./Udiv-Dplan/Udiv.scaffold_5.cds.to.Dplan.chrom_13.liftover.sam -as ./Udiv/Udiv.scaffold_5.cds.fa -ar ./Udiv/Udiv.scaffold_5.cds.ref.sam -s ./Dplan/Dplan_chrom_13.fa -n ./Udiv-Dplan/Udiv.scaffold_5.cds.to.Dplan.chrom_13.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_6.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_6.fa -a ./Udiv-Dplan/Udiv.scaffold_6.cds.to.Dplan.chrom_13.liftover.sam -as ./Udiv/Udiv.scaffold_6.cds.fa -ar ./Udiv/Udiv.scaffold_6.cds.ref.sam -s ./Dplan/Dplan_chrom_13.fa -n ./Udiv-Dplan/Udiv.scaffold_6.cds.to.Dplan.chrom_13.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_6	28644751	28692142	Dplan_chrom-13	8387809	8403642	+	mRNA30383	1	0.703559
+scaffold_6	28727454	28766455	Dplan_chrom-13	8428083	8446783	+	mRNA30385	1	0.930688
+scaffold_6	28777592	28807559	Dplan_chrom-13	8453558	8469000	+	mRNA30387	1	0.885965
+scaffold_6	28816149	28909916	Dplan_chrom-13	8581159	8642186	+	mRNA30388	1	0.221967
+scaffold_6	29064573	29098674	Dplan_chrom-13	9521144	9665551	+	mRNA30391	1	0.380414
+scaffold_6	33169006	33252955	Dplan_chrom-13	29281043	29377665	+	mRNA30483	1	0.946667
+scaffold_6	73673042	73697725	Dplan_chrom-13	35379355	35396142	+	mRNA31279	1	0.187694
+scaffold_6	75608241	75609499	Dplan_chrom-13	42827146	42828401	+	mRNA31322	1	0.931801
+scaffold_6	75617698	75669867	Dplan_chrom-13	42870180	42891778	+	mRNA31323	1	0.807239
+scaffold_6	75880809	75971479	Dplan_chrom-13	42976082	43058748	+	mRNA31328	1	0.995053
+scaffold_6	79264522	79278779	Dplan_chrom-13	75851103	75851492	+	mRNA31394	1	0.292169
+scaffold_6	80718959	80760357	Dplan_chrom-13	78043867	78066868	+	mRNA31436	1	0.868794
+scaffold_6	80824386	80871611	Dplan_chrom-13	78100360	78126406	+	mRNA31441	1	0.838453
+#block end
+#block begin
+scaffold_6	131778067	131780672	Dplan_chrom-13	136235776	136238393	-	mRNA32563	2	0.932025
+scaffold_6	131857707	131910099	Dplan_chrom-13	136115021	136175068	-	mRNA32568	2	0.753241
+scaffold_6	132188132	132195660	Dplan_chrom-13	135486836	135493592	-	mRNA32570	2	0.725047
+scaffold_6	132375779	132465188	Dplan_chrom-13	135105921	135169548	-	mRNA32574	2	0.909649
+scaffold_6	132544016	132585384	Dplan_chrom-13	134843510	134867900	-	mRNA32584	2	0.659004
+scaffold_6	132666721	132709612	Dplan_chrom-13	134701286	134713413	-	mRNA32591	2	0.812041
+scaffold_6	132883287	132899408	Dplan_chrom-13	134458121	134471557	-	mRNA32595	2	0.970868
+#block end
+#block begin
+scaffold_6	10815145	10815294	Dplan_chrom-13	87492636	87492783	-	mRNA29996	3	0.649123
+scaffold_6	10962163	10966744	Dplan_chrom-13	87332686	87341371	-	mRNA30003	3	0.891738
+scaffold_6	11010362	11011480	Dplan_chrom-13	87265632	87266753	-	mRNA30005	3	0.961573
+scaffold_6	11284894	11288758	Dplan_chrom-13	86843904	86849814	-	mRNA30014	3	0.664303
+scaffold_6	11305097	11337703	Dplan_chrom-13	86814706	86843296	-	mRNA30017	3	0.950378
+scaffold_6	11532786	11552439	Dplan_chrom-13	86629803	86642009	-	mRNA30025	3	0.519268
+scaffold_6	15229082	15263029	Dplan_chrom-13	80930185	80951673	-	mRNA30124	3	0.464579
+scaffold_6	15911887	15925566	Dplan_chrom-13	79945803	79952834	-	mRNA30136	3	0.410032
+#block end
+#block begin
+scaffold_6	112739246	112778091	Dplan_chrom-13	144326950	144364706	+	mRNA32160	4	0.898963
+scaffold_6	112785025	112839926	Dplan_chrom-13	144376172	144438052	+	mRNA32161	4	0.827755
+scaffold_6	112851969	112893718	Dplan_chrom-13	144447608	144477226	+	mRNA32164	4	0.723404
+scaffold_6	112913476	112914186	Dplan_chrom-13	144493511	144494296	+	mRNA32166	4	0.872475
+#block end
+#block begin
+scaffold_6	125803484	125834693	Dplan_chrom-13	102612240	102633482	+	mRNA32436	5	0.52043
+scaffold_6	128762698	128781878	Dplan_chrom-13	116699610	116719166	+	mRNA32496	5	0.756303
+scaffold_6	128975324	128991327	Dplan_chrom-13	116792126	116796871	+	mRNA32503	5	0.73849
+scaffold_6	129038506	129057696	Dplan_chrom-13	116863160	116885649	+	mRNA32506	5	0.805172
+scaffold_6	129280574	129310168	Dplan_chrom-13	117227182	117259891	+	mRNA32509	5	0.700913
+#block end
+#block begin
+scaffold_6	122531170	122558569	Dplan_chrom-13	129896229	129924392	+	mRNA32376	6	0.990674
+scaffold_6	122599014	122620855	Dplan_chrom-13	130019697	130028194	+	mRNA32377	6	0.695652
+scaffold_6	122659711	122671216	Dplan_chrom-13	130056548	130063575	+	mRNA32379	6	0.936864
+scaffold_6	123339872	123340246	Dplan_chrom-13	133033019	133033393	+	mRNA32396	6	0.405229
+#block end
+#block begin
+scaffold_6	119803588	119817061	Dplan_chrom-13	96569199	96579246	-	mRNA32315	7	0.634921
+scaffold_6	119992711	120113498	Dplan_chrom-13	96223835	96328558	-	mRNA32322	7	0.943656
+scaffold_6	120341144	120341950	Dplan_chrom-13	95958724	95959524	-	mRNA32331	7	0.933333
+#block end
+#block begin
+scaffold_6	81089401	81155473	Dplan_chrom-13	79192534	79361984	-	mRNA31446	8	0.349065
+scaffold_6	81429399	81461240	Dplan_chrom-13	78773412	78799736	-	mRNA31449	8	0.933259
+scaffold_6	81575458	81600033	Dplan_chrom-13	78626770	78648292	-	mRNA31453	8	0.928405
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_7.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_7.fa -a ./Udiv-Dplan/Udiv.scaffold_7.cds.to.Dplan.chrom_13.liftover.sam -as ./Udiv/Udiv.scaffold_7.cds.fa -ar ./Udiv/Udiv.scaffold_7.cds.ref.sam -s ./Dplan/Dplan_chrom_13.fa -n ./Udiv-Dplan/Udiv.scaffold_7.cds.to.Dplan.chrom_13.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_7	7522865	7523695	Dplan_chrom-13	21274282	21275112	+	mRNA33846	1	0.994005
+scaffold_7	18333379	18486227	Dplan_chrom-13	34095743	34150988	+	mRNA34070	1	0.336207
+scaffold_7	19394047	19451697	Dplan_chrom-13	46592718	46656162	+	mRNA34089	1	0.871564
+scaffold_7	51444851	51471410	Dplan_chrom-13	115651680	115666879	+	mRNA34628	1	0.782021
+scaffold_7	51551490	51565862	Dplan_chrom-13	115780441	115789054	+	mRNA34632	1	0.893587
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_8.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_8.fa -a ./Udiv-Dplan/Udiv.scaffold_8.cds.to.Dplan.chrom_13.liftover.sam -as ./Udiv/Udiv.scaffold_8.cds.fa -ar ./Udiv/Udiv.scaffold_8.cds.ref.sam -s ./Dplan/Dplan_chrom_13.fa -n ./Udiv-Dplan/Udiv.scaffold_8.cds.to.Dplan.chrom_13.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_9.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_9.fa -a ./Udiv-Dplan/Udiv.scaffold_9.cds.to.Dplan.chrom_13.liftover.sam -as ./Udiv/Udiv.scaffold_9.cds.fa -ar ./Udiv/Udiv.scaffold_9.cds.ref.sam -s ./Dplan/Dplan_chrom_13.fa -n ./Udiv-Dplan/Udiv.scaffold_9.cds.to.Dplan.chrom_13.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_10.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_10.fa -a ./Udiv-Dplan/Udiv.scaffold_10.cds.to.Dplan.chrom_13.liftover.sam -as ./Udiv/Udiv.scaffold_10.cds.fa -ar ./Udiv/Udiv.scaffold_10.cds.ref.sam -s ./Dplan/Dplan_chrom_13.fa -n ./Udiv-Dplan/Udiv.scaffold_10.cds.to.Dplan.chrom_13.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_1.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_1.fa -a ./Udiv-Dplan/Udiv.scaffold_1.cds.to.Dplan.chrom_14.liftover.sam -as ./Udiv/Udiv.scaffold_1.cds.fa -ar ./Udiv/Udiv.scaffold_1.cds.ref.sam -s ./Dplan/Dplan_chrom_14.fa -n ./Udiv-Dplan/Udiv.scaffold_1.cds.to.Dplan.chrom_14.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_1	7191708	7204149	Dplan_chrom-14	128032097	128039911	-	mRNA158	1	0.860552
+scaffold_1	79355391	79361482	Dplan_chrom-14	116354697	116355219	-	mRNA1641	1	0.114235
+scaffold_1	131022809	131023099	Dplan_chrom-14	64385246	64386133	-	mRNA2698	1	0.996564
+scaffold_1	236555849	236574178	Dplan_chrom-14	43081131	43110331	-	mRNA4952	1	0.820513
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_2.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_2.fa -a ./Udiv-Dplan/Udiv.scaffold_2.cds.to.Dplan.chrom_14.liftover.sam -as ./Udiv/Udiv.scaffold_2.cds.fa -ar ./Udiv/Udiv.scaffold_2.cds.ref.sam -s ./Dplan/Dplan_chrom_14.fa -n ./Udiv-Dplan/Udiv.scaffold_2.cds.to.Dplan.chrom_14.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_2	18008657	18056962	Dplan_chrom-14	114201158	114226665	-	mRNA11196	1	0.986517
+scaffold_2	18128586	18182526	Dplan_chrom-14	114040342	114096334	-	mRNA11198	1	0.666028
+scaffold_2	23478896	23497976	Dplan_chrom-14	113644227	113663762	-	mRNA11332	1	0.971649
+scaffold_2	23562432	23565638	Dplan_chrom-14	113600674	113603861	-	mRNA11334	1	0.894269
+scaffold_2	23615545	23658670	Dplan_chrom-14	113498957	113529389	-	mRNA11338	1	0.633887
+scaffold_2	23870500	23882954	Dplan_chrom-14	113253101	113266235	-	mRNA11346	1	0.31441
+scaffold_2	23978518	24020361	Dplan_chrom-14	113047354	113080619	-	mRNA11349	1	0.688934
+scaffold_2	31387922	31421660	Dplan_chrom-14	109205567	109263396	-	mRNA11488	1	0.55119
+scaffold_2	31437589	31510588	Dplan_chrom-14	109122483	109190200	-	mRNA11491	1	0.638042
+scaffold_2	99124350	99234921	Dplan_chrom-14	42386118	42560017	-	mRNA12829	1	0.995037
+scaffold_2	99434559	99477197	Dplan_chrom-14	42041561	42066469	-	mRNA12833	1	0.796071
+scaffold_2	99585539	99606130	Dplan_chrom-14	41597525	41616389	-	mRNA12836	1	0.704101
+scaffold_2	99864142	99926102	Dplan_chrom-14	41122023	41163978	-	mRNA12841	1	0.764919
+scaffold_2	100232250	100365519	Dplan_chrom-14	26987065	27054318	-	mRNA12852	1	0.992188
+scaffold_2	100623818	100700345	Dplan_chrom-14	26645624	26687159	-	mRNA12861	1	0.80513
+scaffold_2	101065823	101095638	Dplan_chrom-14	26315449	26333920	-	mRNA12869	1	0.801778
+scaffold_2	101331643	101460910	Dplan_chrom-14	25690425	25702726	-	mRNA12873	1	0.0296722
+scaffold_2	106985029	107019301	Dplan_chrom-14	25505109	25529209	-	mRNA12996	1	0.486613
+scaffold_2	107020681	107021124	Dplan_chrom-14	25485876	25486319	-	mRNA12997	1	1
+scaffold_2	107060954	107070428	Dplan_chrom-14	25402670	25406936	-	mRNA12998	1	0.592008
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_3.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_3.fa -a ./Udiv-Dplan/Udiv.scaffold_3.cds.to.Dplan.chrom_14.liftover.sam -as ./Udiv/Udiv.scaffold_3.cds.fa -ar ./Udiv/Udiv.scaffold_3.cds.ref.sam -s ./Dplan/Dplan_chrom_14.fa -n ./Udiv-Dplan/Udiv.scaffold_3.cds.to.Dplan.chrom_14.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_3	137831461	137845778	Dplan_chrom-14	13521981	13526285	+	mRNA19064	1	0.834499
+scaffold_3	137887904	137924215	Dplan_chrom-14	13533259	13548813	+	mRNA19072	1	0.275703
+scaffold_3	153043193	153045091	Dplan_chrom-14	38073472	38075341	+	mRNA19357	1	0.94012
+scaffold_3	205693814	205714287	Dplan_chrom-14	84433463	84434007	+	mRNA20284	1	0.497207
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_4.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_4.fa -a ./Udiv-Dplan/Udiv.scaffold_4.cds.to.Dplan.chrom_14.liftover.sam -as ./Udiv/Udiv.scaffold_4.cds.fa -ar ./Udiv/Udiv.scaffold_4.cds.ref.sam -s ./Dplan/Dplan_chrom_14.fa -n ./Udiv-Dplan/Udiv.scaffold_4.cds.to.Dplan.chrom_14.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_5.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_5.fa -a ./Udiv-Dplan/Udiv.scaffold_5.cds.to.Dplan.chrom_14.liftover.sam -as ./Udiv/Udiv.scaffold_5.cds.fa -ar ./Udiv/Udiv.scaffold_5.cds.ref.sam -s ./Dplan/Dplan_chrom_14.fa -n ./Udiv-Dplan/Udiv.scaffold_5.cds.to.Dplan.chrom_14.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_6.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_6.fa -a ./Udiv-Dplan/Udiv.scaffold_6.cds.to.Dplan.chrom_14.liftover.sam -as ./Udiv/Udiv.scaffold_6.cds.fa -ar ./Udiv/Udiv.scaffold_6.cds.ref.sam -s ./Dplan/Dplan_chrom_14.fa -n ./Udiv-Dplan/Udiv.scaffold_6.cds.to.Dplan.chrom_14.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_6	70331009	70393593	Dplan_chrom-14	90754738	90787522	+	mRNA31218	1	0.332632
+scaffold_6	70410141	70411027	Dplan_chrom-14	90790571	90791457	+	mRNA31219	1	0.977852
+scaffold_6	70500120	70501643	Dplan_chrom-14	90833277	90834809	+	mRNA31221	1	0.886792
+scaffold_6	70617185	70638193	Dplan_chrom-14	90886177	90951656	+	mRNA31224	1	0.888889
+scaffold_6	71934695	71940236	Dplan_chrom-14	93505929	93510325	+	mRNA31242	1	0.673684
+scaffold_6	79939536	79940237	Dplan_chrom-14	101926400	101927036	+	mRNA31411	1	0.451282
+scaffold_6	87414761	87446554	Dplan_chrom-14	106917805	106950627	+	mRNA31608	1	0.569544
+#block end
+#block begin
+scaffold_6	134177543	134208521	Dplan_chrom-14	18768015	18784847	+	mRNA32617	2	0.802112
+scaffold_6	134271443	134345785	Dplan_chrom-14	18846989	18900740	+	mRNA32619	2	0.796646
+scaffold_6	134780286	134846120	Dplan_chrom-14	19644996	19723774	+	mRNA32630	2	0.715782
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_7.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_7.fa -a ./Udiv-Dplan/Udiv.scaffold_7.cds.to.Dplan.chrom_14.liftover.sam -as ./Udiv/Udiv.scaffold_7.cds.fa -ar ./Udiv/Udiv.scaffold_7.cds.ref.sam -s ./Dplan/Dplan_chrom_14.fa -n ./Udiv-Dplan/Udiv.scaffold_7.cds.to.Dplan.chrom_14.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#anchorwave proali -i ./Udiv/Udiv.scaffold_8.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_8.fa -a ./Udiv-Dplan/Udiv.scaffold_8.cds.to.Dplan.chrom_14.liftover.sam -as ./Udiv/Udiv.scaffold_8.cds.fa -ar ./Udiv/Udiv.scaffold_8.cds.ref.sam -s ./Dplan/Dplan_chrom_14.fa -n ./Udiv-Dplan/Udiv.scaffold_8.cds.to.Dplan.chrom_14.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_8	3301943	3305925	Dplan_chrom-14	129660294	129664410	-	mRNA37632	1	0.182349
+scaffold_8	35599566	35612621	Dplan_chrom-14	125182961	125189659	-	mRNA38370	1	0.82618
+scaffold_8	35616989	35661208	Dplan_chrom-14	125075480	125119952	-	mRNA38371	1	0.859621
+scaffold_8	35692025	35708198	Dplan_chrom-14	125028363	125043501	-	mRNA38372	1	0.419244
+scaffold_8	39911880	39922685	Dplan_chrom-14	120411178	120425475	-	mRNA38458	1	0.717269
+scaffold_8	39958863	39986729	Dplan_chrom-14	120354012	120387268	-	mRNA38459	1	0.888074
+scaffold_8	40007622	40025876	Dplan_chrom-14	120296861	120302148	-	mRNA38460	1	0.989247
+scaffold_8	40029883	40047897	Dplan_chrom-14	120292336	120295863	-	mRNA38461	1	0.878601
+#block end
+#block begin
+scaffold_8	40523247	40523943	Dplan_chrom-14	101926372	101927029	+	mRNA38468	2	0.54346
+scaffold_8	43743693	43747167	Dplan_chrom-14	106330996	106339146	+	mRNA38541	2	0.955224
+scaffold_8	43765059	43783968	Dplan_chrom-14	106354470	106361911	+	mRNA38543	2	0.597295
+scaffold_8	59331537	59346109	Dplan_chrom-14	107900736	107915286	+	mRNA38820	2	0.677616
+scaffold_8	59406498	59418408	Dplan_chrom-14	107974468	107986234	+	mRNA38823	2	0.822451
+#block end
+#block begin
+scaffold_8	145500525	145536713	Dplan_chrom-14	31390227	31422187	+	mRNA40622	3	0.631783
+scaffold_8	147567607	147591875	Dplan_chrom-14	33089598	33151398	+	mRNA40653	3	0.453507
+scaffold_8	147648240	147651016	Dplan_chrom-14	33172598	33174787	+	mRNA40655	3	0.816993
+scaffold_8	147758525	147793328	Dplan_chrom-14	33270712	33298892	+	mRNA40660	3	0.397414
+scaffold_8	154191264	154209210	Dplan_chrom-14	34553431	34566443	+	mRNA40817	3	0.962348
+#block end
+#block begin
+scaffold_8	62340378	62373178	Dplan_chrom-14	73071675	73082841	+	mRNA38891	4	0.953488
+scaffold_8	62381897	62398446	Dplan_chrom-14	73085480	73097548	+	mRNA38892	4	0.877963
+scaffold_8	143406981	143408015	Dplan_chrom-14	73761127	73762158	+	mRNA40564	4	0.365999
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_9.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_9.fa -a ./Udiv-Dplan/Udiv.scaffold_9.cds.to.Dplan.chrom_14.liftover.sam -as ./Udiv/Udiv.scaffold_9.cds.fa -ar ./Udiv/Udiv.scaffold_9.cds.ref.sam -s ./Dplan/Dplan_chrom_14.fa -n ./Udiv-Dplan/Udiv.scaffold_9.cds.to.Dplan.chrom_14.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000
+#block begin
+scaffold_9	10954928	10960589	Dplan_chrom-14	128034969	128039921	-	mRNA41526	1	0.967991
+scaffold_9	31374733	31375337	Dplan_chrom-14	110512588	110513213	-	mRNA42588	1	0.597428
+scaffold_9	36408330	36412680	Dplan_chrom-14	79214630	79214870	-	mRNA42955	1	0.235294
+scaffold_9	52062237	52064024	Dplan_chrom-14	68743959	68745836	-	mRNA43947	1	0.70922
+scaffold_9	79459367	79459923	Dplan_chrom-14	61873588	61883322	-	mRNA45313	1	0.724
+#block end
+#anchorwave proali -i ./Udiv/Udiv.scaffold_10.augustus.hints.sorted.gff3 -r ./Udiv/Udiv.scaffold_10.fa -a ./Udiv-Dplan/Udiv.scaffold_10.cds.to.Dplan.chrom_14.liftover.sam -as ./Udiv/Udiv.scaffold_10.cds.fa -ar ./Udiv/Udiv.scaffold_10.cds.ref.sam -s ./Dplan/Dplan_chrom_14.fa -n ./Udiv-Dplan/Udiv.scaffold_10.cds.to.Dplan.chrom_14.anchors -t 12 -R 1 -Q 1 -w 45000 -fa3 500000

@@ -1,4 +1,3 @@
-#gene	Udiv_chrom	Lele_chrom	Dplan_chrom	Mbour_chrom	Abrue_chrom
 mRNA16051
 mRNA16053
 mRNA16054
