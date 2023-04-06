@@ -5,15 +5,17 @@
 Searched for transcriptomes and chromosome-level genome assemblies
 
 #### Transcripts
-_Metellina segmentata_: not found
-_Dysdera silvatica_: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA313901/
-_Dolomedes plantarius_: not found
-_Meta bourneti_: not found
+
+* _Metellina segmentata_: not found
+* _Dysdera silvatica_: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA313901/
+* _Dolomedes plantarius_: not found
+* _Meta bourneti_: not found
 
 #### Chromosome-level assemblies
-_Trichonephila clavipes_: not found
-_Trichonephila antipodiana_: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA627506
-_Trichonephila clavata_: https://spider.bioinfotoolkits.net/main/species-info/-1
+
+* _Trichonephila clavipes_: not found
+* _Trichonephila antipodiana_: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA627506
+* _Trichonephila clavata_: https://spider.bioinfotoolkits.net/main/species-info/-1
 
 ## 05.04.23
 
