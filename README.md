@@ -1,5 +1,78 @@
 # gordus-rotation
 
+## 10.04.23
+
+Instructions from Jeremiah: 
+
+> We have genome, transcriptome, and annotation files for Uloborus diversus and Argiope bruennichi.
+We know that these data exist for Latrodectus elegans, so we will want to check that we have them or get whatever we don't already have. This one is in GigaDB, and not in NCBI, so that's where we'll need to go to get this data (and my experience with this is that it can be incredibly slow).
+We know that the genome and transcriptome of Hylyphantes graminicola are available. We need to check on the annotation file, or see if we can generate one by mapping the transcriptome to the genome.
+There are no transcriptomes that we've been able to find for Meta bourneti or Dolomedes plantarius, so we'll have to count those out for Anchorwave, but once we have a set of candidate genes, we can still map those to these species to see which of the proposed X chromosomes they fall onto and whether the pattern of segregation is the same.
+We need to find out if we can get transcriptomes and annotation files for Dysdera silvatica and Metellina segmentata... especially D. silvatica, since that is the one with the single X chromosome.
+I think you mentioned that there were two Tetragnatha species and Trichonephila clavipes genomes available, at least one of which was chromosome-scale assembly, so we'd want to look for the associated files for those as well.
+
+>To get these files in their proper place, navigate to:
+/media/will/mimic/sex_scaffs/
+and create a folder (e.g, Hgram) for the species. Then, you can just use wget to get the files in that folder.
+After we have the multi-fasta with the assembly in it, we'll want to break it down into chromosomes or scaffolds.
+You can filter out the smaller scaffolds first, using a one-liner like the following:
+bioawk -c fastx '{ if(length($seq) > 750000) { print ">"$name; print $seq }}' species_assembly.fa > species_assembly.chroms.fa
+Then, you can break that multi-fasta into single fasta files, each with a single chromosome in it.
+
+>If I recall correctly, you can use seqkit split for that task. Then, you'll want to rename the files using the naming convention that we've used for the other species, which looks like [species_abbreviation]dot[chrom_X].fa
+Or it might be [species_abbreviation]_[chrom_X].fa
+Something like that just to make it easier for us to keep track of
+
+* Downloaded _Hylyphantes graminicola_ genome assembly
+
+```
+curl -OJX GET "https://api.ncbi.nlm.nih.gov/datasets/v2alpha/genome/accession/GCA_023701765.1/download?include_annotation_type=GENOME_FASTA,GENOME_GFF,RNA_FASTA,CDS_FASTA,PROT_FASTA,SEQUENCE_REPORT&filename=GCA_023701765.1.zip" -H "Accept: application/zip"
+
+unzip GCA_023701765.1.zip 
+```
+
+* Filtered out smaller scaffolds with 
+
+```
+bioawk -c fastx '{ if(length($seq) > 750000) { print ">"$name; print $seq }}' GCA_023701765.1_ASM2370176v1_genomic.fna > ../../../Hgram_assembly.chroms.fa
+```
+
+* Split into chromosomes with 
+
+``` 
+seqkit split -i Hgram_assembly.chroms.fa
+```
+
+* Renamed according to naming convention [species_abbreviation]_[chrom_X].fa
+* Found annotation file at https://www.scidb.cn/en/detail?dataSetId=b2a377bee8184231bbf8bee49bd98928
+
+``` 
+wget https://download.scidb.cn/download?fileId=61aec71689f14b48842fbae7&dataSetType=personal&fileName=IOZCAS_Hgram_genomeAssembly_1.0.gff
+```
+
+* Renamed Hgram_genomeAssembly_1.0.gff 
+* Moved transcriptome file (?) /media/will/mimic/tsas/cd-hit_complete/Hylyphantes_graminicola.fsa_nt to sex_scaffs/Hgram folder
+
+### Meeting with Andrew and Jeremiah
+
+* average number of transcripts in orthofinder call per species is ~15,000
+* Verify that BUSTED and RELAX pipeline work using example data to make sure we can reproduce their results (Jeremiah)
+* Me: BLAST the sex-linked genes in sex chromosomes
+	* Use annotation file to pull out transcripts that are on the sex chromosomes
+	* _L. elegans_ has a transcriptome, should try to get that downloaded
+	* BLAST against the _D. silvatica_ big sex chromosome, but just the transcripts that come from that chromosome
+	* _M. bourneti_ and _D. plantarius_: do a BLAST search against each of the sex chromosomes
+	* restrict outputs to e value (second to last column) of 1E-5 or less
+	* Last column is the bit score: bigger = better
+
+```	
+blastn -subject [TRANSCRIPTOME/GENOME] -query [GENE LIST] -evalue 1e-5 -num_threads 36 [FOR TRANSCRIPTOMES:] -max_target_seqs 5 -out [FILENAME.blastn.out]
+```
+
+## 07.04.23
+
+Finished reading Jeremiah's paper. Read up a bit on HyPhy
+
 ## 06.04.23
 
 Searched for transcriptomes and chromosome-level genome assemblies
