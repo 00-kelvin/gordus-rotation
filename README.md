@@ -1,4 +1,48 @@
-# gordus-rotation
+# gordus-rotation 
+
+## 11.04.23
+
+Smim.sex.prot.anns -> sort to only the 534 genes in sex_genes_div_mim_brue.txt
+
+* Made a copy of the txt file of IDs in /media/will/mimic/Kelvin directory
+* made a new file of only the Smim IDs:
+
+```cut -f 2 -d$'\t' sex_genes_div_mim_brue.txt > sex_genes_mim_IDs.txt```
+
+* copied the Smim.sex.prot.anns file to Kelvin directory
+* filtered the protein sequences from the list of 534 using ```seqkit```:
+
+```seqkit grep -f sex_genes_mim_IDs.txt Smim.sex.prot.anns -o sex_genes_div_mim_brue.fa```
+
+* checked that all 534 are there using ```seqkit stats```
+
+* Downloaded L.elegans transcripts and annotation file to ```sex_scaffs/Lelegans```, from http://gigadb.org/dataset/view/id/102210/File_page/2: will need to pull out genes that are annotated as on sex chromosomes and BLAST against those
+
+BLAST command:
+```
+tblastn -subject [TRANSCRIPTOME/GENOME] -query [GENE LIST] -evalue 1e-5 -num_threads 36 [FOR TRANSCRIPTOMES:] -max_target_seqs 5 -out [FILENAME.blastn.out]
+```
+
+1. L elegans: chrom 1 and 9 (cds)
+	* have txpts and ann files, need to filter to the ones on sex chroms
+2. D. plantarius (chrom 5 and 12)
+3. M. bourneti (chrom X1 and X2)
+4. T. clavata chrom 12 and 13 (cds)
+	* have the genome downloaded and split into chroms
+	* have the cds and annotation file downloaded but cant get the files to unzip
+5. D. silvatica (pending updated data -- email them?)
+
+Used ```seqkit grep -p 'chr_1\.' -r Latrodectus_elegans_EVM.out.gff3.cds -o ../../Kelvin/Lele_chrom_1_cds.fa``` to get genes from L.elegans chrom 1 and 9, use -r flag to allow partial match, verified that chroms 10-14 were NOT included 
+
+Going to go ahead and try BLASTing against the L.elegans cds, wish me luck. Ran these commands from /Kelvin directory:
+
+```tblastn -subject Lele_chrom_1_cds.fa -query sex_genes_div_mim_brue.fa -evalue 1e-5 -num_threads 36 -max_target_seqs 5 -out ./sex_genes_blast/sex_genes_Lele_chrom_1.blastn.out```
+
+```tblastn -subject Lele_chrom_9_cds.fa -query sex_genes_div_mim_brue.fa -evalue 1e-5 -num_threads 36 -max_target_seqs 5 -out ./sex_genes_blast/sex_genes_Lele_chrom_9.blastn.out```
+
+```tblastn -subject ../sex_scaffs/Dplan/Dplan_chrom_5.fa -query sex_genes_div_mim_brue.fa -evalue 1e-5 -num_threads 36 -out ./sex_genes_blast/sex_genes_Dplan_chrom_5.blastn.out``` and same for chrom 12
+
+```tblastn -subject ../sex_scaffs/Mbourn/Mbourn_chrom_X1.fa -query sex_genes_div_mim_brue.fa -evalue 1e-5 -num_threads 36 -out ./sex_genes_blast/sex_genes_Mbourn_chrom_X1.blastn.out``` and same for X2
 
 ## 10.04.23
 
@@ -68,6 +112,38 @@ wget https://download.scidb.cn/download?fileId=61aec71689f14b48842fbae7&dataSetT
 ```	
 blastn -subject [TRANSCRIPTOME/GENOME] -query [GENE LIST] -evalue 1e-5 -num_threads 36 [FOR TRANSCRIPTOMES:] -max_target_seqs 5 -out [FILENAME.blastn.out]
 ```
+ 
+* Looked for D. sylvatica genome and annotation files -- there's a pre-print about chromosome-level assembly, but all the links are to the previous scaffold-level version: https://www.ncbi.nlm.nih.gov/assembly/GCA_006491805.2
+* Downloaded T. clavata genome; ref: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9932165/ indicates sex chromosomes are 12 and 13
+
+```
+bioawk -c fastx '{ if(length($seq) > 750000) { print ">"$name; print $seq }}' dna.all.fa > Tclavata_assembly.chroms.fa
+
+seqkit split -i Tclavata_assembly.chroms.fa
+
+```
+
+Waiting for someone to send me that list of 534 genes. In the meantime, sending H.gram through the following pipeline to prep it for orthofinder:
+
+1. TransDecoder.LongOrfs
+
+```TransDecoder.LongOrfs -t Hylyphantes_graminicola.cd-hit-est -O ../../transdecoder/clustered/Hylyphantes_graminicola```
+
+2. blastp
+
+run from the blastp folder:
+
+```blastp -subject ../TD-LO_complete/Hylyphantes_graminicola.cd-hit-est -query /media/will/demogorgon/refdbs/uniprot/uniprot_sprot.fasta -evalue 1e-5 -num_threads 36 -max_target_seqs 1 -outfmt 6 -out Hylyphantes_graminicola.cd-hit-est.blastp.out```
+
+3. pfam
+
+run from pfam directory:
+
+```
+hmmscan --cpu 36 --domtblout Hylyphantes_graminicola.cd-hit-est.pfam.domtblout /media/will/demogorgon/refdbs/Pfam/Pfam-A.hmm /media/will/mimic/transdecoder/clustered/TD-LO_complete/Hylyphantes_graminicola/Hylyphantes_graminicola.cd-hit-est.transdecoder_dir/longestest_orfs.pep
+```
+
+4.  TransDecoder.Predict
 
 ## 07.04.23
 
