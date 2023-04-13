@@ -1,5 +1,45 @@
 # gordus-rotation 
 
+## 13.04.23
+
+Problem: the Smim.sex.prot.anns file only had the first 60 aa of each sequence. Recreated list using S_mimosarum_proteins.txt file which has full length sequences
+
+```seqkit grep -f sex_genes_mim_IDs.txt ../sex_scaffs/Smim/S_mimosarum_proteins.txt -o sex_genes_div_mim_brue.fa```
+
+Rerun BLAST using full sequences. This time, limiting to max target sequence of 1 (for CDS) and max "high scoring pairs" (HSPs) of 1 as well, so that each query only has 1 alignment per chromosome. just create a table of outputs. 
+
+Examples:
+
+```tblastn -subject Lele_chrom_9_cds.fa -query sex_genes_div_mim_brue.fa -evalue 1e-5 -max_target_seqs 1 -max_hsps 1 -outfmt 6 -out ./sex_genes_blast/sex_genes_Lele_chrom_9.blastn.outfmt6_max-hits-1_max-hsps-1```
+
+```tblastn -subject ../sex_scaffs/Dplan/Dplan_chrom_5.fa -query sex_genes_div_mim_brue.fa -evalue 1e-5 -max_hsps 1 -outfmt 6 -out ./sex_genes_blast/sex_genes_Dplan_chrom_5.blastn.outfmt6_max-hits-1_max-hsps-1```
+
+**Count of hits:** 
+L.ele chrom 1: 290
+L.ele chrom 9: 257
+D.plan chrom 5: 336
+D.plan chrom 12: 272
+M.bourn chrom X1: 340
+M.bourn chrom X2: 295
+
+**To add:** T. clavata, D. silvatica
+
+Got the T.clav files "unzipped" (they weren't actually tar zipped)
+
+Finally found the chromosome-level D.silvatica genome: https://www.ncbi.nlm.nih.gov/Traces/wgs/QLNU02?display=contigs
+
+Downloaded the assembly as 2 separate files, then used bioawk to filter to scaffolds >20Mbp (since those were the pseudochromosomes 1-6, U1 and X listed in the paper https://onlinelibrary.wiley.com/doi/10.1111/1755-0998.13471)
+
+Split using seqkit, then sorted by size and renamed each scaffold to their chromosome names according to lengths indicated in the paper. The largest one at >300Mbp is the X chromosome.
+
+Also found and downloaded transcripts and annotation file for D.silvatica (ref: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5381604/), but these are unlikely to be annotated according to which chromosome they are from, since the transcriptome data predates the chromosome-level assembly. Might just BLAST against the X chromosome genomic data.
+
+TO DO: 
+
+* BLAST against T. clavata and D. silvatica
+* Filter list of 534 to genes that had hits on all 5 other species
+* Make a spreadsheet for keeping track of links that I've been collecting for different species
+
 ## 11.04.23
 
 Smim.sex.prot.anns -> sort to only the 534 genes in sex_genes_div_mim_brue.txt
