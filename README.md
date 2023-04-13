@@ -15,12 +15,20 @@ Examples:
 ```tblastn -subject ../sex_scaffs/Dplan/Dplan_chrom_5.fa -query sex_genes_div_mim_brue.fa -evalue 1e-5 -max_hsps 1 -outfmt 6 -out ./sex_genes_blast/sex_genes_Dplan_chrom_5.blastn.outfmt6_max-hits-1_max-hsps-1```
 
 **Count of hits:** 
-L.ele chrom 1: 290
-L.ele chrom 9: 257
-D.plan chrom 5: 336
-D.plan chrom 12: 272
-M.bourn chrom X1: 340
-M.bourn chrom X2: 295
+
+* L.ele chrom 1: 290
+* L.ele chrom 9: 257
+	* L.ele total unique: 408
+* D.plan chrom 5: 336
+* D.plan chrom 12: 272
+	* D.plan total unique: 494
+* M.bourn chrom X1: 340
+* M.bourn chrom X2: 295
+	* M.bourn total unique: 517
+* T.clavata chrom 12: 321
+* T.clavata chrom 13: 333
+	* T.clavata total unique: 499
+* D.silvatica chrom X: 358
 
 **To add:** T. clavata, D. silvatica
 
@@ -39,6 +47,23 @@ TO DO:
 * BLAST against T. clavata and D. silvatica
 * Filter list of 534 to genes that had hits on all 5 other species
 * Make a spreadsheet for keeping track of links that I've been collecting for different species
+
+Pattern for T.clavata cds is TcXX where XX = chrom #, use that to make separate fasta files for Chrom 12 and 13 cds.
+
+Ran BLAST on T.clavata cds and D.silv big X chromosome.
+
+Created text files for each species containing all gene IDs with hits for that species (cat the 2 files for those with 2 x chromosomes, pipe to uniq) however, even when piping to uniq the combined files still had >534 genes. Don't know what that's about but extras should be eliminated once these lists are intersected with the original list
+
+Ok, intersected sequentially using ```sort sex_genes_mim_IDs.txt Dplan_sex_genes.txt | uniq -d > sex_genes_USAD.txt``` in this order:
+
+Start: 534
+add Dplan: 494
+add Lele: 387
+add Mbourn: 386
+add Tclavata: 376
+add Dsilv: 285
+
+final list is called ```sex_genes_USADLMTD.txt```
 
 ## 11.04.23
 
