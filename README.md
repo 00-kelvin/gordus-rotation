@@ -1,5 +1,29 @@
 # gordus-rotation 
 
+## 17.04.23
+
+Sent Andrew the new narrowed-down gene lists. 
+
+Now, need to sort them by chromosome
+
+A. bruennechi chroms 9 and 10, U. div chromosomes 3 and 10
+
+To sort U.div genes by which chromosome they're from: 
+
+* made a file of just Udiv IDs for the intersection between the 7 species with XX/XXXX
+
+```cut -f 1 sex_genes_USADLMT_ids.txt | tail -n +2 > sex_genes_USADLMT_div_IDs.txt```
+
+* search in Udiv scaffold 3 and 10 cds fasta files for those genes
+
+```grep -f sex_genes_USADLMT_div_IDs.txt Udiv.scaffold_3.cds.fa > Udiv_scaff_3_sex_genes.txt```
+
+* 215 were on scaffold 3, 161 were on scaffold 3!
+* Same for A. bruen, but have to use Abruen.chrom_X.gff files, which have a bunch of other stuff in them...
+* For the other four species, use the blastn.outfmt6 files
+
+Exported all those files to local computer and wrote a script in ```matrices.py``` to collect which chromosome each one is on. Some of them are showing up as on "neither" chromosome, which is bad, need to figure out why that is.
+
 ## 13.04.23
 
 Problem: the Smim.sex.prot.anns file only had the first 60 aa of each sequence. Recreated list using S_mimosarum_proteins.txt file which has full length sequences
@@ -53,6 +77,8 @@ Pattern for T.clavata cds is TcXX where XX = chrom #, use that to make separate 
 Ran BLAST on T.clavata cds and D.silv big X chromosome.
 
 Created text files for each species containing all gene IDs with hits for that species (cat the 2 files for those with 2 x chromosomes, pipe to uniq) however, even when piping to uniq the combined files still had >534 genes. Don't know what that's about but extras should be eliminated once these lists are intersected with the original list
+
+[this was just because i didn't sort before using uniq]
 
 Ok, intersected sequentially using ```sort sex_genes_mim_IDs.txt Dplan_sex_genes.txt | uniq -d > sex_genes_USAD.txt``` in this order:
 
