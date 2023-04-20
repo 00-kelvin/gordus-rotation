@@ -14,7 +14,7 @@ add Mbourn: 380
 add Tclavata: 363
 add Dsilv: 275
 
-
+```
  2027  grep -f ./intersect_lists_sex_genes/sex_genes_USADL.txt sex_genes_div_mim_brue.txt >> sex_genes_USADL_ids.txt 
  2033  grep -f ./intersect_lists_sex_genes/sex_genes_USADLM.txt sex_genes_div_mim_brue.txt >> sex_genes_USADLM_ids.txt 
  2053  grep "KAF" Abruen.chrom_9.CDS
@@ -24,6 +24,7 @@ add Dsilv: 275
  2108  grep -f sex_genes_USADLMT_div_IDs.txt Udiv.scaffold_10.cds.fa > Udiv_scaff_10_sex_genes.txt
  2110  grep -f sex_genes_USADLMT_bruen_IDs.txt Abruen.chrom_9.gff > Abruen_chrom_9_sex_genes.txt
  2113  grep -f sex_genes_USADLMT_bruen_IDs.txt Abruen.chrom_10.gff > Abruen_chrom_10_sex_genes.txt
+```
 
 ^ used that to make the lists of IDs for the different intersections
 
