@@ -5,14 +5,14 @@
 
 Have to redo the intersections because I didn't make the lists for each species unique before narrowing down, so the ```uniq -d``` command also included ones that were just on both chromosomes for one species
 
-NEW COUNTS: 
+**NEW COUNTS:** 
 
-Start: 534
-add Dplan: 494
-add Lele: 386
-add Mbourn: 380
-add Tclavata: 363
-add Dsilv: 275
+* Start: 534
+* add Dplan: 494
+* add Lele: 386
+* add Mbourn: 380
+* add Tclavata: 363
+* add Dsilv: 275
 
 ```
  2027  grep -f ./intersect_lists_sex_genes/sex_genes_USADL.txt sex_genes_div_mim_brue.txt >> sex_genes_USADL_ids.txt 
@@ -114,12 +114,12 @@ Created text files for each species containing all gene IDs with hits for that s
 
 Ok, intersected sequentially using ```sort sex_genes_mim_IDs.txt Dplan_sex_genes.txt | uniq -d > sex_genes_USAD.txt``` in this order:
 
-Start: 534 (Udiv + Smim + Abreun)
-add Dplan: 494
-add Lele: 387
-add Mbourn: 386
-add Tclavata: 376
-add Dsilv: 285
+* Start: 534 (Udiv + Smim + Abreun)
+* add Dplan: 494
+* add Lele: 387
+* add Mbourn: 386
+* add Tclavata: 376
+* add Dsilv: 285
 
 final list is called ```sex_genes_USADLMTD.txt```
 
