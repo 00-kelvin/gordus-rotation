@@ -1,5 +1,36 @@
 # gordus-rotation 
 
+
+## 20.04.23
+
+Have to redo the intersections because I didn't make the lists for each species unique before narrowing down, so the ```uniq -d``` command also included ones that were just on both chromosomes for one species
+
+NEW COUNTS: 
+
+Start: 534
+add Dplan: 494
+add Lele: 386
+add Mbourn: 380
+add Tclavata: 363
+add Dsilv: 275
+
+
+ 2027  grep -f ./intersect_lists_sex_genes/sex_genes_USADL.txt sex_genes_div_mim_brue.txt >> sex_genes_USADL_ids.txt 
+ 2033  grep -f ./intersect_lists_sex_genes/sex_genes_USADLM.txt sex_genes_div_mim_brue.txt >> sex_genes_USADLM_ids.txt 
+ 2053  grep "KAF" Abruen.chrom_9.CDS
+ 2054  grep "KAF" Abruen.chrom_9.longestCDS.ids 
+ 2076  grep -f ./intersect_lists_sex_genes/sex_genes_USADLMT.txt sex_genes_div_mim_brue.txt >> sex_genes_USADLMT_ids.txt 
+ 2105  grep -f sex_genes_USADLMT_div_IDs.txt Udiv.scaffold_3.cds.fa > Udiv_scaff_3_sex_genes.txt
+ 2108  grep -f sex_genes_USADLMT_div_IDs.txt Udiv.scaffold_10.cds.fa > Udiv_scaff_10_sex_genes.txt
+ 2110  grep -f sex_genes_USADLMT_bruen_IDs.txt Abruen.chrom_9.gff > Abruen_chrom_9_sex_genes.txt
+ 2113  grep -f sex_genes_USADLMT_bruen_IDs.txt Abruen.chrom_10.gff > Abruen_chrom_10_sex_genes.txt
+
+^ used that to make the lists of IDs for the different intersections
+
+This solved the problem of getting genes that were on neither chromosome for certain species once I fed it back in to my ```gene_loc_db2.py``` script.
+
+Have my ```matrices.py``` up and running but the output looks wrong, need to figure out how to increment entries correctly and also what to do about genes that are on both chromosomes.
+
 ## 17.04.23
 
 Sent Andrew the new narrowed-down gene lists. 
@@ -82,7 +113,7 @@ Created text files for each species containing all gene IDs with hits for that s
 
 Ok, intersected sequentially using ```sort sex_genes_mim_IDs.txt Dplan_sex_genes.txt | uniq -d > sex_genes_USAD.txt``` in this order:
 
-Start: 534
+Start: 534 (Udiv + Smim + Abreun)
 add Dplan: 494
 add Lele: 387
 add Mbourn: 386
