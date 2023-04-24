@@ -6,7 +6,10 @@ import pandas as pd
 path = "/Users/cmdb/gordus-rotation/"
 
 # import database of gene locations
-db = pd.read_csv(path + "out/gene_loc_db4.csv")
+db_pre = pd.read_csv(path + "out/gene_loc_db4.csv")
+
+# remove genes with multiple copies in any species
+db = db_pre[ (db_pre["D. plan chrom"]!="both") & (db_pre["L. ele chrom"]!="both") & (db_pre["M. bourn chrom"]!="both") & (db_pre["T. clav chrom"]!="both")]
 
 # extract U. div gene IDs
 div_ids = db["Uloborus diversus"].tolist()
@@ -24,19 +27,14 @@ species_list = ["U. div chrom",
 				"T. clav chrom"]
 
 # check each pair of genes
-for id1 in range(len(db)):
-	for id2 in range(len(db)):
+for id1 in div_ids:
+	for id2 in div_ids:
 		for species in species_list:
 
-			# for now, ignore pairs in which either gene is on both chroms 
-			if db[species][id1] == "both":
-				break
-			elif db[species][id2] == "both":
-				break
-			elif db[species][id1] == db[species][id2]:
-				same_chrom_mat.loc[div_ids[id1],div_ids[id2]] = same_chrom_mat[div_ids[id1]][div_ids[id2]] + 1
+			if db[db["Uloborus diversus"] == id1][species].values[0] == db[db["Uloborus diversus"] == id2][species].values[0]:
+				same_chrom_mat.loc[id1,id2] += 1
 			else:
-				diff_chrom_mat.loc[div_ids[id1],div_ids[id2]] = diff_chrom_mat[div_ids[id1]][div_ids[id2]] + 1
+				diff_chrom_mat.loc[id1,id2] += 1
 
 # export matrices
 diff_chrom_mat.to_csv(path+'out/diff_chrom_mat.csv')

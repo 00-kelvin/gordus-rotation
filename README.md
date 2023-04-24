@@ -1,5 +1,8 @@
 # gordus-rotation 
 
+## 24.04.23
+
+Fixed the ```matrices.py``` script, now I have my 2 matrices, woo! 
 
 ## 20.04.23
 
