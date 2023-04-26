@@ -8,6 +8,8 @@ Count of genes involved in fully segregating pairs: 150
 
 Made heat map and histogram
 
+Clustered the genes to find blocks of genes that are always segregating apart from other blocks of genes, saved lists in blocks.csv
+
 ## 24.04.23
 
 Fixed the ```matrices.py``` script, now I have my 2 matrices, woo! 
