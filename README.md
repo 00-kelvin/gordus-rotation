@@ -1,8 +1,22 @@
 # gordus-rotation 
 
+## 26.04.23
+
+Count of genes found on both chroms for all 4 added species: 70
+Fully segregating pairs: 1061
+Count of genes involved in fully segregating pairs: 150
+
+Made heat map and histogram
+
 ## 24.04.23
 
 Fixed the ```matrices.py``` script, now I have my 2 matrices, woo! 
+
+* Find out how many of the genes are on both chromosomes for all species
+* How many pairs are invovled and how many genes are in pairs (rows / 2)
+* Check out go annotations for these genes
+* Make a heat map of the matrix
+* Histogram: for each row, number of columns that have 6s
 
 ## 20.04.23
 

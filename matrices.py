@@ -39,3 +39,4 @@ for id1 in div_ids:
 # export matrices
 diff_chrom_mat.to_csv(path+'out/diff_chrom_mat.csv')
 same_chrom_mat.to_csv(path+'out/same_chrom_mat.csv')
+
