@@ -1,5 +1,40 @@
 # gordus-rotation 
 
+## 27.04.23
+
+Collecting gene annotations for the genes in the blocks that segregate separately.
+
+In block 1A mRNA20493 and mRNA16063 don't have annotations
+
+1 missing from block 1B: mRNA6350
+
+None missing from block 2A or 2B
+
+None missing from block 3A or 3B
+
+BLASTed mRNA18921 sequence: only 2 results are uncharacterized genes in U.div and *Parasteatoda tepidariorum*, but maybe there are structural homologs in other spider species
+
+Interesting candidate genes: 
+
+* 6646: bZIP Mef-like TF (regulates doublesex in crustacean *Daphnia magna* https://doi.org/10.1371/journal.pgen.1006953)
+* Segregating partners of 6646:
+	* 18181: suppressor of RAS, has pleckstrin domain, downstream targets of SRY
+	* 18895: related to chromatin organization
+	* 18921: uncharacterized
+	* 18991: ribonuclease inhibitor, interesting?
+	* 19375: MA3 domain might be related to sex determination
+	* 19979: TF CoE-1
+	* 20009: LIM-domain-BP, repro dev https://doi.org/10.1159/000518323
+	* 20021: SH3-domain-BP
+
+Also got list of annotations for the genes that were always on both chromosomes
+
+### Meeting with Andrew
+
+* look for BLAST hits of these same genes on autosomes -- if there are any that are only on sex chromosomes those would be interesting
+* for any TFs, if anything known about consensus sequences, look for genes on other chromosomes that are their targets
+* look at known dsx orthologs and build a tree with those + our dsx gene family
+
 ## 26.04.23
 
 Count of genes found on both chroms for all 4 added species: 70
