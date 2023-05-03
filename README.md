@@ -1,5 +1,61 @@
 # gordus-rotation 
 
+## 03.05.23
+
+Done: 
+
+* U div, cds (all but 3 and 10)
+* A bruen, cds (all but 9 and 10)
+
+Left: 
+
+* D plan, genome (all but 5 and 12)
+* L ele, cds (all but 1 and 9)
+* M bourn, genome (all but X1 and X2)
+* T clavata, cds (all but 12 and 13)
+* D silv, genome (all but X)
+
+Had to make separate CDS files for the chromosomes for L.elegans and T.clavata:
+
+```seqkit grep -p "Tc01G" -r cds.fa -o Tclavata_chrom_1_cds.fa```
+
+or
+
+```seqkit grep -p 'chr_10\.' -r Latrodectus_elegans_EVM.out.gff3.cds -o Lele_chrom_10_cds.fa```
+
+**Tallying no-hit counts:**
+
+8-species intersection
+
+* U.div: 47
+* A.bruen: 48
+* D.plan: 69
+* L.ele: 48
+* M.bourn: 65
+* T.clavata: 49
+* D.silv: 73
+
+7-species intersection
+
+* U.div: 74
+* A.bruen: 73
+* D.plan: 108
+* L.ele: 77
+* M.bourn: 103
+* T.clavata: 82
+
+Keep in mind: there may be genes on other non-chromosomal scaffolds...
+
+It was def a waste of time to do the 8- and 7-species intersections as separate BLAST runs instead of just doing the 7species and then filtering to the 8species list. but oh well, it's almost done
+
+```cat *7sp_nohits.txt | sort-uniq-count-rank > no_hits_7sp_scur.txt```
+
+```grep "6	" no_hits_7sp_sucr.txt | cut -f2 > no_hits_any_sp_7sp_mim_IDs.txt```
+
+then used the ```grep -f``` against the ```sex_genes_div_mim_brue.txt``` to get IDs for div/bruen
+
+6646 is one of them....... So is 19375
+
 ## 02.05.23
 
 Created fasta files of sequences for the 7- and 8- species intersect lists.
