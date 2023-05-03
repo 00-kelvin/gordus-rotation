@@ -1,5 +1,55 @@
 # gordus-rotation 
 
+## 02.05.23
+
+Created fasta files of sequences for the 7- and 8- species intersect lists.
+
+```seqkit grep -f sex_genes_USADLMT_mim_IDs.txt ../../sex_scaffs/Smim/S_mimosarum_proteins.txt -o sex_genes_USADLMT.fa```
+
+Test BLAST of sex genes against Udiv autosome 1
+
+```tblastn -subject ../sex_scaffs/Udiv/Udiv.scaffold_1.cds.fa -query ./intersect_lists_sex_genes/sex_genes_USADLMT.fa -evalue 1e-5 -outfmt 6 -out ./autosome_blast/Udiv_scaff_1_7sp.blastn.outfmt6```
+
+Also did with no evalue limit
+
+```tblastn -subject ../sex_scaffs/Udiv/Udiv.scaffold_1.cds.fa -query ./intersect_lists_sex_genes/sex_genes_USADLMT.fa -outfmt 6 -out ./autosome_blast/Udiv_scaff_1_7sp_no-elim.blastn.outfmt6```
+
+Now for rest of Udiv scaffolds, using the 7-species intersection, with and without e-value limits...
+
+```for i in {2,4,5,6,7,8,9}; do tblastn -subject ../sex_scaffs/Udiv/Udiv.scaffold_${i}.cds.fa -query ./intersect_lists_sex_genes/sex_genes_USADLMT.fa -outfmt 6 -out ./autosome_blast/Udiv_scaff_${i}_7sp_no-elim.blastn.outfmt; tblastn -subject ../sex_scaffs/Udiv/Udiv.scaffold_${i}.cds.fa -query ./intersect_lists_sex_genes/sex_genes_USADLMT.fa -evalue 1e-5 -outfmt 6 -out ./autosome_blast/Udiv_scaff_${i}_7sp.blastn.outfmt; done```
+
+... and the 8-species intersection
+
+```for i in {1,2,4,5,6,7,8,9}; do tblastn -subject ../sex_scaffs/Udiv/Udiv.scaffold_${i}.cds.fa -query ./intersect_lists_sex_genes/sex_genes_USADLMTD.fa -outfmt 6 -out ./autosome_blast/Udiv_scaff_${i}_8sp_no-elim.blastn.outfmt; tblastn -subject ../sex_scaffs/Udiv/Udiv.scaffold_${i}.cds.fa -query ./intersect_lists_sex_genes/sex_genes_USADLMTD.fa -evalue 1e-5 -outfmt 6 -out ./autosome_blast/Udiv_scaff_${i}_8sp.blastn.outfmt; done```
+
+Made a script to compress the BLAST hits into a unique list for each condition ```list_hits_Udiv.sh```
+
+Created a list of genes that had hits on any of the autosomees in the 4 conditions: 
+```cat *_7sp_hits.txt | sort | uniq > Udiv_7sp_hits.txt```
+
+With no e-value limit, there are no genes in either the 7-species or 8-species list that had no hits on any of the Udiv autosomes. But with e-value limit of 1e-5, there are some genes with no hits. 
+
+Made lists of genes that had no hits on the autosomes (with the e-value limit) for the 7- and 8-species intersections:
+
+```sort ../../intersect_lists_sex_genes/sex_genes_USADLMTD_mim_IDs.txt Udiv_8sp_hits.txt | uniq -u > Udiv_8sp_nohits.txt```
+
+Made a new script ```Abruen_autosome_blast.sh``` that does all the above steps for Abruen.
+
+The counts of genes that had no autosome hits were almost identical for the U.div and A.bruen: 
+
+8-species intersection
+
+* U.div: 47
+* A.bruen: 48
+
+7-species intersection
+
+* U.div: 74
+* A.bruen: 73
+
+Maybe this is a good sign? Or maybe it's due to some error of mine. We shall see!
+
+
 ## 27.04.23
 
 Collecting gene annotations for the genes in the blocks that segregate separately.
@@ -32,7 +82,7 @@ Also got list of annotations for the genes that were always on both chromosomes
 ### Meeting with Andrew
 
 * look for BLAST hits of these same genes on autosomes -- if there are any that are only on sex chromosomes those would be interesting
-* for any TFs, if anything known about consensus sequences, look for genes on other chromosomes that are their targets
+* for any TFs in our candidate list, if anything known about consensus sequences, look for genes on other chromosomes that are their targets
 * look at known dsx orthologs and build a tree with those + our dsx gene family
 
 ## 26.04.23
