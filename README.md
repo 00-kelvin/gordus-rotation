@@ -1,5 +1,160 @@
 # gordus-rotation 
 
+## 07.05.23
+
+* Stuff to potentially do later:
+	* Add the new chrom-level assemblies to analysis
+	* More on dsx TF binding sites
+
+### Hox genes on sex chromosomes
+
+List of genes from 8-species intersect that are coming up as hox genes (or at least having homeobox domain): 
+
+6	mRNA7638_1
+6	mRNA7687_1
+5	mRNA18127_1
+5	mRNA19316_1
+5	mRNA19326_1
+5	mRNA20134_1
+5	mRNA20147_1
+5	mRNA7683_1
+5	mRNA7926_1
+2	mRNA16425_1
+2	mRNA18588_1
+2	mRNA6585_1
+1	mRNA7140_1
+
+### Doublesex on sex chromosomes
+
+* Udiv: 2, 7 and **10**
+* Abruen: 8, **9, 10**, 11
+* Lele: **1** and 7
+* Tclav: copies on NCBI protein database didn't list chromosomes
+	* Did BLAST of one of their sequences against my Tclav cds, had hits on chroms 10, 11, **12 and 13**
+* Dplan: nothing comes up on NCBI (no transcriptome)
+	* Blasted the Tclav dsx sequence against the sex chrom genome seqences and there was a hit on both **5 and 12**
+* Mbourn: nothing comes up (no transcriptome)
+	* Did same thing as Dplan and had a hit on chrom **X1** but not X2
+* Dsilv: nothing comes up (transcriptome exists but predates chrom-level assembly)
+	* Did same thing as Dplan/Mbourn and had a hit on the big **X**
+* nothing comes up for Stegodyphus mimosarum in NCBI, and no hits when I blast the sex scaffolds with the Tclav sequence (explains why dsx didn't show up in the intersect list..?)
+
+###TF binding sites around dsx orthologs:
+
+MotifMap (https://motifmap.ics.uci.edu) is a tool that does this but only for specific genomes
+
+JASPAR (https://jaspar.genereg.net) can take in a TF sequence and give potential consensus sequence (didn't give anything for mRNA6646
+
+This site has a lot of potentially useful databases: https://footprintdb.eead.csic.es/?databases 
+
+### Syntenic blocks
+
+I think these aren't exactly syntenic blocks because the list already has a lot of gaps in it from intersecting it across different species but w/e. Need to figure out what Andrew actually wants with this info
+
+**List 1A.1**
+mRNA16056
+mRNA16058
+mRNA16063
+mRNA16065
+mRNA16088
+mRNA16092
+[mRNA16101]
+mRNA16187
+[mRNA16248]
+mRNA16250
+mRNA16294
+mRNA16297
+mRNA16309
+mRNA16344
+[mRNA16347]
+mRNA16475
+[mRNA16482]
+mRNA16489
+mRNA16505
+mRNA16514
+
+**List 1A.2**
+mRNA20258
+mRNA20262
+mRNA20263
+
+vs
+
+**List 1B.1**
+mRNA5846	
+mRNA5850	
+mRNA5859	
+[mRNA5980]	
+mRNA6118	
+mRNA6120	
+mRNA6155	
+mRNA6186	
+mRNA6199	
+[mRNA6240]	
+[mRNA6247]	
+mRNA6283	
+mRNA6319	
+mRNA6330	
+mRNA6350	
+[mRNA6382]	
+mRNA6391	
+mRNA6426	
+mRNA6446	
+mRNA6495	
+mRNA6547	
+mRNA6555	
+mRNA6579	
+mRNA6585	
+mRNA6591
+
+**List 1B.2**
+mRNA7857	
+mRNA7893	
+mRNA7898	
+mRNA7926	
+mRNA7981	
+[mRNA7992]	
+[mRNA8005]	
+mRNA8047
+
+These are essentially my Blocks 1A and 1B from my clustermap. Messed up my ```diff_chrom_mat.csv``` file, will need to regenerate if I need to use it for something else later
+
+## 04.05.23
+
+With a blastp search, mRNA6646 is coming up as "Segmentation protein cap'n'collar" in a bunch of spider species --> has a bunch of different targets in different species https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7588902/ aging, proteasome, chromatin remodeling...
+
+Potential consensus sequence for mRNA6646: RTGACTCAGCA
+(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4911266/)
+
+ATGACTCAGCA
+GTGACTCAGCA
+TGCTGAGTCAC
+TGCTGAGTCAT
+
+none of these were in the 10kb region upstream of the dsx ortholog on chromosome 7
+
+```
+grep "ATGACTCAGCA" dsx_chr7_upstream.fa 
+grep "GTGACTCAGCA" dsx_chr7_upstream.fa 
+grep "TGCTGAGTCAC" dsx_chr7_upstream.fa 
+grep "TGCTGAGTCAT" dsx_chr7_upstream.fa 
+```
+
+also checked the chromosome 2 ortholog, nothing there
+
+There is also a doublesex on chr10 which has 2 isoforms
+
+Could do a tree of bZIP TF proteins and see where ours lands
+
+Find dsx in spider genome, go 10kb up and down, dump into txp factor data base to find binding sites/partners
+
+The 7species intersect list of sex-only genes has 59 genes, 36 of them are from our blocks of seperately segregating genes (seems like a pretty high ratio out of the 363 genes from the original intersection)
+
+* Look upstream of dsx orthologs for TF binding sides
+* look for dsx on sex chroms of other spiders
+* syntenic blocks of little subgene list segregating apart always from my original heatmap?
+* in rotation talk mention that there are hox genes on the sex chroms of all species
+
 ## 03.05.23
 
 Done: 
