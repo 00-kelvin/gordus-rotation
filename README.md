@@ -1,5 +1,130 @@
 # gordus-rotation 
 
+## 22.05.23
+
+Check and make sure we have the best set of spider species represented (try to have at least 2, ideally 3 in each clade)
+
+Start with longest isoforms only -- use CD-HIT on drosophila proteome (flags: define by what similarity sequences should be grouped by, default 95)
+
+Start with all Dmel genes, then after orthogroups are identified, filter down to neuro genes (use single cell RNA seq paper that Andrew sent)
+
+Should be able to take protein sequences, find domains that align well in the amino acid (MAFT or other multiple sequence alignment tool, or even just use orthofinder to do the MSA test) -> then import that to Mega, view the files and find the well aligning parts. Then use those coordinates to go back and find the CDS, which we then can use to feed into Hyphy
+
+Species tree: look at the orthofinder output, will give us alternates and we can choose one. jeremiah's tree is not in the right file format
+
+Andrew wants me to make a google doc of workflow
+
+## 18.05.23
+
+**Plan:**
+
+Use orthofinder with spiders and drosophila neuro genes ```/demogorgon/refseqs/neuro-targets/Dmel``` (and add any other neuro targets from FlyBase that make sense to add)
+
+Translate the transcriptomes in /media/will/mimic/orthofinder/orb-runs2 to protein sequences
+
+Add other transcriptomes I might know about? 
+
+Want to include 2-3 of groups Tetragnathidae, Uloboridae, Araneidae (orb weavers) plus outgroups Mesothelae and Mygalomorphae; also look at clades around orb weavers and find 2-3 that are close to the orb weaving clades
+
+Genes we have already: 
+
+* Dopamine
+* Serotonin
+* NMDAR
+* ChR (acetylcholine)
+* GABA
+* Histamine
+* glutamate-gated chloride channel
+* ? Metabotropic
+
+Downloaded from FlyBase some representative sequences: 
+
+* AMPAR
+* ? Ionotropic receptors
+* Calcium channels
+* sodium channels
+* potassium channels
+* "ion channels"
+
+Concatenated all the Dmel protein sequences into ```Dmel-neuro-targets.faa```
+
+Used ```transeq``` to translate the fasta files for all 21 species to protein sequences
+
+Tried an orthofinder run using ```orthofinder -f run-1 -a 36 -og``` in my orthofinder directory. We'll seeeeeee how it goes.
+
+
+## 12.05.23
+
+### Are the hox genes in the "linkage blocks"? 
+
+mRNA6585
+mRNA7140
+mRNA7638
+mRNA7683
+mRNA7687
+mRNA7926
+mRNA16425
+mRNA18127
+mRNA18588
+mRNA19316
+mRNA19326
+mRNA20134
+mRNA20147
+
+
+Linkage block 1A.1: mRNA16056 -> mRNA16514
+
+* mRNA16425
+
+Linkage block 1A.2: mRNA20258 -> mRNA20263
+
+Linkage block 1B.1: mRNA5846 -> mRNA6591
+
+* mRNA6585
+
+Linkage block 1B.2: mRNA7857 -> mRNA8047
+
+* mRNA7926
+
+Only 3 of the conserved HOX genes are found in the 3 biggest "linkage blocks" and none of them in the same ones
+
+### Are the sex-chrom-only hits in the linkage blocks? 
+
+21 of the 59 genes from the 7species intersection that have no autosome hits are found in the 3 biggest "linkage blocks"
+
+Lots of them are "consensus disorder prediction" or just "coil"
+
+## 08.05.23
+
+Drosophila gene sequences in ```/demogorgon/refseqs/neuro-targets/Dmel``` somewhere
+
+Any receptors that are not already in that folder of those against Udiv annotated transcripts, download from FlyBase
+
+
+Results of blast against Udiv CDS already done for the ones Jeremiah already has downloaded: ```/mimic/blast/neuro-targets/dovetail-002/braker-out-001
+
+but we want to get Udiv protein sequences, so take those fly fasta files and blastp them against the Udiv genome --> get protein sequences
+--> check those sequences for the top hits, see how they cluster? 
+
+Next step is to concatenate the hits from Udiv and BLAST those against each other spider species
+
+```xclip -sel c``` (command to copy from a file)
+
+### Orthofinder meeting
+
+* 1st run: 6 species, Transdecoder > CD-HIT, only ~300 orthogroups in all species (should be more like ~1500 BUSCOs)
+* 2nd run: 21 species just using BUSCO transcripts, still only giving ~300 orthogroups
+* 3rd run: using protein species since those should be more conserved, recovered almost 1000
+* 2 affects of saturated sites: alignment will be hard; also could be 2 mutations A>T>A
+* Insertions and reversions are much easier to capture in protein data
+* Orthologs are breaking apart into multiples because the program can easily be thrown off by large insertions
+* Recommend: find the transcripts corresponding to orthogroups according to protein sequences and do alignment
+* Typically alignment will look like a very conserved regions and then a bunch of chaotic regions -- could identify these regions and use them to test hypotheses
+* Have to think about what claim you're making: overall positive selection or positive selection for this domain?
+* Would it make the most sense to use genes that are actually related to web weaving function?
+* Possible to do reciprocal BLAST of the protein sequence for a small set of genes that are relevant -- GCPRs, ion channels relevant to neurons, dopamine receptors? Use drosophila as an outgroup
+* Followup: where are these genes expressed in orb weavers vs others? knock out those genes and see how it affects orb weaving behavior
+
 ## 07.05.23
 
 * Stuff to potentially do later:
@@ -10,19 +135,21 @@
 
 List of genes from 8-species intersect that are coming up as hox genes (or at least having homeobox domain): 
 
-6	mRNA7638_1
-6	mRNA7687_1
-5	mRNA18127_1
-5	mRNA19316_1
-5	mRNA19326_1
-5	mRNA20134_1
-5	mRNA20147_1
-5	mRNA7683_1
-5	mRNA7926_1
-2	mRNA16425_1
-2	mRNA18588_1
-2	mRNA6585_1
-1	mRNA7140_1
+mRNA7638
+mRNA7687
+mRNA18127
+mRNA19316
+mRNA19326
+mRNA20134
+mRNA20147
+mRNA7683
+mRNA7926
+mRNA16425
+mRNA18588
+mRNA6585
+mRNA7140
+
+
 
 ### Doublesex on sex chromosomes
 
