@@ -1,57 +1,5 @@
 # gordus-rotation 
 
-## 22.05.23
-
-Check and make sure we have the best set of spider species represented (try to have at least 2, ideally 3 in each clade)
-
-Start with longest isoforms only -- use CD-HIT on drosophila proteome (flags: define by what similarity sequences should be grouped by, default 95)
-
-Start with all Dmel genes, then after orthogroups are identified, filter down to neuro genes (use single cell RNA seq paper that Andrew sent)
-
-Should be able to take protein sequences, find domains that align well in the amino acid (MAFT or other multiple sequence alignment tool, or even just use orthofinder to do the MSA test) -> then import that to Mega, view the files and find the well aligning parts. Then use those coordinates to go back and find the CDS, which we then can use to feed into Hyphy
-
-Species tree: look at the orthofinder output, will give us alternates and we can choose one. jeremiah's tree is not in the right file format
-
-Andrew wants me to make a google doc of workflow
-
-## 18.05.23
-
-**Plan:**
-
-Use orthofinder with spiders and drosophila neuro genes ```/demogorgon/refseqs/neuro-targets/Dmel``` (and add any other neuro targets from FlyBase that make sense to add)
-
-Translate the transcriptomes in /media/will/mimic/orthofinder/orb-runs2 to protein sequences
-
-Add other transcriptomes I might know about? 
-
-Want to include 2-3 of groups Tetragnathidae, Uloboridae, Araneidae (orb weavers) plus outgroups Mesothelae and Mygalomorphae; also look at clades around orb weavers and find 2-3 that are close to the orb weaving clades
-
-Genes we have already: 
-
-* Dopamine
-* Serotonin
-* NMDAR
-* ChR (acetylcholine)
-* GABA
-* Histamine
-* glutamate-gated chloride channel
-* ? Metabotropic
-
-Downloaded from FlyBase some representative sequences: 
-
-* AMPAR
-* ? Ionotropic receptors
-* Calcium channels
-* sodium channels
-* potassium channels
-* "ion channels"
-
-Concatenated all the Dmel protein sequences into ```Dmel-neuro-targets.faa```
-
-Used ```transeq``` to translate the fasta files for all 21 species to protein sequences
-
-Tried an orthofinder run using ```orthofinder -f run-1 -a 36 -og``` in my orthofinder directory. We'll seeeeeee how it goes.
-
 
 ## 12.05.23
 
@@ -101,7 +49,7 @@ Drosophila gene sequences in ```/demogorgon/refseqs/neuro-targets/Dmel``` somewh
 Any receptors that are not already in that folder of those against Udiv annotated transcripts, download from FlyBase
 
 
-Results of blast against Udiv CDS already done for the ones Jeremiah already has downloaded: ```/mimic/blast/neuro-targets/dovetail-002/braker-out-001
+Results of blast against Udiv CDS already done for the ones Jeremiah already has downloaded: ```/mimic/blast/neuro-targets/dovetail-002/braker-out-001```
 
 but we want to get Udiv protein sequences, so take those fly fasta files and blastp them against the Udiv genome --> get protein sequences
 --> check those sequences for the top hits, see how they cluster? 
